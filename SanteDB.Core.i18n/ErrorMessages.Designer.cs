@@ -205,6 +205,96 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Could not abandon session.
+        /// </summary>
+        public static string ERR_SESSION_ABANDON {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_ABANDON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session is expired.
+        /// </summary>
+        public static string ERR_SESSION_EXPIRE {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_EXPIRE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General Session Management Error.
+        /// </summary>
+        public static string ERR_SESSION_GEN_ERR {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_GEN_ERR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not determine user, application, or device data for session.
+        /// </summary>
+        public static string ERR_SESSION_MISSING_IDENTITY_DATA {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_MISSING_IDENTITY_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure application (client_id and client_secret) are required.
+        /// </summary>
+        public static string ERR_SESSION_NO_APPLICATION_ID {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_NO_APPLICATION_ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot establish session with unauthenticated principal.
+        /// </summary>
+        public static string ERR_SESSION_NOT_AUTH_PRINCIPAL {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_NOT_AUTH_PRINCIPAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session requires a claims principal to establish.
+        /// </summary>
+        public static string ERR_SESSION_NOT_CLAIMS_PRINCIPAL {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_NOT_CLAIMS_PRINCIPAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session is not yet valid.
+        /// </summary>
+        public static string ERR_SESSION_NOT_VALID {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_NOT_VALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot override session without specifying purpose of override and scopes being overridden.
+        /// </summary>
+        public static string ERR_SESSION_OVERRIDE_WITH_INSUFFICIENT_DATA {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_OVERRIDE_WITH_INSUFFICIENT_DATA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session token has been tampered with (failed validation).
+        /// </summary>
+        public static string ERR_SESSION_TAMPER {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_TAMPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error setting lockout information.
         /// </summary>
         public static string ERR_SET_LOCKOUT {
