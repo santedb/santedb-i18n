@@ -147,8 +147,23 @@
   <data name="ERR_AUTH_DEV_LOCKED" xml:space="preserve">
     <value>Device account is locked</value>
   </data>
+  <data name="ERR_AUTH_USR_GENERAL" xml:space="preserve">
+    <value>General User Authentication Error</value>
+  </data>
+  <data name="ERR_AUTH_USR_INVALID" xml:space="preserve">
+    <value>Invalid Username/Password</value>
+  </data>
+  <data name="ERR_AUTH_USR_LOCKED" xml:space="preserve">
+    <value>Account is locked</value>
+  </data>
+  <data name="ERR_AUTH_USR_TFA_REQ" xml:space="preserve">
+    <value>Two-Factor Authentication is required</value>
+  </data>
   <data name="ERR_DATA_GENERAL" xml:space="preserve">
     <value>Unspecified database error</value>
+  </data>
+  <data name="ERR_ELEVATED_SESSION_NO_EXTENSION" xml:space="preserve">
+    <value>Elevated sessions cannot be extended</value>
   </data>
   <data name="ERR_FETCH_APPLICATION" xml:space="preserve">
     <value>Error retrieving information for application</value>
@@ -192,13 +207,43 @@
   <data name="ERR_SESSION_OVERRIDE_WITH_INSUFFICIENT_DATA" xml:space="preserve">
     <value>Cannot override session without specifying purpose of override and scopes being overridden</value>
   </data>
+  <data name="ERR_SESSION_REFRESH_EXPIRE" xml:space="preserve">
+    <value>Refresh token is expired</value>
+  </data>
   <data name="ERR_SESSION_TAMPER" xml:space="preserve">
     <value>Session token has been tampered with (failed validation)</value>
+  </data>
+  <data name="ERR_SESSION_TOKEN_INVALID" xml:space="preserve">
+    <value>Session token is not valid</value>
   </data>
   <data name="ERR_SET_LOCKOUT" xml:space="preserve">
     <value>Error setting lockout information</value>
   </data>
   <data name="ERR_UPDATE_SECRET" xml:space="preserve">
     <value>Error updating security secret</value>
+  </data>
+  <data name="ERR_USER_CLAIM_GEN_ERR" xml:space="preserve">
+    <value>General error modifying user claims</value>
+  </data>
+  <data name="ERR_USR_CREATE_GEN" xml:space="preserve">
+    <value>Error creating user identity</value>
+  </data>
+  <data name="ERR_USR_DEL_ERR" xml:space="preserve">
+    <value>Error de-activating {0}</value>
+  </data>
+  <data name="ERR_USR_GEN_ERR" xml:space="preserve">
+    <value>General error for user {0}</value>
+  </data>
+  <data name="ERR_USR_INVALID" xml:space="preserve">
+    <value>User identity is invalid</value>
+  </data>
+  <data name="ERR_USR_PWD_COMPLEXITY" xml:space="preserve">
+    <value>Password does not meet complexity requirements</value>
+  </data>
+  <data name="ERR_USR_PWD_GEN_ERR" xml:space="preserve">
+    <value>General error setting user password</value>
+  </data>
+  <data name="ERR_USR_PWD_HISTORY" xml:space="preserve">
+    <value>Server does not allow re-use of passwords</value>
   </data>
 </root>

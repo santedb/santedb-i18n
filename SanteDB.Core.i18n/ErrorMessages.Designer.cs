@@ -151,11 +151,56 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General User Authentication Error.
+        /// </summary>
+        public static string ERR_AUTH_USR_GENERAL {
+            get {
+                return ResourceManager.GetString("ERR_AUTH_USR_GENERAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Username/Password.
+        /// </summary>
+        public static string ERR_AUTH_USR_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_AUTH_USR_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Account is locked.
+        /// </summary>
+        public static string ERR_AUTH_USR_LOCKED {
+            get {
+                return ResourceManager.GetString("ERR_AUTH_USR_LOCKED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two-Factor Authentication is required.
+        /// </summary>
+        public static string ERR_AUTH_USR_TFA_REQ {
+            get {
+                return ResourceManager.GetString("ERR_AUTH_USR_TFA_REQ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unspecified database error.
         /// </summary>
         public static string ERR_DATA_GENERAL {
             get {
                 return ResourceManager.GetString("ERR_DATA_GENERAL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Elevated sessions cannot be extended.
+        /// </summary>
+        public static string ERR_ELEVATED_SESSION_NO_EXTENSION {
+            get {
+                return ResourceManager.GetString("ERR_ELEVATED_SESSION_NO_EXTENSION", resourceCulture);
             }
         }
         
@@ -286,11 +331,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Refresh token is expired.
+        /// </summary>
+        public static string ERR_SESSION_REFRESH_EXPIRE {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_REFRESH_EXPIRE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Session token has been tampered with (failed validation).
         /// </summary>
         public static string ERR_SESSION_TAMPER {
             get {
                 return ResourceManager.GetString("ERR_SESSION_TAMPER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Session token is not valid.
+        /// </summary>
+        public static string ERR_SESSION_TOKEN_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_SESSION_TOKEN_INVALID", resourceCulture);
             }
         }
         
@@ -309,6 +372,78 @@ namespace SanteDB.Core.i18n {
         public static string ERR_UPDATE_SECRET {
             get {
                 return ResourceManager.GetString("ERR_UPDATE_SECRET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error modifying user claims.
+        /// </summary>
+        public static string ERR_USER_CLAIM_GEN_ERR {
+            get {
+                return ResourceManager.GetString("ERR_USER_CLAIM_GEN_ERR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error creating user identity.
+        /// </summary>
+        public static string ERR_USR_CREATE_GEN {
+            get {
+                return ResourceManager.GetString("ERR_USR_CREATE_GEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error de-activating {0}.
+        /// </summary>
+        public static string ERR_USR_DEL_ERR {
+            get {
+                return ResourceManager.GetString("ERR_USR_DEL_ERR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error for user {0}.
+        /// </summary>
+        public static string ERR_USR_GEN_ERR {
+            get {
+                return ResourceManager.GetString("ERR_USR_GEN_ERR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User identity is invalid.
+        /// </summary>
+        public static string ERR_USR_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_USR_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password does not meet complexity requirements.
+        /// </summary>
+        public static string ERR_USR_PWD_COMPLEXITY {
+            get {
+                return ResourceManager.GetString("ERR_USR_PWD_COMPLEXITY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error setting user password.
+        /// </summary>
+        public static string ERR_USR_PWD_GEN_ERR {
+            get {
+                return ResourceManager.GetString("ERR_USR_PWD_GEN_ERR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Server does not allow re-use of passwords.
+        /// </summary>
+        public static string ERR_USR_PWD_HISTORY {
+            get {
+                return ResourceManager.GetString("ERR_USR_PWD_HISTORY", resourceCulture);
             }
         }
     }
