@@ -174,6 +174,15 @@
   <data name="ERR_NOT_FOUND" xml:space="preserve">
     <value>Object not found</value>
   </data>
+  <data name="ERR_SEC_NON_POLICY" xml:space="preserve">
+    <value>Security policies cannot be assigned to this object type</value>
+  </data>
+  <data name="ERR_SEC_POL_ASSIGN" xml:space="preserve">
+    <value>Error assigning policies to {0}</value>
+  </data>
+  <data name="ERR_SEC_POL_GEN" xml:space="preserve">
+    <value>Error interacting with Policy Repository</value>
+  </data>
   <data name="ERR_SEC_PROVENANCE_GEN_ERR" xml:space="preserve">
     <value>General error establishing provenance</value>
   </data>

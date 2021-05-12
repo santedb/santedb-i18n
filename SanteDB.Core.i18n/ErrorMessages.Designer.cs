@@ -232,6 +232,33 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Security policies cannot be assigned to this object type.
+        /// </summary>
+        public static string ERR_SEC_NON_POLICY {
+            get {
+                return ResourceManager.GetString("ERR_SEC_NON_POLICY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error assigning policies to {0}.
+        /// </summary>
+        public static string ERR_SEC_POL_ASSIGN {
+            get {
+                return ResourceManager.GetString("ERR_SEC_POL_ASSIGN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error interacting with Policy Repository.
+        /// </summary>
+        public static string ERR_SEC_POL_GEN {
+            get {
+                return ResourceManager.GetString("ERR_SEC_POL_GEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error establishing provenance.
         /// </summary>
         public static string ERR_SEC_PROVENANCE_GEN_ERR {
