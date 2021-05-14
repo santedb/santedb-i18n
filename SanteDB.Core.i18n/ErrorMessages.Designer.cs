@@ -232,6 +232,33 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error creating role.
+        /// </summary>
+        public static string ERR_ROL_CREATE_GEN {
+            get {
+                return ResourceManager.GetString("ERR_ROL_CREATE_GEN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error querying the role store.
+        /// </summary>
+        public static string ERR_ROL_QUERY {
+            get {
+                return ResourceManager.GetString("ERR_ROL_QUERY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error unassigning role from user.
+        /// </summary>
+        public static string ERR_ROL_UNASSOC {
+            get {
+                return ResourceManager.GetString("ERR_ROL_UNASSOC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Security policies cannot be assigned to this object type.
         /// </summary>
         public static string ERR_SEC_NON_POLICY {
@@ -273,6 +300,15 @@ namespace SanteDB.Core.i18n {
         public static string ERR_SEC_PROVENANCE_UNK_ID {
             get {
                 return ResourceManager.GetString("ERR_SEC_PROVENANCE_UNK_ID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error assinging role to user.
+        /// </summary>
+        public static string ERR_SEC_ROL_ASSIGN {
+            get {
+                return ResourceManager.GetString("ERR_SEC_ROL_ASSIGN", resourceCulture);
             }
         }
         
