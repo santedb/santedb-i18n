@@ -61,6 +61,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error deleting application.
+        /// </summary>
+        public static string ERR_APP_DELETE_ERROR {
+            get {
+                return ResourceManager.GetString("ERR_APP_DELETE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error updating application.
+        /// </summary>
+        public static string ERR_APP_UPDATE_ERROR {
+            get {
+                return ResourceManager.GetString("ERR_APP_UPDATE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Missing Required Argument.
         /// </summary>
         public static string ERR_ARGUMENT_NULL {
@@ -111,6 +129,15 @@ namespace SanteDB.Core.i18n {
         public static string ERR_AUTH_CANCELLED {
             get {
                 return ResourceManager.GetString("ERR_AUTH_CANCELLED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General error creating security device.
+        /// </summary>
+        public static string ERR_AUTH_DEV_CREATE {
+            get {
+                return ResourceManager.GetString("ERR_AUTH_DEV_CREATE", resourceCulture);
             }
         }
         
@@ -196,6 +223,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error deleting device.
+        /// </summary>
+        public static string ERR_DEV_DELETE_ERROR {
+            get {
+                return ResourceManager.GetString("ERR_DEV_DELETE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Elevated sessions cannot be extended.
         /// </summary>
         public static string ERR_ELEVATED_SESSION_NO_EXTENSION {
@@ -219,6 +255,15 @@ namespace SanteDB.Core.i18n {
         public static string ERR_FETCH_APPLICATION_KEY {
             get {
                 return ResourceManager.GetString("ERR_FETCH_APPLICATION_KEY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Specified device does not exist.
+        /// </summary>
+        public static string ERR_FETCH_DEVICE_KEY {
+            get {
+                return ResourceManager.GetString("ERR_FETCH_DEVICE_KEY", resourceCulture);
             }
         }
         
