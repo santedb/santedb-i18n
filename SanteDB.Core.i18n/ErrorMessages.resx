@@ -117,11 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ERR_ALREADY_HAS_WHERE" xml:space="preserve">
+    <value>Result set already has Where Clause</value>
+  </data>
   <data name="ERR_APP_DELETE_ERROR" xml:space="preserve">
     <value>General error deleting application</value>
   </data>
   <data name="ERR_APP_UPDATE_ERROR" xml:space="preserve">
     <value>Error updating application</value>
+  </data>
+  <data name="ERR_ARGUMENT_INCOMPATIBLE_TYPE" xml:space="preserve">
+    <value>Argument is not of a compatible type</value>
   </data>
   <data name="ERR_ARGUMENT_NULL" xml:space="preserve">
     <value>Missing Required Argument</value>
@@ -186,6 +192,12 @@
   <data name="ERR_FETCH_DEVICE_KEY" xml:space="preserve">
     <value>Specified device does not exist</value>
   </data>
+  <data name="ERR_INVALID_STATE" xml:space="preserve">
+    <value>Object is not in a state which permits this operation</value>
+  </data>
+  <data name="ERR_MISSING_SERVICE" xml:space="preserve">
+    <value>Service {0} is missing from application context</value>
+  </data>
   <data name="ERR_NOT_FOUND" xml:space="preserve">
     <value>Object not found</value>
   </data>
@@ -215,6 +227,12 @@
   </data>
   <data name="ERR_SEC_ROL_ASSIGN" xml:space="preserve">
     <value>General error assinging role to user</value>
+  </data>
+  <data name="ERR_SEQUENCE_MORE_THAN_ONE" xml:space="preserve">
+    <value>Sequence has more than one element</value>
+  </data>
+  <data name="ERR_SEQUENCE_NO_ELEMENTS" xml:space="preserve">
+    <value>Sequence does not contain any elements</value>
   </data>
   <data name="ERR_SESSION_ABANDON" xml:space="preserve">
     <value>Could not abandon session</value>

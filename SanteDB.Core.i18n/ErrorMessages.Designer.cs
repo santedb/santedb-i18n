@@ -61,6 +61,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Result set already has Where Clause.
+        /// </summary>
+        public static string ERR_ALREADY_HAS_WHERE {
+            get {
+                return ResourceManager.GetString("ERR_ALREADY_HAS_WHERE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error deleting application.
         /// </summary>
         public static string ERR_APP_DELETE_ERROR {
@@ -75,6 +84,15 @@ namespace SanteDB.Core.i18n {
         public static string ERR_APP_UPDATE_ERROR {
             get {
                 return ResourceManager.GetString("ERR_APP_UPDATE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Argument is not of a compatible type.
+        /// </summary>
+        public static string ERR_ARGUMENT_INCOMPATIBLE_TYPE {
+            get {
+                return ResourceManager.GetString("ERR_ARGUMENT_INCOMPATIBLE_TYPE", resourceCulture);
             }
         }
         
@@ -268,6 +286,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Object is not in a state which permits this operation.
+        /// </summary>
+        public static string ERR_INVALID_STATE {
+            get {
+                return ResourceManager.GetString("ERR_INVALID_STATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Service {0} is missing from application context.
+        /// </summary>
+        public static string ERR_MISSING_SERVICE {
+            get {
+                return ResourceManager.GetString("ERR_MISSING_SERVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Object not found.
         /// </summary>
         public static string ERR_NOT_FOUND {
@@ -354,6 +390,24 @@ namespace SanteDB.Core.i18n {
         public static string ERR_SEC_ROL_ASSIGN {
             get {
                 return ResourceManager.GetString("ERR_SEC_ROL_ASSIGN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sequence has more than one element.
+        /// </summary>
+        public static string ERR_SEQUENCE_MORE_THAN_ONE {
+            get {
+                return ResourceManager.GetString("ERR_SEQUENCE_MORE_THAN_ONE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sequence does not contain any elements.
+        /// </summary>
+        public static string ERR_SEQUENCE_NO_ELEMENTS {
+            get {
+                return ResourceManager.GetString("ERR_SEQUENCE_NO_ELEMENTS", resourceCulture);
             }
         }
         
