@@ -106,6 +106,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The specified argument was out of range.
+        /// </summary>
+        public static string ERR_ARGUMENT_RANGE {
+            get {
+                return ResourceManager.GetString("ERR_ARGUMENT_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error creating application identity.
         /// </summary>
         public static string ERR_AUTH_APP_CREATE {
@@ -295,11 +304,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Argument {0} is required, but not supplied.
+        /// </summary>
+        public static string ERR_MISSING_ARGUMENT {
+            get {
+                return ResourceManager.GetString("ERR_MISSING_ARGUMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Service {0} is missing from application context.
         /// </summary>
         public static string ERR_MISSING_SERVICE {
             get {
                 return ResourceManager.GetString("ERR_MISSING_SERVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot perform update on an entity with no key.
+        /// </summary>
+        public static string ERR_NON_IDENTITY_UPDATE {
+            get {
+                return ResourceManager.GetString("ERR_NON_IDENTITY_UPDATE", resourceCulture);
             }
         }
         
@@ -525,6 +552,15 @@ namespace SanteDB.Core.i18n {
         public static string ERR_SET_LOCKOUT {
             get {
                 return ResourceManager.GetString("ERR_SET_LOCKOUT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looks like you&apos;ve found a feature we haven&apos;t implemented yet - {0}.
+        /// </summary>
+        public static string ERR_TODO {
+            get {
+                return ResourceManager.GetString("ERR_TODO", resourceCulture);
             }
         }
         

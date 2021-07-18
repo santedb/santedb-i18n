@@ -132,6 +132,9 @@
   <data name="ERR_ARGUMENT_NULL" xml:space="preserve">
     <value>Missing Required Argument</value>
   </data>
+  <data name="ERR_ARGUMENT_RANGE" xml:space="preserve">
+    <value>The specified argument was out of range</value>
+  </data>
   <data name="ERR_AUTH_APP_CREATE" xml:space="preserve">
     <value>General error creating application identity</value>
   </data>
@@ -195,8 +198,14 @@
   <data name="ERR_INVALID_STATE" xml:space="preserve">
     <value>Object is not in a state which permits this operation</value>
   </data>
+  <data name="ERR_MISSING_ARGUMENT" xml:space="preserve">
+    <value>Argument {0} is required, but not supplied</value>
+  </data>
   <data name="ERR_MISSING_SERVICE" xml:space="preserve">
     <value>Service {0} is missing from application context</value>
+  </data>
+  <data name="ERR_NON_IDENTITY_UPDATE" xml:space="preserve">
+    <value>Cannot perform update on an entity with no key</value>
   </data>
   <data name="ERR_NOT_FOUND" xml:space="preserve">
     <value>Object not found</value>
@@ -272,6 +281,9 @@
   </data>
   <data name="ERR_SET_LOCKOUT" xml:space="preserve">
     <value>Error setting lockout information</value>
+  </data>
+  <data name="ERR_TODO" xml:space="preserve">
+    <value>Looks like you've found a feature we haven't implemented yet - {0}</value>
   </data>
   <data name="ERR_UPDATE_SECRET" xml:space="preserve">
     <value>Error updating security secret</value>
