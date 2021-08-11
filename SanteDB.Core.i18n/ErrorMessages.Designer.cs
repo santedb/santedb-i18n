@@ -340,6 +340,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The specified operation is not permitted.
+        /// </summary>
+        public static string ERR_NOT_PERMITTED {
+            get {
+                return ResourceManager.GetString("ERR_NOT_PERMITTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error creating role.
         /// </summary>
         public static string ERR_ROL_CREATE_GEN {

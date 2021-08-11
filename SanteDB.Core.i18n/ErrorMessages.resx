@@ -210,6 +210,9 @@
   <data name="ERR_NOT_FOUND" xml:space="preserve">
     <value>Object not found</value>
   </data>
+  <data name="ERR_NOT_PERMITTED" xml:space="preserve">
+    <value>The specified operation is not permitted</value>
+  </data>
   <data name="ERR_ROL_CREATE_GEN" xml:space="preserve">
     <value>General error creating role</value>
   </data>
