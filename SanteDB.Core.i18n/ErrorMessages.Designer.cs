@@ -349,6 +349,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Related object {0}/{1} not found, insert it first or enable cascading inserts.
+        /// </summary>
+        public static string ERR_RELATED_OBJECT_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("ERR_RELATED_OBJECT_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error creating role.
         /// </summary>
         public static string ERR_ROL_CREATE_GEN {
