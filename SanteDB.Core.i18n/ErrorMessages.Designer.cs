@@ -61,596 +61,83 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to General error deleting application.
+        ///   Looks up a localized string similar to Expected argument of type {0} but got {1}.
         /// </summary>
-        public static string ERR_APP_DELETE_ERROR {
+        public static string ARGUMENT_INVALID_TYPE {
             get {
-                return ResourceManager.GetString("ERR_APP_DELETE_ERROR", resourceCulture);
+                return ResourceManager.GetString("ARGUMENT_INVALID_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error updating application.
+        ///   Looks up a localized string similar to Argument {0} was null.
         /// </summary>
-        public static string ERR_APP_UPDATE_ERROR {
+        public static string ARGUMENT_NULL {
             get {
-                return ResourceManager.GetString("ERR_APP_UPDATE_ERROR", resourceCulture);
+                return ResourceManager.GetString("ARGUMENT_NULL", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Argument is not of a compatible type.
+        ///   Looks up a localized string similar to Dependent property {0} was null.
         /// </summary>
-        public static string ERR_ARGUMENT_INCOMPATIBLE_TYPE {
+        public static string DEPENDENT_PROPERTY_NULL {
             get {
-                return ResourceManager.GetString("ERR_ARGUMENT_INCOMPATIBLE_TYPE", resourceCulture);
+                return ResourceManager.GetString("DEPENDENT_PROPERTY_NULL", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Missing Required Argument.
+        ///   Looks up a localized string similar to Invalid expression type. Expected {0} but was given {1}.
         /// </summary>
-        public static string ERR_ARGUMENT_NULL {
+        public static string INVALID_EXPRESSION_TYPE {
             get {
-                return ResourceManager.GetString("ERR_ARGUMENT_NULL", resourceCulture);
+                return ResourceManager.GetString("INVALID_EXPRESSION_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The specified argument was out of range.
+        ///   Looks up a localized string similar to Types {0} and {1} are incompatible.
         /// </summary>
-        public static string ERR_ARGUMENT_RANGE {
+        public static string MAP_INCOMPATIBLE_TYPE {
             get {
-                return ResourceManager.GetString("ERR_ARGUMENT_RANGE", resourceCulture);
+                return ResourceManager.GetString("MAP_INCOMPATIBLE_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to General error creating application identity.
+        ///   Looks up a localized string similar to Expected instance of {0}.
         /// </summary>
-        public static string ERR_AUTH_APP_CREATE {
+        public static string MAP_INVALID_TYPE {
             get {
-                return ResourceManager.GetString("ERR_AUTH_APP_CREATE", resourceCulture);
+                return ResourceManager.GetString("MAP_INVALID_TYPE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to General error authenticating application.
+        ///   Looks up a localized string similar to Sequence contains more than one element.
         /// </summary>
-        public static string ERR_AUTH_APP_GENERAL {
+        public static string SEQUENCE_MORE_THAN_ONE {
             get {
-                return ResourceManager.GetString("ERR_AUTH_APP_GENERAL", resourceCulture);
+                return ResourceManager.GetString("SEQUENCE_MORE_THAN_ONE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Invalid Application Identity/Secret.
+        ///   Looks up a localized string similar to Sequence contains no elements.
         /// </summary>
-        public static string ERR_AUTH_APP_INVALID {
+        public static string SEQUENCE_NO_ELEMENTS {
             get {
-                return ResourceManager.GetString("ERR_AUTH_APP_INVALID", resourceCulture);
+                return ResourceManager.GetString("SEQUENCE_NO_ELEMENTS", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Application account is locked.
+        ///   Looks up a localized string similar to Calling {0} would result in an invalid state for this object.
         /// </summary>
-        public static string ERR_AUTH_APP_LOCKED {
+        public static string WOULD_RESULT_INVALID_STATE {
             get {
-                return ResourceManager.GetString("ERR_AUTH_APP_LOCKED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Authentication aborted.
-        /// </summary>
-        public static string ERR_AUTH_CANCELLED {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_CANCELLED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error creating security device.
-        /// </summary>
-        public static string ERR_AUTH_DEV_CREATE {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_DEV_CREATE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error authenticating device.
-        /// </summary>
-        public static string ERR_AUTH_DEV_GENERAL {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_DEV_GENERAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid Device Identity / Secret.
-        /// </summary>
-        public static string ERR_AUTH_DEV_INVALID {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_DEV_INVALID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to This device identity provider only supports Local Authentication.
-        /// </summary>
-        public static string ERR_AUTH_DEV_LOCAL_ONLY_SUPPORTED {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_DEV_LOCAL_ONLY_SUPPORTED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Device account is locked.
-        /// </summary>
-        public static string ERR_AUTH_DEV_LOCKED {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_DEV_LOCKED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General User Authentication Error.
-        /// </summary>
-        public static string ERR_AUTH_USR_GENERAL {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_USR_GENERAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Invalid Username/Password.
-        /// </summary>
-        public static string ERR_AUTH_USR_INVALID {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_USR_INVALID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Account is locked.
-        /// </summary>
-        public static string ERR_AUTH_USR_LOCKED {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_USR_LOCKED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Two-Factor Authentication is required.
-        /// </summary>
-        public static string ERR_AUTH_USR_TFA_REQ {
-            get {
-                return ResourceManager.GetString("ERR_AUTH_USR_TFA_REQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unspecified database error.
-        /// </summary>
-        public static string ERR_DATA_GENERAL {
-            get {
-                return ResourceManager.GetString("ERR_DATA_GENERAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error deleting device.
-        /// </summary>
-        public static string ERR_DEV_DELETE_ERROR {
-            get {
-                return ResourceManager.GetString("ERR_DEV_DELETE_ERROR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Elevated sessions cannot be extended.
-        /// </summary>
-        public static string ERR_ELEVATED_SESSION_NO_EXTENSION {
-            get {
-                return ResourceManager.GetString("ERR_ELEVATED_SESSION_NO_EXTENSION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error retrieving information for application.
-        /// </summary>
-        public static string ERR_FETCH_APPLICATION {
-            get {
-                return ResourceManager.GetString("ERR_FETCH_APPLICATION", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error fetching application security information.
-        /// </summary>
-        public static string ERR_FETCH_APPLICATION_KEY {
-            get {
-                return ResourceManager.GetString("ERR_FETCH_APPLICATION_KEY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Specified device does not exist.
-        /// </summary>
-        public static string ERR_FETCH_DEVICE_KEY {
-            get {
-                return ResourceManager.GetString("ERR_FETCH_DEVICE_KEY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Object is not in a state which permits this operation.
-        /// </summary>
-        public static string ERR_INVALID_STATE {
-            get {
-                return ResourceManager.GetString("ERR_INVALID_STATE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Argument {0} is required, but not supplied.
-        /// </summary>
-        public static string ERR_MISSING_ARGUMENT {
-            get {
-                return ResourceManager.GetString("ERR_MISSING_ARGUMENT", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Service {0} is missing from application context.
-        /// </summary>
-        public static string ERR_MISSING_SERVICE {
-            get {
-                return ResourceManager.GetString("ERR_MISSING_SERVICE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot perform update on an entity with no key.
-        /// </summary>
-        public static string ERR_NON_IDENTITY_UPDATE {
-            get {
-                return ResourceManager.GetString("ERR_NON_IDENTITY_UPDATE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Object not found.
-        /// </summary>
-        public static string ERR_NOT_FOUND {
-            get {
-                return ResourceManager.GetString("ERR_NOT_FOUND", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The specified operation is not permitted.
-        /// </summary>
-        public static string ERR_NOT_PERMITTED {
-            get {
-                return ResourceManager.GetString("ERR_NOT_PERMITTED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Related object {0}/{1} not found, insert it first or enable cascading inserts.
-        /// </summary>
-        public static string ERR_RELATED_OBJECT_NOT_FOUND {
-            get {
-                return ResourceManager.GetString("ERR_RELATED_OBJECT_NOT_FOUND", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error creating role.
-        /// </summary>
-        public static string ERR_ROL_CREATE_GEN {
-            get {
-                return ResourceManager.GetString("ERR_ROL_CREATE_GEN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error querying the role store.
-        /// </summary>
-        public static string ERR_ROL_QUERY {
-            get {
-                return ResourceManager.GetString("ERR_ROL_QUERY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error unassigning role from user.
-        /// </summary>
-        public static string ERR_ROL_UNASSOC {
-            get {
-                return ResourceManager.GetString("ERR_ROL_UNASSOC", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Security policies cannot be assigned to this object type.
-        /// </summary>
-        public static string ERR_SEC_NON_POLICY {
-            get {
-                return ResourceManager.GetString("ERR_SEC_NON_POLICY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error assigning policies to {0}.
-        /// </summary>
-        public static string ERR_SEC_POL_ASSIGN {
-            get {
-                return ResourceManager.GetString("ERR_SEC_POL_ASSIGN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error interacting with Policy Repository.
-        /// </summary>
-        public static string ERR_SEC_POL_GEN {
-            get {
-                return ResourceManager.GetString("ERR_SEC_POL_GEN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error establishing provenance.
-        /// </summary>
-        public static string ERR_SEC_PROVENANCE_GEN_ERR {
-            get {
-                return ResourceManager.GetString("ERR_SEC_PROVENANCE_GEN_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot establish provenance for unknown identity.
-        /// </summary>
-        public static string ERR_SEC_PROVENANCE_UNK_ID {
-            get {
-                return ResourceManager.GetString("ERR_SEC_PROVENANCE_UNK_ID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error assinging role to user.
-        /// </summary>
-        public static string ERR_SEC_ROL_ASSIGN {
-            get {
-                return ResourceManager.GetString("ERR_SEC_ROL_ASSIGN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sequence has more than one element.
-        /// </summary>
-        public static string ERR_SEQUENCE_MORE_THAN_ONE {
-            get {
-                return ResourceManager.GetString("ERR_SEQUENCE_MORE_THAN_ONE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sequence does not contain any elements.
-        /// </summary>
-        public static string ERR_SEQUENCE_NO_ELEMENTS {
-            get {
-                return ResourceManager.GetString("ERR_SEQUENCE_NO_ELEMENTS", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Could not abandon session.
-        /// </summary>
-        public static string ERR_SESSION_ABANDON {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_ABANDON", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Session is expired.
-        /// </summary>
-        public static string ERR_SESSION_EXPIRE {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_EXPIRE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General Session Management Error.
-        /// </summary>
-        public static string ERR_SESSION_GEN_ERR {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_GEN_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Could not determine user, application, or device data for session.
-        /// </summary>
-        public static string ERR_SESSION_MISSING_IDENTITY_DATA {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_MISSING_IDENTITY_DATA", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure application (client_id and client_secret) are required.
-        /// </summary>
-        public static string ERR_SESSION_NO_APPLICATION_ID {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_NO_APPLICATION_ID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot establish session with unauthenticated principal.
-        /// </summary>
-        public static string ERR_SESSION_NOT_AUTH_PRINCIPAL {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_NOT_AUTH_PRINCIPAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Session requires a claims principal to establish.
-        /// </summary>
-        public static string ERR_SESSION_NOT_CLAIMS_PRINCIPAL {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_NOT_CLAIMS_PRINCIPAL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Session is not yet valid.
-        /// </summary>
-        public static string ERR_SESSION_NOT_VALID {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_NOT_VALID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cannot override session without specifying purpose of override and scopes being overridden.
-        /// </summary>
-        public static string ERR_SESSION_OVERRIDE_WITH_INSUFFICIENT_DATA {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_OVERRIDE_WITH_INSUFFICIENT_DATA", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Refresh token is expired.
-        /// </summary>
-        public static string ERR_SESSION_REFRESH_EXPIRE {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_REFRESH_EXPIRE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Session token has been tampered with (failed validation).
-        /// </summary>
-        public static string ERR_SESSION_TAMPER {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_TAMPER", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Session token is not valid.
-        /// </summary>
-        public static string ERR_SESSION_TOKEN_INVALID {
-            get {
-                return ResourceManager.GetString("ERR_SESSION_TOKEN_INVALID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error setting lockout information.
-        /// </summary>
-        public static string ERR_SET_LOCKOUT {
-            get {
-                return ResourceManager.GetString("ERR_SET_LOCKOUT", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Looks like you&apos;ve found a feature we haven&apos;t implemented yet - {0}.
-        /// </summary>
-        public static string ERR_TODO {
-            get {
-                return ResourceManager.GetString("ERR_TODO", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error updating security secret.
-        /// </summary>
-        public static string ERR_UPDATE_SECRET {
-            get {
-                return ResourceManager.GetString("ERR_UPDATE_SECRET", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error modifying user claims.
-        /// </summary>
-        public static string ERR_USER_CLAIM_GEN_ERR {
-            get {
-                return ResourceManager.GetString("ERR_USER_CLAIM_GEN_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error creating user identity.
-        /// </summary>
-        public static string ERR_USR_CREATE_GEN {
-            get {
-                return ResourceManager.GetString("ERR_USR_CREATE_GEN", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Error de-activating {0}.
-        /// </summary>
-        public static string ERR_USR_DEL_ERR {
-            get {
-                return ResourceManager.GetString("ERR_USR_DEL_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error for user {0}.
-        /// </summary>
-        public static string ERR_USR_GEN_ERR {
-            get {
-                return ResourceManager.GetString("ERR_USR_GEN_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to User identity is invalid.
-        /// </summary>
-        public static string ERR_USR_INVALID {
-            get {
-                return ResourceManager.GetString("ERR_USR_INVALID", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Password does not meet complexity requirements.
-        /// </summary>
-        public static string ERR_USR_PWD_COMPLEXITY {
-            get {
-                return ResourceManager.GetString("ERR_USR_PWD_COMPLEXITY", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to General error setting user password.
-        /// </summary>
-        public static string ERR_USR_PWD_GEN_ERR {
-            get {
-                return ResourceManager.GetString("ERR_USR_PWD_GEN_ERR", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Server does not allow re-use of passwords.
-        /// </summary>
-        public static string ERR_USR_PWD_HISTORY {
-            get {
-                return ResourceManager.GetString("ERR_USR_PWD_HISTORY", resourceCulture);
+                return ResourceManager.GetString("WOULD_RESULT_INVALID_STATE", resourceCulture);
             }
         }
     }
