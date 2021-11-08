@@ -61,15 +61,6 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Result set already has Where Clause.
-        /// </summary>
-        public static string ERR_ALREADY_HAS_WHERE {
-            get {
-                return ResourceManager.GetString("ERR_ALREADY_HAS_WHERE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to General error deleting application.
         /// </summary>
         public static string ERR_APP_DELETE_ERROR {
