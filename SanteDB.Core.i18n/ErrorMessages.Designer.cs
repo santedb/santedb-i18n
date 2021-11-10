@@ -115,6 +115,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Collection is not initialize.
+        /// </summary>
+        public static string NOT_INITIALIZED {
+            get {
+                return ResourceManager.GetString("NOT_INITIALIZED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sequence contains more than one element.
         /// </summary>
         public static string SEQUENCE_MORE_THAN_ONE {

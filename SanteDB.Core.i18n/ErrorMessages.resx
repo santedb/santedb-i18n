@@ -135,6 +135,9 @@
   <data name="MAP_INVALID_TYPE" xml:space="preserve">
     <value>Expected instance of {0}</value>
   </data>
+  <data name="NOT_INITIALIZED" xml:space="preserve">
+    <value>Collection is not initialize</value>
+  </data>
   <data name="SEQUENCE_MORE_THAN_ONE" xml:space="preserve">
     <value>Sequence contains more than one element</value>
   </data>
