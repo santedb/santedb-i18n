@@ -126,6 +126,9 @@
   <data name="DEPENDENT_PROPERTY_NULL" xml:space="preserve">
     <value>Dependent property {0} was null</value>
   </data>
+  <data name="FIELD_NOT_FOUND" xml:space="preserve">
+    <value>Field {0} not found in the requested type</value>
+  </data>
   <data name="INVALID_EXPRESSION_TYPE" xml:space="preserve">
     <value>Invalid expression type. Expected {0} but was given {1}</value>
   </data>
