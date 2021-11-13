@@ -353,7 +353,7 @@ namespace SanteDB.Core.i18n
         public const string APP_DELETE_ERROR = "error.security.application.delete.general";
 
         /// <summary>
-        /// Invalid expression type provided
+        /// Invalid expression type provided. Expected {expected} but got {actual}
         /// </summary>
         public const string INVALID_EXPRESSION_TYPE = "error.general.expression.type";
 
@@ -371,5 +371,10 @@ namespace SanteDB.Core.i18n
         /// Session identity is locked
         /// </summary>
         public const string SESSION_IDENTITY_LOCKED = "error.security.session.identity.locked";
+
+        /// <summary>
+        /// Delete mode / method {mode} is not supported
+        /// </summary>
+        public const string DATA_DELETE_MODE_SUPPORT = "error.data.delete.modeNotSupported";
     }
 }

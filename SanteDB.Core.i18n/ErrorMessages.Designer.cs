@@ -61,6 +61,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Argument type {0} is not assignable from {1}.
+        /// </summary>
+        public static string ARGUMENT_INCOMPATIBLE_TYPE {
+            get {
+                return ResourceManager.GetString("ARGUMENT_INCOMPATIBLE_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expected argument of type {0} but got {1}.
         /// </summary>
         public static string ARGUMENT_INVALID_TYPE {
@@ -129,6 +138,15 @@ namespace SanteDB.Core.i18n {
         public static string NOT_INITIALIZED {
             get {
                 return ResourceManager.GetString("NOT_INITIALIZED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The provided object must implement {0} to support this function.
+        /// </summary>
+        public static string NOT_SUPPORTED_IMPLEMENTATION {
+            get {
+                return ResourceManager.GetString("NOT_SUPPORTED_IMPLEMENTATION", resourceCulture);
             }
         }
         
