@@ -133,6 +133,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot find a configured map between {0} and {1}.
+        /// </summary>
+        public static string MAP_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("MAP_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Collection is not initialize.
         /// </summary>
         public static string NOT_INITIALIZED {

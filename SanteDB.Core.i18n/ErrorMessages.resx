@@ -141,6 +141,9 @@
   <data name="MAP_INVALID_TYPE" xml:space="preserve">
     <value>Expected instance of {0}</value>
   </data>
+  <data name="MAP_NOT_FOUND" xml:space="preserve">
+    <value>Cannot find a configured map between {0} and {1}</value>
+  </data>
   <data name="NOT_INITIALIZED" xml:space="preserve">
     <value>Collection is not initialize</value>
   </data>
