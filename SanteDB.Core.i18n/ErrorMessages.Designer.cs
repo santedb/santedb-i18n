@@ -106,6 +106,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Classification code is not valid on this type.
+        /// </summary>
+        public static string INVALID_CLASS_CODE {
+            get {
+                return ResourceManager.GetString("INVALID_CLASS_CODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid expression type. Expected {0} but was given {1}.
         /// </summary>
         public static string INVALID_EXPRESSION_TYPE {
