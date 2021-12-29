@@ -97,6 +97,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Class key {0} on {1} is already registered.
+        /// </summary>
+        public static string DUPLICATE_CLASS_CONCEPT {
+            get {
+                return ResourceManager.GetString("DUPLICATE_CLASS_CONCEPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Field {0} not found in the requested type.
         /// </summary>
         public static string FIELD_NOT_FOUND {
