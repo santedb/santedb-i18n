@@ -198,11 +198,6 @@ namespace SanteDB.Core.i18n
         public const string RELATED_OBJECT_NOT_FOUND = "error.data.related.notFound";
 
         /// <summary>
-        /// It was not possible to load related objects of type {related} from {source}
-        /// </summary>
-        public const string RELATED_OBJECT_NOT_AVAILABLE = "error.data.related.notAvailable";
-
-        /// <summary>
         /// Operation is not permitted
         /// </summary>
         public const string NOT_PERMITTED = "error.general.notAllowed";
