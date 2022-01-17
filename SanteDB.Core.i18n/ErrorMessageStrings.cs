@@ -371,5 +371,10 @@ namespace SanteDB.Core.i18n
         /// Delete mode / method {mode} is not supported
         /// </summary>
         public const string DATA_DELETE_MODE_SUPPORT = "error.data.delete.modeNotSupported";
+
+        /// <summary>
+        /// Circular dependency
+        /// </summary>
+        public const string DATA_CIRCULAR_DEPENDENCY = "error.data.resolve.circularDependency";
     }
 }
