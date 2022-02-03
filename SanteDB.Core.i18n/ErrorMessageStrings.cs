@@ -376,5 +376,10 @@ namespace SanteDB.Core.i18n
         /// Circular dependency
         /// </summary>
         public const string DATA_CIRCULAR_DEPENDENCY = "error.data.resolve.circularDependency";
+
+        /// <summary>
+        /// The key on key property {keyProperty} does not match the data on data property {dataProperty}
+        /// </summary>
+        public const string DATA_KEY_PROPERTY_DISAGREEMENT = "error.data.keyDataDisagreement";
     }
 }
