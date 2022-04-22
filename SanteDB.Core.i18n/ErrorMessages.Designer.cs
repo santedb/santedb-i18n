@@ -88,6 +88,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Value {0} was not expected (allowed values: {1}).
+        /// </summary>
+        public static string ARGUMENT_OUT_OF_RANGE {
+            get {
+                return ResourceManager.GetString("ARGUMENT_OUT_OF_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dependent property {0} was null.
         /// </summary>
         public static string DEPENDENT_PROPERTY_NULL {

@@ -126,6 +126,9 @@
   <data name="ARGUMENT_NULL" xml:space="preserve">
     <value>Argument {0} was null</value>
   </data>
+  <data name="ARGUMENT_OUT_OF_RANGE" xml:space="preserve">
+    <value>Value {0} was not expected (allowed values: {1})</value>
+  </data>
   <data name="DEPENDENT_PROPERTY_NULL" xml:space="preserve">
     <value>Dependent property {0} was null</value>
   </data>
