@@ -386,5 +386,15 @@ namespace SanteDB.Core.i18n
         /// The function {name} is obsolete - please consult the latest developer documentation
         /// </summary>
         public const string OBSOLETE_FUNCTION = "error.obsolete";
+
+        /// <summary>
+        /// General error with security challenge
+        /// </summary>
+        public const string USR_CHL_GEN_ERR = "error.security.user.challenge.general";
+
+        /// <summary>
+        /// String like Challenge response cannot be the same as previous
+        /// </summary>
+        public const string USR_CHL_DUP_RSP = "error.security.user.challenge.duplicate";
     }
 }
