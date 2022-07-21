@@ -396,5 +396,31 @@ namespace SanteDB.Core.i18n
         /// String like Challenge response cannot be the same as previous
         /// </summary>
         public const string USR_CHL_DUP_RSP = "error.security.user.challenge.duplicate";
+
+        /// <summary>
+        /// String like: Certificate time is not valid (check not before and not after data)
+        /// </summary>
+        public const string AUTH_CERT_NOT_BEFORE_AFTER = "error.security.cert.auth.nbfnaf";
+
+        /// <summary>
+        /// String like: General error creating authentication certificate 
+        /// </summary>
+        public const string AUTH_CERT_CREATE_GEN = "error.security.cert.auth.create.gen";
+
+        /// <summary>
+        /// String like: Two Factor Authentication is not supported with certificate authentication
+        /// </summary>
+        public const string AUTH_CERT_TFA_INVALID = "error.security.cert.auth.tfa";
+
+        /// <summary>
+        /// String like: General error performing certificate authentication
+        /// </summary>
+        public const string AUTH_CERT_GENERAL = "error.security.cert.auth.gen";
+
+        /// <summary>
+        /// String like: This identity or certificate is not mapped for authentication between {identity} and {thumbprint}
+        /// </summary>
+        public const string AUTH_NO_CERT_MAP = "error.security.cert.auth.nomap";
+
     }
 }
