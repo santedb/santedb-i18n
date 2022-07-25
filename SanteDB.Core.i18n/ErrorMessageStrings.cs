@@ -422,5 +422,9 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string AUTH_NO_CERT_MAP = "error.security.cert.auth.nomap";
 
+        /// <summary>
+        /// String like: The specified data has failed digital signature validation
+        /// </summary>
+        public const string SIGNATURE_INVALID = "error.security.signatureFail";
     }
 }
