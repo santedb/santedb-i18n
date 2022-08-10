@@ -426,5 +426,11 @@ namespace SanteDB.Core.i18n
         /// String like: The specified data has failed digital signature validation
         /// </summary>
         public const string SIGNATURE_INVALID = "error.security.signatureFail";
+
+        /// <summary>
+        /// String like: The extension type {extensionType} is invalid for the extension {extension}
+        /// </summary>
+        public const string EXTENSION_INVALID_TYPE = "error.model.extension.type";
+
     }
 }

@@ -156,6 +156,9 @@
   <data name="NOT_INITIALIZED" xml:space="preserve">
     <value>Collection is not initialize</value>
   </data>
+  <data name="NOT_SUPPORTED" xml:space="preserve">
+    <value>The implementation of this method is not supported on this object</value>
+  </data>
   <data name="NOT_SUPPORTED_IMPLEMENTATION" xml:space="preserve">
     <value>The provided object must implement {0} to support this function</value>
   </data>
