@@ -97,6 +97,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error parsing response message.
+        /// </summary>
+        public static string COMMUNICATION_RESPONSE_FAILURE {
+            get {
+                return ResourceManager.GetString("COMMUNICATION_RESPONSE_FAILURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dependent property {0} was null.
         /// </summary>
         public static string DEPENDENT_PROPERTY_NULL {
