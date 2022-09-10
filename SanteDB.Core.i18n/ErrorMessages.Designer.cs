@@ -232,6 +232,42 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Subscription does not have a server side definition for this provider.
+        /// </summary>
+        public static string SUBSCRIPTION_MISSING_DEFINITION {
+            get {
+                return ResourceManager.GetString("SUBSCRIPTION_MISSING_DEFINITION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscription does not contain a definition for provider {0}.
+        /// </summary>
+        public static string SUBSCRIPTION_NO_DEFINITION_FOR_PROVIDER {
+            get {
+                return ResourceManager.GetString("SUBSCRIPTION_NO_DEFINITION_FOR_PROVIDER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscription identifies an invalid target. Only {0} are allowed as targets of a subscription. Consider using these as a base type for subscription definition..
+        /// </summary>
+        public static string SUBSCRIPTION_NOT_SUPPORTED_RESOURCE {
+            get {
+                return ResourceManager.GetString("SUBSCRIPTION_NOT_SUPPORTED_RESOURCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subscription requires persistence service for {0} but none is registered.
+        /// </summary>
+        public static string SUBSCRIPTION_RESOURCE_NOSTORE {
+            get {
+                return ResourceManager.GetString("SUBSCRIPTION_RESOURCE_NOSTORE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Calling {0} would result in an invalid state for this object.
         /// </summary>
         public static string WOULD_RESULT_INVALID_STATE {
