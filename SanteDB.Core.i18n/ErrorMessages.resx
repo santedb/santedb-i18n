@@ -147,6 +147,15 @@
   <data name="INVALID_EXPRESSION_TYPE" xml:space="preserve">
     <value>Invalid expression type. Expected {0} but was given {1}</value>
   </data>
+  <data name="MAIL_CANNOT_MOVE_OWNERS" xml:space="preserve">
+    <value>Mail messages cannot be moved between mailboxes belonging to different users</value>
+  </data>
+  <data name="MAIL_ERROR_SENDING" xml:space="preserve">
+    <value>There was a general error sending mail via the persistence repository</value>
+  </data>
+  <data name="MAIL_MISISNG_TO" xml:space="preserve">
+    <value>Sending mail requires the To field to be populated</value>
+  </data>
   <data name="MAP_INCOMPATIBLE_TYPE" xml:space="preserve">
     <value>Types {0} and {1} are incompatible</value>
   </data>
