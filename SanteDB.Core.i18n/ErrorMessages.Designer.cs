@@ -19,7 +19,7 @@ namespace SanteDB.Core.i18n {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ErrorMessages {
@@ -147,6 +147,33 @@ namespace SanteDB.Core.i18n {
         public static string INVALID_EXPRESSION_TYPE {
             get {
                 return ResourceManager.GetString("INVALID_EXPRESSION_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mail messages cannot be moved between mailboxes belonging to different users.
+        /// </summary>
+        public static string MAIL_CANNOT_MOVE_OWNERS {
+            get {
+                return ResourceManager.GetString("MAIL_CANNOT_MOVE_OWNERS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There was a general error sending mail via the persistence repository.
+        /// </summary>
+        public static string MAIL_ERROR_SENDING {
+            get {
+                return ResourceManager.GetString("MAIL_ERROR_SENDING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sending mail requires the To field to be populated.
+        /// </summary>
+        public static string MAIL_MISISNG_TO {
+            get {
+                return ResourceManager.GetString("MAIL_MISISNG_TO", resourceCulture);
             }
         }
         
