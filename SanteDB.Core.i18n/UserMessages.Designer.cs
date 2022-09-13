@@ -61,6 +61,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Complete.
+        /// </summary>
+        public static string COMPLETE {
+            get {
+                return ResourceManager.GetString("COMPLETE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fetching data from upstream server....
         /// </summary>
         public static string FETCH_FROM_UPSTREAM {
