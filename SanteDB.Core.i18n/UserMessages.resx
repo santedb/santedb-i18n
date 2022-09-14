@@ -123,4 +123,7 @@
   <data name="FETCH_FROM_UPSTREAM" xml:space="preserve">
     <value>Fetching data from upstream server...</value>
   </data>
+  <data name="PROCESSING" xml:space="preserve">
+    <value>Processing data</value>
+  </data>
 </root>

@@ -129,6 +129,9 @@
   <data name="ARGUMENT_OUT_OF_RANGE" xml:space="preserve">
     <value>Value {0} was not expected (allowed values: {1})</value>
   </data>
+  <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
+    <value>Error inserting transaction bundle (#{0}) - {1}</value>
+  </data>
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>

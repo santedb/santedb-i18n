@@ -77,5 +77,14 @@ namespace SanteDB.Core.i18n {
                 return ResourceManager.GetString("FETCH_FROM_UPSTREAM", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Processing data.
+        /// </summary>
+        public static string PROCESSING {
+            get {
+                return ResourceManager.GetString("PROCESSING", resourceCulture);
+            }
+        }
     }
 }

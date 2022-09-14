@@ -19,7 +19,7 @@ namespace SanteDB.Core.i18n {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ErrorMessages {
@@ -93,6 +93,15 @@ namespace SanteDB.Core.i18n {
         public static string ARGUMENT_OUT_OF_RANGE {
             get {
                 return ResourceManager.GetString("ARGUMENT_OUT_OF_RANGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
+        /// </summary>
+        public static string BUNDLE_PERSISTENCE_ERROR {
+            get {
+                return ResourceManager.GetString("BUNDLE_PERSISTENCE_ERROR", resourceCulture);
             }
         }
         
