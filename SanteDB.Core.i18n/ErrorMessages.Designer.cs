@@ -61,6 +61,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This class is already initialized. Duplicate initializations are not permitted.
+        /// </summary>
+        public static string ALREADY_INITIALIZED {
+            get {
+                return ResourceManager.GetString("ALREADY_INITIALIZED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Argument type {0} is not assignable from {1}.
         /// </summary>
         public static string ARGUMENT_INCOMPATIBLE_TYPE {
@@ -129,6 +138,15 @@ namespace SanteDB.Core.i18n {
         public static string DUPLICATE_CLASS_CONCEPT {
             get {
                 return ResourceManager.GetString("DUPLICATE_CLASS_CONCEPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error providing fault message.
+        /// </summary>
+        public static string ERROR_PROVIDING_FAULT {
+            get {
+                return ResourceManager.GetString("ERROR_PROVIDING_FAULT", resourceCulture);
             }
         }
         
@@ -214,7 +232,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Collection is not initialize.
+        ///   Looks up a localized string similar to This class has not been initialized.
         /// </summary>
         public static string NOT_INITIALIZED {
             get {

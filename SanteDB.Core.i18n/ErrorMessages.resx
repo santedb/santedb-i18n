@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ALREADY_INITIALIZED" xml:space="preserve">
+    <value>This class is already initialized. Duplicate initializations are not permitted</value>
+  </data>
   <data name="ARGUMENT_INCOMPATIBLE_TYPE" xml:space="preserve">
     <value>Argument type {0} is not assignable from {1}</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="DUPLICATE_CLASS_CONCEPT" xml:space="preserve">
     <value>Class key {0} on {1} is already registered</value>
+  </data>
+  <data name="ERROR_PROVIDING_FAULT" xml:space="preserve">
+    <value>Error providing fault message</value>
   </data>
   <data name="FIELD_NOT_FOUND" xml:space="preserve">
     <value>Field {0} not found in the requested type</value>
@@ -169,7 +175,7 @@
     <value>Cannot find a configured map between {0} and {1}</value>
   </data>
   <data name="NOT_INITIALIZED" xml:space="preserve">
-    <value>Collection is not initialize</value>
+    <value>This class has not been initialized</value>
   </data>
   <data name="NOT_SUPPORTED" xml:space="preserve">
     <value>The implementation of this method is not supported on this object</value>
