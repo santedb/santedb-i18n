@@ -135,6 +135,9 @@
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>
   </data>
+  <data name="CANNOT_INITIALIZE_APPLICATION" xml:space="preserve">
+    <value>Cannot initialize the service host context - fatal startup error.</value>
+  </data>
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>
