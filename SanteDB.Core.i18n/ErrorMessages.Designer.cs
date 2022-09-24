@@ -133,6 +133,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This service relies on the presence of a configuration for {0}.
+        /// </summary>
+        public static string DEPENDENT_CONFIGURATION_MISSING {
+            get {
+                return ResourceManager.GetString("DEPENDENT_CONFIGURATION_MISSING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dependent property {0} was null.
         /// </summary>
         public static string DEPENDENT_PROPERTY_NULL {
@@ -210,6 +219,15 @@ namespace SanteDB.Core.i18n {
         public static string MAIL_MISISNG_TO {
             get {
                 return ResourceManager.GetString("MAIL_MISISNG_TO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failure mapping expression to/from underlying domain models. Ensure the property paths are correct.
+        /// </summary>
+        public static string MAP_EXPRESSION_NOT_POSSIBLE {
+            get {
+                return ResourceManager.GetString("MAP_EXPRESSION_NOT_POSSIBLE", resourceCulture);
             }
         }
         

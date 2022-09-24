@@ -141,6 +141,9 @@
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>
+  <data name="DEPENDENT_CONFIGURATION_MISSING" xml:space="preserve">
+    <value>This service relies on the presence of a configuration for {0}</value>
+  </data>
   <data name="DEPENDENT_PROPERTY_NULL" xml:space="preserve">
     <value>Dependent property {0} was null</value>
   </data>
@@ -167,6 +170,9 @@
   </data>
   <data name="MAIL_MISISNG_TO" xml:space="preserve">
     <value>Sending mail requires the To field to be populated</value>
+  </data>
+  <data name="MAP_EXPRESSION_NOT_POSSIBLE" xml:space="preserve">
+    <value>Failure mapping expression to/from underlying domain models. Ensure the property paths are correct</value>
   </data>
   <data name="MAP_INCOMPATIBLE_TYPE" xml:space="preserve">
     <value>Types {0} and {1} are incompatible</value>
