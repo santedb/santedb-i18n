@@ -428,6 +428,11 @@ namespace SanteDB.Core.i18n
         public const string AUTH_CERT_CREATE_GEN = "error.security.cert.auth.create.gen";
 
         /// <summary>
+        /// String like: The certificate {x5a} has already been associated with another identity
+        /// </summary>
+        public const string AUTH_CERT_ALREADY_ASSIGNED = "error.security.cert.auth.duplicate";
+
+        /// <summary>
         /// String like: Two Factor Authentication is not supported with certificate authentication
         /// </summary>
         public const string AUTH_CERT_TFA_INVALID = "error.security.cert.auth.tfa";
@@ -451,6 +456,16 @@ namespace SanteDB.Core.i18n
         /// String like: The extension type {extensionType} is invalid for the extension {extension}
         /// </summary>
         public const string EXTENSION_INVALID_TYPE = "error.model.extension.type";
+
+        /// <summary>
+        /// String like: Error modifying claims on application
+        /// </summary>
+        public const string APP_CLAIM_GEN_ERR = "error.security.application.claim";
+
+        /// <summary>
+        /// String like: Error modifying claims on device
+        /// </summary>
+        public const string DEV_CLAIM_GEN_ERR = "error.security.device.claim";
 
     }
 }
