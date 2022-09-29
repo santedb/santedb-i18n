@@ -19,7 +19,7 @@ namespace SanteDB.Core.i18n {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ErrorMessages {
@@ -57,15 +57,6 @@ namespace SanteDB.Core.i18n {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to This class is already initialized. Duplicate initializations are not permitted.
-        /// </summary>
-        public static string ALREADY_INITIALIZED {
-            get {
-                return ResourceManager.GetString("ALREADY_INITIALIZED", resourceCulture);
             }
         }
         
@@ -255,6 +246,15 @@ namespace SanteDB.Core.i18n {
         public static string MAP_NOT_FOUND {
             get {
                 return ResourceManager.GetString("MAP_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Multiple calls to {0} are not supported.
+        /// </summary>
+        public static string MULTIPLE_CALLS_NOT_ALLOWED {
+            get {
+                return ResourceManager.GetString("MULTIPLE_CALLS_NOT_ALLOWED", resourceCulture);
             }
         }
         
