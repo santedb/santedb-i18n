@@ -79,7 +79,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Argument {0} was null.
+        ///   Looks up a localized string similar to Required argument was null.
         /// </summary>
         public static string ARGUMENT_NULL {
             get {
@@ -111,6 +111,15 @@ namespace SanteDB.Core.i18n {
         public static string CANNOT_INITIALIZE_APPLICATION {
             get {
                 return ResourceManager.GetString("CANNOT_INITIALIZE_APPLICATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Certificate is not valid for use in this context.
+        /// </summary>
+        public static string CERTIFICATE_NOT_VALID {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_NOT_VALID", resourceCulture);
             }
         }
         
@@ -259,6 +268,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Required method {0} not found.
+        /// </summary>
+        public static string METHOD_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("METHOD_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Multiple calls to {0} are not supported.
         /// </summary>
         public static string MULTIPLE_CALLS_NOT_ALLOWED {
@@ -322,6 +340,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Required service {0} is not found.
+        /// </summary>
+        public static string SERVICE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("SERVICE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Subscription does not have a server side definition for this provider.
         /// </summary>
         public static string SUBSCRIPTION_MISSING_DEFINITION {
@@ -354,6 +381,15 @@ namespace SanteDB.Core.i18n {
         public static string SUBSCRIPTION_RESOURCE_NOSTORE {
             get {
                 return ResourceManager.GetString("SUBSCRIPTION_RESOURCE_NOSTORE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Referenced type {0} not available.
+        /// </summary>
+        public static string TYPE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("TYPE_NOT_FOUND", resourceCulture);
             }
         }
         
