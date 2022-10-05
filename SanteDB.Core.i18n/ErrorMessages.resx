@@ -138,6 +138,9 @@
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>
+  <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
+    <value>Data structure is not appropriate for {0} due to {1}</value>
+  </data>
   <data name="DEPENDENT_CONFIGURATION_MISSING" xml:space="preserve">
     <value>This service relies on the presence of a configuration for {0}</value>
   </data>

@@ -19,7 +19,7 @@ namespace SanteDB.Core.i18n {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ErrorMessages {
@@ -120,6 +120,15 @@ namespace SanteDB.Core.i18n {
         public static string COMMUNICATION_RESPONSE_FAILURE {
             get {
                 return ResourceManager.GetString("COMMUNICATION_RESPONSE_FAILURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
+        /// </summary>
+        public static string DATA_STRUCTURE_NOT_APPROPRIATE {
+            get {
+                return ResourceManager.GetString("DATA_STRUCTURE_NOT_APPROPRIATE", resourceCulture);
             }
         }
         
