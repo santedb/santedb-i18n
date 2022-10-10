@@ -201,6 +201,9 @@
   <data name="NOT_SUPPORTED_IMPLEMENTATION" xml:space="preserve">
     <value>The provided object must implement {0} to support this function</value>
   </data>
+  <data name="OBJECT_READONLY" xml:space="preserve">
+    <value>This object is readonly and cannot be modified or saved</value>
+  </data>
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>
   </data>
