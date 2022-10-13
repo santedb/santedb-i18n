@@ -61,6 +61,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Multiple records returned where one expected.
+        /// </summary>
+        public static string AMBIGUOUS_DATA_REFERENCE {
+            get {
+                return ResourceManager.GetString("AMBIGUOUS_DATA_REFERENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Argument type {0} is not assignable from {1}.
         /// </summary>
         public static string ARGUMENT_INCOMPATIBLE_TYPE {
