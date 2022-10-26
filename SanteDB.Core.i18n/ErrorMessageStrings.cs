@@ -290,6 +290,11 @@ namespace SanteDB.Core.i18n
         public const string AUTH_USR_INVALID = "error.security.user.auth.invalid";
 
         /// <summary>
+        /// Reauthorization of this principal is not permitted
+        /// </summary>
+        public const string AUTH_USR_REAUTH_NOT_ALLOWED = "error.security.user.auth.reauthNotAllowed";
+
+        /// <summary>
         /// General error authenticating user
         /// </summary>
         public const string AUTH_USR_GENERAL = "error.security.user.auth.general";
@@ -464,5 +469,19 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string DEV_CLAIM_GEN_ERR = "error.security.device.claim";
 
+        /// <summary>
+        /// String like: Error reading {data} to upstream
+        /// </summary>
+        public const string UPSTREAM_READ_ERR = "error.upstream.read";
+
+        /// <summary>
+        /// String like: Error sending {data} to upstream
+        /// </summary>
+        public const string UPSTREAM_WRITE_ERR = "error.upstream.write";
+
+        /// <summary>
+        /// String like: General error interacting with upstream
+        /// </summary>
+        public const string UPSTREAM_GEN_ERR = "error.upstream.gen";
     }
 }
