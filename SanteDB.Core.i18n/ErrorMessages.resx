@@ -138,6 +138,9 @@
   <data name="CANNOT_INITIALIZE_APPLICATION" xml:space="preserve">
     <value>Cannot initialize the service host context - fatal startup error.</value>
   </data>
+  <data name="CERTIFICATE_NOT_FOUND" xml:space="preserve">
+    <value>Authentication certificate could not be found</value>
+  </data>
   <data name="CERTIFICATE_NOT_VALID" xml:space="preserve">
     <value>Certificate is not valid for use in this context</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="OBJECT_READONLY" xml:space="preserve">
     <value>This object is readonly and cannot be modified or saved</value>
+  </data>
+  <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
+    <value>Provided principal is not valid in this context</value>
   </data>
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>

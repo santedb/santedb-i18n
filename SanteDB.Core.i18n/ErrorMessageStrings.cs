@@ -483,5 +483,10 @@ namespace SanteDB.Core.i18n
         /// String like: General error interacting with upstream
         /// </summary>
         public const string UPSTREAM_GEN_ERR = "error.upstream.gen";
+
+        /// <summary>
+        /// String like: Error authenticating the device against the upstream
+        /// </summary>
+        public const string UPSTREAM_AUTH_ERR = "error.upstream.auth";
     }
 }

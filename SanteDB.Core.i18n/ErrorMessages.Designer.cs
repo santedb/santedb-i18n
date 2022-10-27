@@ -124,6 +124,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Authentication certificate could not be found.
+        /// </summary>
+        public static string CERTIFICATE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Certificate is not valid for use in this context.
         /// </summary>
         public static string CERTIFICATE_NOT_VALID {
@@ -327,6 +336,15 @@ namespace SanteDB.Core.i18n {
         public static string OBJECT_READONLY {
             get {
                 return ResourceManager.GetString("OBJECT_READONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Provided principal is not valid in this context.
+        /// </summary>
+        public static string PRINCIPAL_NOT_APPROPRIATE {
+            get {
+                return ResourceManager.GetString("PRINCIPAL_NOT_APPROPRIATE", resourceCulture);
             }
         }
         
