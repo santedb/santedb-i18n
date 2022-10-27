@@ -165,11 +165,20 @@
   <data name="FIELD_NOT_FOUND" xml:space="preserve">
     <value>Field {0} not found in the requested type</value>
   </data>
+  <data name="FILE_ENCRYPTED" xml:space="preserve">
+    <value>File is encrypted (invalid decryption information present)</value>
+  </data>
+  <data name="FILE_ENCRYPTED_INVALID_PASSPHRASE" xml:space="preserve">
+    <value>Invalid passphrase to decrypt the file</value>
+  </data>
   <data name="INVALID_CLASS_CODE" xml:space="preserve">
     <value>Classification code is not valid on this type</value>
   </data>
   <data name="INVALID_EXPRESSION_TYPE" xml:space="preserve">
     <value>Invalid expression type. Expected {0} but was given {1}</value>
+  </data>
+  <data name="INVALID_FILE_FORMAT" xml:space="preserve">
+    <value>Invalid file format encountered</value>
   </data>
   <data name="MAIL_CANNOT_MOVE_OWNERS" xml:space="preserve">
     <value>Mail messages cannot be moved between mailboxes belonging to different users</value>

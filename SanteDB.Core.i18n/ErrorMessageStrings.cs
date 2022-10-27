@@ -488,5 +488,20 @@ namespace SanteDB.Core.i18n
         /// String like: Error authenticating the device against the upstream
         /// </summary>
         public const string UPSTREAM_AUTH_ERR = "error.upstream.auth";
+
+        /// <summary>
+        /// String like: Configured backup policy requires backups to have encryption
+        /// </summary>
+        public const string BACKUP_POLICY_REQUIRES_ENCRYPTION = "error.backup.policy.encryption";
+
+        /// <summary>
+        /// String like: General error working with backup system
+        /// </summary>
+        public const string BACKUP_GEN_ERR = "error.backup.gen";
+
+        /// <summary>
+        /// String like: Error restoring backup information
+        /// </summary>
+        public const string BACKUP_RESTORE_ERR = "error.backup.restore";
     }
 }

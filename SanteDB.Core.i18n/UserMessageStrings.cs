@@ -29,5 +29,15 @@ namespace SanteDB.Core.i18n
         /// String like: Checking upstream for updates...
         /// </summary>
         public const string UPDATE_CHECK = "ui.app.update.checking";
+
+        /// <summary>
+        /// String like: Creating backup of system information
+        /// </summary>
+        public const string BACKUP_CREATE_PROGRESS = "ui.app.backup.create";
+
+        /// <summary>
+        /// String like: Restoring backup of system information
+        /// </summary>
+        public const string BACKUP_RESTORE_PROGRESS = "ui.app.backup.restore";
     }
 }

@@ -205,6 +205,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File is encrypted (invalid decryption information present).
+        /// </summary>
+        public static string FILE_ENCRYPTED {
+            get {
+                return ResourceManager.GetString("FILE_ENCRYPTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid passphrase to decrypt the file.
+        /// </summary>
+        public static string FILE_ENCRYPTED_INVALID_PASSPHRASE {
+            get {
+                return ResourceManager.GetString("FILE_ENCRYPTED_INVALID_PASSPHRASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Classification code is not valid on this type.
         /// </summary>
         public static string INVALID_CLASS_CODE {
@@ -219,6 +237,15 @@ namespace SanteDB.Core.i18n {
         public static string INVALID_EXPRESSION_TYPE {
             get {
                 return ResourceManager.GetString("INVALID_EXPRESSION_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid file format encountered.
+        /// </summary>
+        public static string INVALID_FILE_FORMAT {
+            get {
+                return ResourceManager.GetString("INVALID_FILE_FORMAT", resourceCulture);
             }
         }
         
