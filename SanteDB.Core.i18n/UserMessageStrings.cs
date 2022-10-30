@@ -39,5 +39,15 @@ namespace SanteDB.Core.i18n
         /// String like: Restoring backup of system information
         /// </summary>
         public const string BACKUP_RESTORE_PROGRESS = "ui.app.backup.restore";
+
+        /// <summary>
+        /// String like: The certificate {cert} is not trusted. Do you want to trust it?
+        /// </summary>
+        public const string CONFIRM_CERTIFICATE_TRUST = "ui.app.certificate.trust";
+
+        /// <summary>
+        /// String like: {source} requires that the application be restarted. Do you want to restart the application?
+        /// </summary>
+        public const string CONFIRM_RESTART_REQUEST = "ui.app.restart.required";
     }
 }

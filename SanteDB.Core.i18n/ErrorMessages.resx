@@ -180,6 +180,9 @@
   <data name="INVALID_FILE_FORMAT" xml:space="preserve">
     <value>Invalid file format encountered</value>
   </data>
+  <data name="LOCAL_SERVICE_NOT_SUPPORTED" xml:space="preserve">
+    <value>This instance is configured for online use only - no local methods are supported ({0})</value>
+  </data>
   <data name="MAIL_CANNOT_MOVE_OWNERS" xml:space="preserve">
     <value>Mail messages cannot be moved between mailboxes belonging to different users</value>
   </data>
@@ -225,6 +228,9 @@
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>
   </data>
+  <data name="REST_CLIENT_NOT_FOUND" xml:space="preserve">
+    <value>Rest client configuration for {0} not found</value>
+  </data>
   <data name="SEQUENCE_MORE_THAN_ONE" xml:space="preserve">
     <value>Sequence contains more than one element</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="TYPE_NOT_FOUND" xml:space="preserve">
     <value>Referenced type {0} not available</value>
+  </data>
+  <data name="UPSTREAM_NOT_CONFIGURED" xml:space="preserve">
+    <value>This function requires the upstream to be configured</value>
   </data>
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>

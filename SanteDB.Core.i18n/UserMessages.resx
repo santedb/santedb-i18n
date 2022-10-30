@@ -123,7 +123,22 @@
   <data name="FETCH_FROM_UPSTREAM" xml:space="preserve">
     <value>Fetching data from upstream server...</value>
   </data>
+  <data name="INITIALIZE_SERVICE" xml:space="preserve">
+    <value>Initializing Services</value>
+  </data>
+  <data name="INITIALIZE_SINGLETONS" xml:space="preserve">
+    <value>Creating Service Instances</value>
+  </data>
   <data name="PROCESSING" xml:space="preserve">
     <value>Processing data</value>
+  </data>
+  <data name="STARTING_CONTEXT" xml:space="preserve">
+    <value>Starting SanteDB</value>
+  </data>
+  <data name="START_DAEMON" xml:space="preserve">
+    <value>Starting {0}...</value>
+  </data>
+  <data name="STOPPING_CONTEXT" xml:space="preserve">
+    <value>Stopping SanteDB</value>
   </data>
 </root>

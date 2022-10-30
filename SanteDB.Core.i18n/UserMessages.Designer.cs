@@ -19,7 +19,7 @@ namespace SanteDB.Core.i18n {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class UserMessages {
@@ -79,11 +79,56 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Initializing Services.
+        /// </summary>
+        public static string INITIALIZE_SERVICE {
+            get {
+                return ResourceManager.GetString("INITIALIZE_SERVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creating Service Instances.
+        /// </summary>
+        public static string INITIALIZE_SINGLETONS {
+            get {
+                return ResourceManager.GetString("INITIALIZE_SINGLETONS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Processing data.
         /// </summary>
         public static string PROCESSING {
             get {
                 return ResourceManager.GetString("PROCESSING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starting {0}....
+        /// </summary>
+        public static string START_DAEMON {
+            get {
+                return ResourceManager.GetString("START_DAEMON", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starting SanteDB.
+        /// </summary>
+        public static string STARTING_CONTEXT {
+            get {
+                return ResourceManager.GetString("STARTING_CONTEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stopping SanteDB.
+        /// </summary>
+        public static string STOPPING_CONTEXT {
+            get {
+                return ResourceManager.GetString("STOPPING_CONTEXT", resourceCulture);
             }
         }
     }

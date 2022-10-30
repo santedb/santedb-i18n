@@ -250,6 +250,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This instance is configured for online use only - no local methods are supported ({0}).
+        /// </summary>
+        public static string LOCAL_SERVICE_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("LOCAL_SERVICE_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mail messages cannot be moved between mailboxes belonging to different users.
         /// </summary>
         public static string MAIL_CANNOT_MOVE_OWNERS {
@@ -385,6 +394,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rest client configuration for {0} not found.
+        /// </summary>
+        public static string REST_CLIENT_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("REST_CLIENT_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sequence contains more than one element.
         /// </summary>
         public static string SEQUENCE_MORE_THAN_ONE {
@@ -453,6 +471,15 @@ namespace SanteDB.Core.i18n {
         public static string TYPE_NOT_FOUND {
             get {
                 return ResourceManager.GetString("TYPE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This function requires the upstream to be configured.
+        /// </summary>
+        public static string UPSTREAM_NOT_CONFIGURED {
+            get {
+                return ResourceManager.GetString("UPSTREAM_NOT_CONFIGURED", resourceCulture);
             }
         }
         
