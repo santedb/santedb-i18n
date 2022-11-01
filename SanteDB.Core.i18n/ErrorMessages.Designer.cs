@@ -178,6 +178,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Device name changed - an override is required.
+        /// </summary>
+        public static string DEVICE_NAME_CONFIGURATION_CHANGED {
+            get {
+                return ResourceManager.GetString("DEVICE_NAME_CONFIGURATION_CHANGED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Class key {0} on {1} is already registered.
         /// </summary>
         public static string DUPLICATE_CLASS_CONCEPT {
