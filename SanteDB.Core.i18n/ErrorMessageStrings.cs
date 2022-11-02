@@ -165,6 +165,11 @@ namespace SanteDB.Core.i18n
         public const string SEQUENCE_MORE_THAN_ONE = "error.data.sequence.moreThanOne";
 
         /// <summary>
+        /// General error creating a role
+        /// </summary>
+        public const string SEC_ROL_GEN = "error.security.role.general";
+
+        /// <summary>
         /// General error assigning role {role} to {user}
         /// </summary>
         public const string SEC_ROL_ASSIGN = "error.security.user.roleAssign";
