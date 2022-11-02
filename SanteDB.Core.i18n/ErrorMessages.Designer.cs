@@ -232,6 +232,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error querying data from underlying data source.
+        /// </summary>
+        public static string GENERAL_QUERY_ERROR {
+            get {
+                return ResourceManager.GetString("GENERAL_QUERY_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Classification code is not valid on this type.
         /// </summary>
         public static string INVALID_CLASS_CODE {

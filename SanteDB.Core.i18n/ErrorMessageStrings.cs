@@ -485,9 +485,38 @@ namespace SanteDB.Core.i18n
         public const string UPSTREAM_GEN_ERR = "error.upstream.gen";
 
         /// <summary>
+        /// String like: Error joining upstream domain
+        /// </summary>
+        public const string UPSTREAM_JOIN_ERR = "error.upstream.join";
+
+        /// <summary>
         /// String like: Error authenticating the device against the upstream
         /// </summary>
         public const string UPSTREAM_AUTH_ERR = "error.upstream.auth";
+
+        /// <summary>
+        /// String like: Remote server version is incompatible with this interface (remote: {remote})
+        /// </summary>
+        public const string UPSTREAM_VERSION_MISMATCH = "error.upstream.version";
+
+        /// <summary>
+        /// String like: Device {device} has already been registered
+        /// </summary>
+        public const string UPSTREAM_JOIN_DEVICE_DUPLICATE = "error.upstream.duplicate";
+
+        /// <summary>
+        /// String like: Upstream requires certificate authentication but this device cannot generate certificates
+        /// </summary>
+        public const string UPSTREAM_JOIN_CANNOT_GENERATE_CERTIFICATE = "error.upstream.certificate.csr";
+
+        /// <summary>
+        /// String like: Upstream approval of certificate request from this device has been witheld with status {status} (CA response: {message})
+        /// </summary>
+        public const string UPSTREAM_JOIN_CERTIFICATE_HOLD = "error.upstream.certificate.held";
+        /// <summary>
+        /// String like: The upstream cannot be the same as the client
+        /// </summary>
+        public const string UPSTREAM_CANNOT_JOIN_YOURSELF = "error.upstream.self";
 
         /// <summary>
         /// String like: Configured backup policy requires backups to have encryption
