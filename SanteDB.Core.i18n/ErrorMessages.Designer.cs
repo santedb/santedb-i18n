@@ -115,6 +115,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot bind initial endpoint to HTTPS ensure a certificate is bound or that this process can bind a self-signed certificate.
+        /// </summary>
+        public static string CANNOT_BIND_CERTIFICATES {
+            get {
+                return ResourceManager.GetString("CANNOT_BIND_CERTIFICATES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot initialize the service host context - fatal startup error..
         /// </summary>
         public static string CANNOT_INITIALIZE_APPLICATION {
@@ -138,6 +147,24 @@ namespace SanteDB.Core.i18n {
         public static string CERTIFICATE_NOT_VALID {
             get {
                 return ResourceManager.GetString("CERTIFICATE_NOT_VALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The selected certificate cannot be used to sign this request - Invalid Purpose.
+        /// </summary>
+        public static string CERTIFICATE_REQ_CANT_SIGN {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_REQ_CANT_SIGN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The certificate signing request is not valid.
+        /// </summary>
+        public static string CERTIFICATE_REQ_NOT_VALID {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_REQ_NOT_VALID", resourceCulture);
             }
         }
         

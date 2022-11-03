@@ -135,6 +135,9 @@
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>
   </data>
+  <data name="CANNOT_BIND_CERTIFICATES" xml:space="preserve">
+    <value>Cannot bind initial endpoint to HTTPS ensure a certificate is bound or that this process can bind a self-signed certificate</value>
+  </data>
   <data name="CANNOT_INITIALIZE_APPLICATION" xml:space="preserve">
     <value>Cannot initialize the service host context - fatal startup error.</value>
   </data>
@@ -143,6 +146,12 @@
   </data>
   <data name="CERTIFICATE_NOT_VALID" xml:space="preserve">
     <value>Certificate is not valid for use in this context</value>
+  </data>
+  <data name="CERTIFICATE_REQ_CANT_SIGN" xml:space="preserve">
+    <value>The selected certificate cannot be used to sign this request - Invalid Purpose</value>
+  </data>
+  <data name="CERTIFICATE_REQ_NOT_VALID" xml:space="preserve">
+    <value>The certificate signing request is not valid</value>
   </data>
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
