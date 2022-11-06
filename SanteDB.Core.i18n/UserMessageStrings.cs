@@ -11,6 +11,11 @@ namespace SanteDB.Core.i18n
     {
 
         /// <summary>
+        /// String like: Welcome to the realm {realm}
+        /// </summary>
+        public const string JOIN_REALM_SUCCESS = "ui.config.realm.success";
+
+        /// <summary>
         /// String like: Downloading {file}
         /// </summary>
         public const String DOWNLOADING = "ui.app.downloading";
