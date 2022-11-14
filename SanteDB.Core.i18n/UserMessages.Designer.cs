@@ -79,6 +79,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Initializing Databases - {0}.
+        /// </summary>
+        public static string INITIALIZE_DATABASE {
+            get {
+                return ResourceManager.GetString("INITIALIZE_DATABASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Initializing Services.
         /// </summary>
         public static string INITIALIZE_SERVICE {
@@ -129,6 +138,15 @@ namespace SanteDB.Core.i18n {
         public static string STOPPING_CONTEXT {
             get {
                 return ResourceManager.GetString("STOPPING_CONTEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Applying Updates - {0}.
+        /// </summary>
+        public static string UPDATE_DATABASE {
+            get {
+                return ResourceManager.GetString("UPDATE_DATABASE", resourceCulture);
             }
         }
     }
