@@ -185,7 +185,7 @@ namespace SanteDB.Core.i18n
         public const string SEC_PROVENANCE_GEN_ERR = "error.security.provenance.general";
 
         /// <summary>
-        /// General error creating a policy
+        /// General error interacting with policy layer
         /// </summary>
         public const string SEC_POL_GEN = "error.security.policy.general";
 
