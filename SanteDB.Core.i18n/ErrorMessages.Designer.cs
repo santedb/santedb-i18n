@@ -133,6 +133,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot read from stream.
+        /// </summary>
+        public static string CANT_READ_WRITE_ONLY_STREAM {
+            get {
+                return ResourceManager.GetString("CANT_READ_WRITE_ONLY_STREAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot write to stream.
+        /// </summary>
+        public static string CANT_WRITE_READ_ONLY_STREAM {
+            get {
+                return ResourceManager.GetString("CANT_WRITE_READ_ONLY_STREAM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Authentication certificate could not be found.
         /// </summary>
         public static string CERTIFICATE_NOT_FOUND {
