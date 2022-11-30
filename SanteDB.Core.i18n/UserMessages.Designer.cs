@@ -79,6 +79,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Importing data - {0} records.
+        /// </summary>
+        public static string IMPORTING {
+            get {
+                return ResourceManager.GetString("IMPORTING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Initializing Databases - {0}.
         /// </summary>
         public static string INITIALIZE_DATABASE {

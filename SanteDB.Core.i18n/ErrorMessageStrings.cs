@@ -405,6 +405,11 @@ namespace SanteDB.Core.i18n
         public const string DATA_CIRCULAR_DEPENDENCY = "error.data.resolve.circularDependency";
 
         /// <summary>
+        /// String like: Error ensuring dependent value {data} exists 
+        /// </summary>
+        public const string DATA_DEPENDENT_ENSURE_ERROR = "error.data.exists.error";
+
+        /// <summary>
         /// The key on key property {keyProperty} does not match the data on data property {dataProperty}
         /// </summary>
         public const string DATA_KEY_PROPERTY_DISAGREEMENT = "error.data.keyDataDisagreement";
@@ -537,5 +542,45 @@ namespace SanteDB.Core.i18n
         /// String like: Error restoring backup information
         /// </summary>
         public const string BACKUP_RESTORE_ERR = "error.backup.restore";
+
+        /// <summary>
+        /// String like: The foreign data map for {subsetName} could not be found
+        /// </summary>
+        public const string FOREIGN_MAP_NOT_FOUND = "error.foreign.map.notFound";
+
+        /// <summary>
+        /// String like: Error applying {name} to value
+        /// </summary>
+        public const string FOREIGN_DATA_TRANSFORM_ERROR = "error.foreign.map.transform";
+
+        /// <summary>
+        /// String like: Error applying transform at row {row}
+        /// </summary>
+        public const string FOREIGN_DATA_MAP_ERROR = "error.foreign.map.transform";
+
+        /// <summary>
+        /// String like: Could not apply the map becuase the map is missing a target
+        /// </summary>
+        public const string FOREIGN_DATA_TRANSFORM_MISSING_TARGET = "error.foreign.map.target";
+
+        /// <summary>
+        /// String like: General error applying the mapping at {row} because of {ex}
+        /// </summary>
+        public const string FOREIGN_DATA_GEN_ERR = "error.foreign.map.gen";
+
+        /// <summary>
+        /// String like: The field {field} at row {row} is null or missing a value whenone is required
+        /// </summary>
+        public const string FOREIGN_DATA_MAP_REQUIRED_MISSING = "error.foreign.map.required";
+
+        /// <summary>
+        /// String like: {field} with value {value} could not be translated - check for missing mapping data (at row {row})
+        /// </summary>
+        public const string FOREIGN_DATA_TARGET_MISSING = "error.foreign.map.target.null";
+
+        /// <summary>
+        /// String like: {field} with value {value} could not be translated - check for missing mapping data (at row {row})
+        /// </summary>
+        public const string FOREIGN_DATA_TRANSFORM_MISSING = "error.foreign.map.transform.missing";
     }
 }
