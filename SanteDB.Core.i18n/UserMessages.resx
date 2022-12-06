@@ -126,6 +126,9 @@
   <data name="IMPORTING" xml:space="preserve">
     <value>Importing data - {0} records</value>
   </data>
+  <data name="IMPORTING_NAME" xml:space="preserve">
+    <value>Importing foreign data {0}...</value>
+  </data>
   <data name="INITIALIZE_DATABASE" xml:space="preserve">
     <value>Initializing Databases - {0}</value>
   </data>

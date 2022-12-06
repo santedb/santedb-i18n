@@ -582,5 +582,25 @@ namespace SanteDB.Core.i18n
         /// String like: {field} with value {value} could not be translated - check for missing mapping data (at row {row})
         /// </summary>
         public const string FOREIGN_DATA_TRANSFORM_MISSING = "error.foreign.map.transform.missing";
+
+        /// <summary>
+        /// String like: General error in foreign data stage manager
+        /// </summary>
+        public const string FOREIGN_DATA_MANAGE_ERROR = "error.foreign.manager.gen";
+
+        /// <summary>
+        /// String like: The staged foreign data is not in a valid state to perform this operation
+        /// </summary>
+        public const string FOREIGN_DATA_INVALID_STATE = "error.foreign.manager.state";
+
+        /// <summary>
+        /// String like: The foreign data map {map} which is referenced on this foreign data cannot be found
+        /// </summary>
+        public const string FOREIGN_DATA_MAP_NOT_FOUND = "error.foreign.manager.map.notfound";
+
+        /// <summary>
+        /// String like: The foreign data format {format} cannot be interpreted by this instance of SanteDB
+        /// </summary>
+        public const string FOREIGN_DATA_UNSUPPORTED_FORMAT = "error.foreign.manager.map.format";
     }
 }

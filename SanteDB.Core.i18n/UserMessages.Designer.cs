@@ -88,6 +88,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Importing foreign data {0}....
+        /// </summary>
+        public static string IMPORTING_NAME {
+            get {
+                return ResourceManager.GetString("IMPORTING_NAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Initializing Databases - {0}.
         /// </summary>
         public static string INITIALIZE_DATABASE {
