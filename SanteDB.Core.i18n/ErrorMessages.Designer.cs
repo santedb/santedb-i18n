@@ -394,6 +394,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The dependent background job {0} is not registered.
+        /// </summary>
+        public static string MISSING_JOB {
+            get {
+                return ResourceManager.GetString("MISSING_JOB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Multiple calls to {0} are not supported.
         /// </summary>
         public static string MULTIPLE_CALLS_NOT_ALLOWED {
@@ -543,6 +552,15 @@ namespace SanteDB.Core.i18n {
         public static string UPSTREAM_NOT_CONFIGURED {
             get {
                 return ResourceManager.GetString("UPSTREAM_NOT_CONFIGURED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Variable {0} is not declared.
+        /// </summary>
+        public static string VARIABLE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("VARIABLE_NOT_FOUND", resourceCulture);
             }
         }
         

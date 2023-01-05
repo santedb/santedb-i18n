@@ -551,12 +551,12 @@ namespace SanteDB.Core.i18n
         /// <summary>
         /// String like: Error applying {name} to value
         /// </summary>
-        public const string FOREIGN_DATA_TRANSFORM_ERROR = "error.foreign.map.transform";
+        public const string FOREIGN_DATA_TRANSFORM_ERROR = "error.foreign.transform";
 
         /// <summary>
         /// String like: Error applying transform at row {row}
         /// </summary>
-        public const string FOREIGN_DATA_MAP_ERROR = "error.foreign.map.transform";
+        public const string FOREIGN_DATA_MAP_ERROR = "error.foreign.map";
 
         /// <summary>
         /// String like: Could not apply the map becuase the map is missing a target

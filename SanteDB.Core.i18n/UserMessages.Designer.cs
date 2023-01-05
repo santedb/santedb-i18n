@@ -79,7 +79,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Importing data - {0} records.
+        ///   Looks up a localized string similar to {0} records processed ({1} rec/s).
         /// </summary>
         public static string IMPORTING {
             get {
@@ -88,7 +88,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Importing foreign data {0}....
+        ///   Looks up a localized string similar to Importing {0}....
         /// </summary>
         public static string IMPORTING_NAME {
             get {

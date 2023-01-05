@@ -228,6 +228,9 @@
   <data name="METHOD_NOT_FOUND" xml:space="preserve">
     <value>Required method {0} not found</value>
   </data>
+  <data name="MISSING_JOB" xml:space="preserve">
+    <value>The dependent background job {0} is not registered</value>
+  </data>
   <data name="MULTIPLE_CALLS_NOT_ALLOWED" xml:space="preserve">
     <value>Multiple calls to {0} are not supported</value>
   </data>
@@ -278,6 +281,9 @@
   </data>
   <data name="UPSTREAM_NOT_CONFIGURED" xml:space="preserve">
     <value>This function requires the upstream to be configured</value>
+  </data>
+  <data name="VARIABLE_NOT_FOUND" xml:space="preserve">
+    <value>Variable {0} is not declared</value>
   </data>
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>
