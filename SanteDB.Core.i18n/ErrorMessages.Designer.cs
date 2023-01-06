@@ -196,6 +196,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Connection string {0} not found.
+        /// </summary>
+        public static string CONNECTION_STRING_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("CONNECTION_STRING_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
         /// </summary>
         public static string DATA_STRUCTURE_NOT_APPROPRIATE {
