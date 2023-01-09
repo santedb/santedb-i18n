@@ -124,6 +124,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Installing {0}.
+        /// </summary>
+        public static string INSTALLING {
+            get {
+                return ResourceManager.GetString("INSTALLING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Processing data.
         /// </summary>
         public static string PROCESSING {

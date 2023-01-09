@@ -511,6 +511,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Applet solutions are not permitted.
+        /// </summary>
+        public static string SOLUTIONS_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("SOLUTIONS_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Subscription does not have a server side definition for this provider.
         /// </summary>
         public static string SUBSCRIPTION_MISSING_DEFINITION {

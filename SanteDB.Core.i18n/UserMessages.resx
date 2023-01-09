@@ -138,6 +138,9 @@
   <data name="INITIALIZE_SINGLETONS" xml:space="preserve">
     <value>Creating Service Instances</value>
   </data>
+  <data name="INSTALLING" xml:space="preserve">
+    <value>Installing {0}</value>
+  </data>
   <data name="PROCESSING" xml:space="preserve">
     <value>Processing data</value>
   </data>
