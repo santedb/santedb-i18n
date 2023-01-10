@@ -466,6 +466,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Privacy control violation has been detected.
+        /// </summary>
+        public static string PRIVACY_VIOLATION_DETECTED {
+            get {
+                return ResourceManager.GetString("PRIVACY_VIOLATION_DETECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error reading resource {0}.
         /// </summary>
         public static string READ_ERROR {
@@ -525,15 +534,6 @@ namespace SanteDB.Core.i18n {
         public static string SOLUTIONS_NOT_SUPPORTED {
             get {
                 return ResourceManager.GetString("SOLUTIONS_NOT_SUPPORTED", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string String1 {
-            get {
-                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
         
