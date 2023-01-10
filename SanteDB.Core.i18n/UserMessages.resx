@@ -120,6 +120,9 @@
   <data name="COMPLETE" xml:space="preserve">
     <value>Complete</value>
   </data>
+  <data name="DOWNLOADING" xml:space="preserve">
+    <value>Downloading {0}</value>
+  </data>
   <data name="FETCH_FROM_UPSTREAM" xml:space="preserve">
     <value>Fetching data from upstream server...</value>
   </data>
@@ -153,7 +156,13 @@
   <data name="STOPPING_CONTEXT" xml:space="preserve">
     <value>Stopping SanteDB</value>
   </data>
+  <data name="UPDATE_CHECK" xml:space="preserve">
+    <value>Checking for updates</value>
+  </data>
   <data name="UPDATE_DATABASE" xml:space="preserve">
     <value>Applying Updates - {0}</value>
+  </data>
+  <data name="UPDATE_INSTALL_CONFIRM" xml:space="preserve">
+    <value>Updates are available for {0}. Do you wish to install them?</value>
   </data>
 </root>

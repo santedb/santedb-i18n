@@ -252,6 +252,9 @@
   <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
     <value>Provided principal is not valid in this context</value>
   </data>
+  <data name="READ_ERROR" xml:space="preserve">
+    <value>Error reading resource {0}</value>
+  </data>
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>
   </data>

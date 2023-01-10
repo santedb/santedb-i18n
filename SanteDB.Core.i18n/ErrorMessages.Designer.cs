@@ -466,6 +466,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error reading resource {0}.
+        /// </summary>
+        public static string READ_ERROR {
+            get {
+                return ResourceManager.GetString("READ_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No persistence service has been registered with source of {1} and target of {0}.
         /// </summary>
         public static string RELATED_OBJECT_NOT_AVAILABLE {

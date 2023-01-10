@@ -70,6 +70,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Downloading {0}.
+        /// </summary>
+        public static string DOWNLOADING {
+            get {
+                return ResourceManager.GetString("DOWNLOADING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fetching data from upstream server....
         /// </summary>
         public static string FETCH_FROM_UPSTREAM {
@@ -169,11 +178,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Checking for updates.
+        /// </summary>
+        public static string UPDATE_CHECK {
+            get {
+                return ResourceManager.GetString("UPDATE_CHECK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Applying Updates - {0}.
         /// </summary>
         public static string UPDATE_DATABASE {
             get {
                 return ResourceManager.GetString("UPDATE_DATABASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Updates are available for {0}. Do you wish to install them?.
+        /// </summary>
+        public static string UPDATE_INSTALL_CONFIRM {
+            get {
+                return ResourceManager.GetString("UPDATE_INSTALL_CONFIRM", resourceCulture);
             }
         }
     }
