@@ -88,7 +88,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} records processed ({1} rec/s).
+        ///   Looks up a localized string similar to {0} records processed ({1:#.#} rec/s).
         /// </summary>
         public static string IMPORTING {
             get {
