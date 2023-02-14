@@ -120,6 +120,9 @@
   <data name="AMBIGUOUS_DATA_REFERENCE" xml:space="preserve">
     <value>Multiple records returned where one expected</value>
   </data>
+  <data name="ARGUMENT_COUNT_MISMATCH" xml:space="preserve">
+    <value>Expected {0} arguments but only {1} were provided</value>
+  </data>
   <data name="ARGUMENT_INCOMPATIBLE_TYPE" xml:space="preserve">
     <value>Argument type {0} is not assignable from {1}</value>
   </data>

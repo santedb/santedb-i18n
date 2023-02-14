@@ -70,6 +70,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Expected {0} arguments but only {1} were provided.
+        /// </summary>
+        public static string ARGUMENT_COUNT_MISMATCH {
+            get {
+                return ResourceManager.GetString("ARGUMENT_COUNT_MISMATCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Argument type {0} is not assignable from {1}.
         /// </summary>
         public static string ARGUMENT_INCOMPATIBLE_TYPE {
