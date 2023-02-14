@@ -142,6 +142,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot set value at path {0} (type: {1}).
+        /// </summary>
+        public static string CANNOT_SET_VALUE_AT_PATH {
+            get {
+                return ResourceManager.GetString("CANNOT_SET_VALUE_AT_PATH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot read from stream.
         /// </summary>
         public static string CANT_READ_WRITE_ONLY_STREAM {
