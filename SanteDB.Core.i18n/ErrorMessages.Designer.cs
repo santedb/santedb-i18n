@@ -439,6 +439,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Security reset is not available on this object.
+        /// </summary>
+        public static string NO_RESET_POSSIBLE {
+            get {
+                return ResourceManager.GetString("NO_RESET_POSSIBLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This class has not been initialized.
         /// </summary>
         public static string NOT_INITIALIZED {
