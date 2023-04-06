@@ -340,6 +340,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error executing business rule trigger {0}.
+        /// </summary>
+        public static string JS_BUSINESS_RULE_ERROR {
+            get {
+                return ResourceManager.GetString("JS_BUSINESS_RULE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This instance is configured for online use only - no local methods are supported ({0}).
         /// </summary>
         public static string LOCAL_SERVICE_NOT_SUPPORTED {
