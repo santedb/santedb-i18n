@@ -211,7 +211,7 @@
     <value>Invalid file format encountered</value>
   </data>
   <data name="JS_BUSINESS_RULE_ERROR" xml:space="preserve">
-    <value>Error executing business rule trigger {0}</value>
+    <value>Error executing JavaScript rule/trigger {0}</value>
   </data>
   <data name="LOCAL_SERVICE_NOT_SUPPORTED" xml:space="preserve">
     <value>This instance is configured for online use only - no local methods are supported ({0})</value>

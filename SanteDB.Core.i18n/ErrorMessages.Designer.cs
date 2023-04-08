@@ -340,7 +340,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error executing business rule trigger {0}.
+        ///   Looks up a localized string similar to Error executing JavaScript rule/trigger {0}.
         /// </summary>
         public static string JS_BUSINESS_RULE_ERROR {
             get {
