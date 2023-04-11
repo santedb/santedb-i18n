@@ -610,6 +610,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reference term {0}#{1} not found.
+        /// </summary>
+        public static string TERM_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("TERM_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Referenced type {0} not available.
         /// </summary>
         public static string TYPE_NOT_FOUND {

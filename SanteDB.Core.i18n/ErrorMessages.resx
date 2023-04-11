@@ -300,6 +300,9 @@
   <data name="SUBSCRIPTION_RESOURCE_NOSTORE" xml:space="preserve">
     <value>Subscription requires persistence service for {0} but none is registered</value>
   </data>
+  <data name="TERM_NOT_FOUND" xml:space="preserve">
+    <value>Reference term {0}#{1} not found</value>
+  </data>
   <data name="TYPE_NOT_FOUND" xml:space="preserve">
     <value>Referenced type {0} not available</value>
   </data>
