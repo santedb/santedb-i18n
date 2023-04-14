@@ -601,5 +601,26 @@ namespace SanteDB.Core.i18n
         /// String like: The foreign data format {format} cannot be interpreted by this instance of SanteDB
         /// </summary>
         public const string FOREIGN_DATA_UNSUPPORTED_FORMAT = "error.foreign.manager.map.format";
+
+
+        /// <summary>
+        /// String like: General error in datamart manager
+        /// </summary>
+        public const string DATAMART_MANAGE_ERROR = "error.datamart.manager.gen";
+
+        /// <summary>
+        /// String like: Error while dropping data mart {id}
+        /// </summary>
+        public const string DATAMART_DROP_ERROR = "error.datamart.drop";
+
+        /// <summary>
+        /// String like: Error while creating data mart {id}
+        /// </summary>
+        public const string DATAMART_CREATE_ERROR = "error.datamart.create";
+
+        /// <summary>
+        /// String like: Error while refreshing data mart {id}
+        /// </summary>
+        public const string DATAMART_REFRESH_ERROR = "error.datamart.refresh";
     }
 }

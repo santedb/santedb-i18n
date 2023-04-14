@@ -148,10 +148,10 @@
     <value>Cannot set value at path {0} (type: {1})</value>
   </data>
   <data name="CANT_READ_WRITE_ONLY_STREAM" xml:space="preserve">
-    <value>Cannot read from stream</value>
+    <value>Cannot read data from this stream/source (write-only)</value>
   </data>
   <data name="CANT_WRITE_READ_ONLY_STREAM" xml:space="preserve">
-    <value>Cannot write to stream</value>
+    <value>Cannot write data to this stream/source (read-only)</value>
   </data>
   <data name="CERTIFICATE_NOT_FOUND" xml:space="preserve">
     <value>Authentication certificate could not be found</value>
@@ -183,8 +183,14 @@
   <data name="DEVICE_NAME_CONFIGURATION_CHANGED" xml:space="preserve">
     <value>Device name changed - an override is required</value>
   </data>
+  <data name="DIALECT_NOT_FOUND" xml:space="preserve">
+    <value>Could not find appropriate script for {0}</value>
+  </data>
   <data name="DUPLICATE_CLASS_CONCEPT" xml:space="preserve">
     <value>Class key {0} on {1} is already registered</value>
+  </data>
+  <data name="DUPLICATE_OBJECT" xml:space="preserve">
+    <value>Object {0} already exists</value>
   </data>
   <data name="ERROR_PROVIDING_FAULT" xml:space="preserve">
     <value>Error providing fault message</value>
@@ -209,6 +215,9 @@
   </data>
   <data name="INVALID_FILE_FORMAT" xml:space="preserve">
     <value>Invalid file format encountered</value>
+  </data>
+  <data name="INVALID_FORMAT" xml:space="preserve">
+    <value>The data {0} was not in the expected format {1}</value>
   </data>
   <data name="JS_BUSINESS_RULE_ERROR" xml:space="preserve">
     <value>Error executing JavaScript rule/trigger {0}</value>
@@ -243,6 +252,9 @@
   <data name="MISSING_JOB" xml:space="preserve">
     <value>The dependent background job {0} is not registered</value>
   </data>
+  <data name="MISSING_VALUE" xml:space="preserve">
+    <value>Required field {0} not supplied</value>
+  </data>
   <data name="MULTIPLE_CALLS_NOT_ALLOWED" xml:space="preserve">
     <value>Multiple calls to {0} are not supported</value>
   </data>
@@ -255,8 +267,14 @@
   <data name="NOT_SUPPORTED_IMPLEMENTATION" xml:space="preserve">
     <value>The provided object must implement {0} to support this function</value>
   </data>
+  <data name="NO_DATA_KEY_DEFINED" xml:space="preserve">
+    <value>Object {0} cannot be resolved because it does not define a key</value>
+  </data>
   <data name="NO_RESET_POSSIBLE" xml:space="preserve">
     <value>Security reset is not available on this object</value>
+  </data>
+  <data name="OBJECT_NOT_FOUND" xml:space="preserve">
+    <value>Object {0} not found</value>
   </data>
   <data name="OBJECT_READONLY" xml:space="preserve">
     <value>This object is readonly and cannot be modified or saved</value>
@@ -269,6 +287,9 @@
   </data>
   <data name="READ_ERROR" xml:space="preserve">
     <value>Error reading resource {0}</value>
+  </data>
+  <data name="REFERENCE_NOT_FOUND" xml:space="preserve">
+    <value>Reference to resource {0} could not be resolved</value>
   </data>
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>

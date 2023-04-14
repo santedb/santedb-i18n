@@ -151,7 +151,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot read from stream.
+        ///   Looks up a localized string similar to Cannot read data from this stream/source (write-only).
         /// </summary>
         public static string CANT_READ_WRITE_ONLY_STREAM {
             get {
@@ -160,7 +160,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot write to stream.
+        ///   Looks up a localized string similar to Cannot write data to this stream/source (read-only).
         /// </summary>
         public static string CANT_WRITE_READ_ONLY_STREAM {
             get {
@@ -259,11 +259,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Could not find appropriate script for {0}.
+        /// </summary>
+        public static string DIALECT_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("DIALECT_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Class key {0} on {1} is already registered.
         /// </summary>
         public static string DUPLICATE_CLASS_CONCEPT {
             get {
                 return ResourceManager.GetString("DUPLICATE_CLASS_CONCEPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Object {0} already exists.
+        /// </summary>
+        public static string DUPLICATE_OBJECT {
+            get {
+                return ResourceManager.GetString("DUPLICATE_OBJECT", resourceCulture);
             }
         }
         
@@ -336,6 +354,15 @@ namespace SanteDB.Core.i18n {
         public static string INVALID_FILE_FORMAT {
             get {
                 return ResourceManager.GetString("INVALID_FILE_FORMAT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The data {0} was not in the expected format {1}.
+        /// </summary>
+        public static string INVALID_FORMAT {
+            get {
+                return ResourceManager.GetString("INVALID_FORMAT", resourceCulture);
             }
         }
         
@@ -439,11 +466,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Required field {0} not supplied.
+        /// </summary>
+        public static string MISSING_VALUE {
+            get {
+                return ResourceManager.GetString("MISSING_VALUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Multiple calls to {0} are not supported.
         /// </summary>
         public static string MULTIPLE_CALLS_NOT_ALLOWED {
             get {
                 return ResourceManager.GetString("MULTIPLE_CALLS_NOT_ALLOWED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Object {0} cannot be resolved because it does not define a key.
+        /// </summary>
+        public static string NO_DATA_KEY_DEFINED {
+            get {
+                return ResourceManager.GetString("NO_DATA_KEY_DEFINED", resourceCulture);
             }
         }
         
@@ -484,6 +529,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Object {0} not found.
+        /// </summary>
+        public static string OBJECT_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("OBJECT_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This object is readonly and cannot be modified or saved.
         /// </summary>
         public static string OBJECT_READONLY {
@@ -516,6 +570,15 @@ namespace SanteDB.Core.i18n {
         public static string READ_ERROR {
             get {
                 return ResourceManager.GetString("READ_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reference to resource {0} could not be resolved.
+        /// </summary>
+        public static string REFERENCE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("REFERENCE_NOT_FOUND", resourceCulture);
             }
         }
         
