@@ -457,6 +457,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Entry point named {0} cannot be found.
+        /// </summary>
+        public static string MISSING_ENTRY_POINT {
+            get {
+                return ResourceManager.GetString("MISSING_ENTRY_POINT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The dependent background job {0} is not registered.
         /// </summary>
         public static string MISSING_JOB {
