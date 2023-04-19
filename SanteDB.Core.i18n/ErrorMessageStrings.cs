@@ -622,5 +622,40 @@ namespace SanteDB.Core.i18n
         /// String like: Error while refreshing data mart {id}
         /// </summary>
         public const string DATAMART_REFRESH_ERROR = "error.datamart.refresh";
+
+        /// <summary>
+        /// String like: Error while assigning job schedule for {job}
+        /// </summary>
+        public const string JOB_SCHEDULE_ASSIGN = "error.job.schedule.assign";
+
+        /// <summary>
+        /// String like: Error while querying job schedules
+        /// </summary>
+        public const string JOB_SCHEDULE_QUERY = "error.job.schedule.query";
+
+        /// <summary>
+        /// String like: Error while assigning job state
+        /// </summary>
+        public const string JOB_STATE_SET = "error.job.state.assign";
+
+        /// <summary>
+        /// String like: Error while querying job state
+        /// </summary>
+        public const string JOB_STATE_QUERY = "error.job.state.query";
+
+        /// <summary>
+        /// String like: Error executing BI metadata query
+        /// </summary>
+        public const string BI_QUERY_ERR = "error.bi.meta.query";
+
+        /// <summary>
+        /// String like: Error executing BI read for {id}
+        /// </summary>
+        public const string BI_READ_ERR = "error.bi.meta.read";
+
+        /// <summary>
+        /// String like: Error executing BI store for {id}
+        /// </summary>
+        public const string BI_STORE_ERR = "error.bi.meta.store";
     }
 }
