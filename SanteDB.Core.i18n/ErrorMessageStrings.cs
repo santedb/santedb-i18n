@@ -657,5 +657,10 @@ namespace SanteDB.Core.i18n
         /// String like: Error executing BI store for {id}
         /// </summary>
         public const string BI_STORE_ERR = "error.bi.meta.store";
+
+        /// <summary>
+        /// String like: Error storing match configuration {id}
+        /// </summary>
+        public const string MATCH_CONFIG_ERR = "error.match.config.store";
     }
 }
