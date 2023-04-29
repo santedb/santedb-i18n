@@ -74,5 +74,15 @@ namespace SanteDB.Core.i18n
         /// String like: {source} requires that the application be restarted. Do you want to restart the application?
         /// </summary>
         public const string CONFIRM_RESTART_REQUEST = "ui.app.restart.required";
+
+        /// <summary>
+        /// String like: Trimming stale sessions from database
+        /// </summary>
+        public const string DB_TRIM_SESSION = "ui.db.trim.session";
+
+        /// <summary>
+        /// String like: Trimming {type} from database
+        /// </summary>
+        public const string DB_TRIM_OBJECTS = "ui.db.trim.objects";
     }
 }
