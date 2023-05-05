@@ -84,5 +84,15 @@ namespace SanteDB.Core.i18n
         /// String like: Trimming {type} from database
         /// </summary>
         public const string DB_TRIM_OBJECTS = "ui.db.trim.objects";
+
+        /// <summary>
+        /// String like: Pulling {resource} from upstream
+        /// </summary>
+        public const string SYNC_PULL = "ui.sync.pull";
+
+        /// <summary>
+        /// String like: Pulling {resource} from upstream ({count} objects)
+        /// </summary>
+        public const string SYNC_PULL_STATE = "ui.sync.pull.state";
     }
 }

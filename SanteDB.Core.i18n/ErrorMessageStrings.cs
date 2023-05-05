@@ -479,7 +479,7 @@ namespace SanteDB.Core.i18n
         public const string DEV_CLAIM_GEN_ERR = "error.security.device.claim";
 
         /// <summary>
-        /// String like: Error reading {data} to upstream
+        /// String like: Error reading {data} from upstream
         /// </summary>
         public const string UPSTREAM_READ_ERR = "error.upstream.read";
 
