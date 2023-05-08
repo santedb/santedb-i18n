@@ -709,6 +709,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This service should no longer be used - please use alternate {0}.
+        /// </summary>
+        public static string USE_ALTERNATE_SERVICE {
+            get {
+                return ResourceManager.GetString("USE_ALTERNATE_SERVICE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Variable {0} is not declared.
         /// </summary>
         public static string VARIABLE_NOT_FOUND {
