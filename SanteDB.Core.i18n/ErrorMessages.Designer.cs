@@ -169,6 +169,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Certificate installation failed.
+        /// </summary>
+        public static string CERTIFICATE_INSTALL_FAILED {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_INSTALL_FAILED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Authentication certificate could not be found.
         /// </summary>
         public static string CERTIFICATE_NOT_FOUND {
