@@ -384,6 +384,11 @@ namespace SanteDB.Core.i18n
         public const string ALREADY_HAS_WHERE = "error.data.alreadyHasWhere";
 
         /// <summary>
+        /// String Like: Session audience has changed on refresh - not permitted!
+        /// </summary>
+        public const string SESSION_AUDIENCE_CHANGED = "error.security.session.refresh.audience";
+
+        /// <summary>
         /// Session identity is invalid
         /// </summary>
         public const string SESSION_IDENTITY_INVALID = "error.security.session.identity.invalid";
