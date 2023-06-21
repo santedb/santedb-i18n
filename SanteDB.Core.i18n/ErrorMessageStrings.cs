@@ -199,9 +199,9 @@ namespace SanteDB.Core.i18n
         public const string SEC_POL_NOT_SUPPORTED = "error.security.policy.notSupported";
 
         /// <summary>
-        /// Error un-assigning role {role} from {user}
+        /// Error assigning roles {role} to/from {user}
         /// </summary>
-        public const string ROL_UNASSOC = "error.security.user.roleUnAssign";
+        public const string ROL_ASSOC = "error.security.user.roleAssign";
 
         /// <summary>
         /// Error querying for roles
@@ -667,5 +667,10 @@ namespace SanteDB.Core.i18n
         /// String like: Error storing match configuration {id}
         /// </summary>
         public const string MATCH_CONFIG_ERR = "error.match.config.store";
+
+        /// <summary>
+        /// String like: This operation requires an active connection to the central server
+        /// </summary>
+        public const string CONNECTION_REQUIRED = "error.connection.required";
     }
 }
