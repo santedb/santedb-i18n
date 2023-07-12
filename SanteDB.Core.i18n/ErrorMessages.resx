@@ -135,6 +135,9 @@
   <data name="ARGUMENT_OUT_OF_RANGE" xml:space="preserve">
     <value>Value {0} was not expected (allowed values: {1})</value>
   </data>
+  <data name="ASSERTION_MISMATCH" xml:space="preserve">
+    <value>Assertion failed. Expected {0} but was {1}</value>
+  </data>
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="FILE_ENCRYPTED_INVALID_PASSPHRASE" xml:space="preserve">
     <value>Invalid passphrase to decrypt the file</value>
+  </data>
+  <data name="FORBIDDEN_HEADER" xml:space="preserve">
+    <value>Header {0} is not permitted for this HTTP method</value>
   </data>
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
@@ -300,6 +306,9 @@
   <data name="RELATED_OBJECT_NOT_AVAILABLE" xml:space="preserve">
     <value>No persistence service has been registered with source of {1} and target of {0}</value>
   </data>
+  <data name="REQUIRED_HEADER" xml:space="preserve">
+    <value>Header {0} is required for this HTTP method</value>
+  </data>
   <data name="REST_CLIENT_NOT_FOUND" xml:space="preserve">
     <value>Rest client configuration for {0} not found</value>
   </data>
@@ -311,6 +320,9 @@
   </data>
   <data name="SERVICE_NOT_FOUND" xml:space="preserve">
     <value>Required service {0} is not found</value>
+  </data>
+  <data name="SIGNATURE_VALIDATION_ERROR" xml:space="preserve">
+    <value>Digital signature failed validation</value>
   </data>
   <data name="SOLUTIONS_NOT_SUPPORTED" xml:space="preserve">
     <value>Applet solutions are not permitted</value>

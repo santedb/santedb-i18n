@@ -607,7 +607,6 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string FOREIGN_DATA_UNSUPPORTED_FORMAT = "error.foreign.manager.map.format";
 
-
         /// <summary>
         /// String like: General error in datamart manager
         /// </summary>
@@ -672,5 +671,20 @@ namespace SanteDB.Core.i18n
         /// String like: This operation requires an active connection to the central server
         /// </summary>
         public const string CONNECTION_REQUIRED = "error.connection.required";
+
+        /// <summary>
+        /// String like: General error querying signing certificates
+        /// </summary>
+        public const string SIG_CERT_GENERAL = "error.signing.cert.gen";
+
+        /// <summary>
+        /// String like: Error assigning signing certificate {subject} to {identity}
+        /// </summary>
+        public const string SIG_CERT_CREATE_GEN = "error.signing.cert.create";
+
+        /// <summary>
+        /// String like: Error removing signing certificate {subject} from {identity}
+        /// </summary>
+        public const string SIG_CERT_REMOVE_GEN = "error.signing.cert.remove";
     }
 }

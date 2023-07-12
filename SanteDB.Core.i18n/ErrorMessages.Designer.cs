@@ -115,6 +115,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Assertion failed. Expected {0} but was {1}.
+        /// </summary>
+        public static string ASSERTION_MISMATCH {
+            get {
+                return ResourceManager.GetString("ASSERTION_MISMATCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
         /// </summary>
         public static string BUNDLE_PERSISTENCE_ERROR {
@@ -327,6 +336,15 @@ namespace SanteDB.Core.i18n {
         public static string FILE_ENCRYPTED_INVALID_PASSPHRASE {
             get {
                 return ResourceManager.GetString("FILE_ENCRYPTED_INVALID_PASSPHRASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
+        /// </summary>
+        public static string FORBIDDEN_HEADER {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_HEADER", resourceCulture);
             }
         }
         
@@ -610,6 +628,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Header {0} is required for this HTTP method.
+        /// </summary>
+        public static string REQUIRED_HEADER {
+            get {
+                return ResourceManager.GetString("REQUIRED_HEADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rest client configuration for {0} not found.
         /// </summary>
         public static string REST_CLIENT_NOT_FOUND {
@@ -642,6 +669,15 @@ namespace SanteDB.Core.i18n {
         public static string SERVICE_NOT_FOUND {
             get {
                 return ResourceManager.GetString("SERVICE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digital signature failed validation.
+        /// </summary>
+        public static string SIGNATURE_VALIDATION_ERROR {
+            get {
+                return ResourceManager.GetString("SIGNATURE_VALIDATION_ERROR", resourceCulture);
             }
         }
         
