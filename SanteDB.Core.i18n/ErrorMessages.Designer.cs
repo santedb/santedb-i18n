@@ -583,6 +583,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Destination peer and this node are not connected.
+        /// </summary>
+        public static string PEER_NOT_CONNECTED {
+            get {
+                return ResourceManager.GetString("PEER_NOT_CONNECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destination peer is unknown.
+        /// </summary>
+        public static string PEER_UNKNOWN {
+            get {
+                return ResourceManager.GetString("PEER_UNKNOWN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {

@@ -291,6 +291,12 @@
   <data name="OBJECT_READONLY" xml:space="preserve">
     <value>This object is readonly and cannot be modified or saved</value>
   </data>
+  <data name="PEER_NOT_CONNECTED" xml:space="preserve">
+    <value>Destination peer and this node are not connected</value>
+  </data>
+  <data name="PEER_UNKNOWN" xml:space="preserve">
+    <value>Destination peer is unknown</value>
+  </data>
   <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
     <value>Provided principal is not valid in this context</value>
   </data>
