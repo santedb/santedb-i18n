@@ -686,5 +686,10 @@ namespace SanteDB.Core.i18n
         /// String like: Error removing signing certificate {subject} from {identity}
         /// </summary>
         public const string SIG_CERT_REMOVE_GEN = "error.signing.cert.remove";
+
+        /// <summary>
+        /// String like: Signing certificate is already assigned to another device
+        /// </summary>
+        public const string SIG_CERT_ALREADY_ASSIGNED = "error.signing.cert.duplicate";
     }
 }
