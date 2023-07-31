@@ -583,6 +583,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This operation requires a filter (global queries are not permitted).
+        /// </summary>
+        public static string OPERATION_REQUIRES_QUERY_PARAMETER {
+            get {
+                return ResourceManager.GetString("OPERATION_REQUIRES_QUERY_PARAMETER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Destination peer and this node are not connected.
         /// </summary>
         public static string PEER_NOT_CONNECTED {
@@ -759,6 +768,15 @@ namespace SanteDB.Core.i18n {
         public static string TYPE_NOT_FOUND {
             get {
                 return ResourceManager.GetString("TYPE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to determine appropriate export policy.
+        /// </summary>
+        public static string UNABLE_TO_DETERMINE_EXPORT_POLICY {
+            get {
+                return ResourceManager.GetString("UNABLE_TO_DETERMINE_EXPORT_POLICY", resourceCulture);
             }
         }
         

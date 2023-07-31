@@ -291,6 +291,9 @@
   <data name="OBJECT_READONLY" xml:space="preserve">
     <value>This object is readonly and cannot be modified or saved</value>
   </data>
+  <data name="OPERATION_REQUIRES_QUERY_PARAMETER" xml:space="preserve">
+    <value>This operation requires a filter (global queries are not permitted)</value>
+  </data>
   <data name="PEER_NOT_CONNECTED" xml:space="preserve">
     <value>Destination peer and this node are not connected</value>
   </data>
@@ -350,6 +353,9 @@
   </data>
   <data name="TYPE_NOT_FOUND" xml:space="preserve">
     <value>Referenced type {0} not available</value>
+  </data>
+  <data name="UNABLE_TO_DETERMINE_EXPORT_POLICY" xml:space="preserve">
+    <value>Unable to determine appropriate export policy</value>
   </data>
   <data name="UPSTREAM_NOT_CONFIGURED" xml:space="preserve">
     <value>This function requires the upstream to be configured</value>
