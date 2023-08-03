@@ -210,6 +210,12 @@
   <data name="FILE_ENCRYPTED_INVALID_PASSPHRASE" xml:space="preserve">
     <value>Invalid passphrase to decrypt the file</value>
   </data>
+  <data name="FILTER_ENCRYPTED_FIELD" xml:space="preserve">
+    <value>Only exact equal filters are supported on encrypted fields</value>
+  </data>
+  <data name="FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED" xml:space="preserve">
+    <value>Filtering on encrypted fields when RANDOM method is configured is not supported</value>
+  </data>
   <data name="FORBIDDEN_HEADER" xml:space="preserve">
     <value>Header {0} is not permitted for this HTTP method</value>
   </data>

@@ -340,6 +340,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Only exact equal filters are supported on encrypted fields.
+        /// </summary>
+        public static string FILTER_ENCRYPTED_FIELD {
+            get {
+                return ResourceManager.GetString("FILTER_ENCRYPTED_FIELD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filtering on encrypted fields when RANDOM method is configured is not supported.
+        /// </summary>
+        public static string FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
         /// </summary>
         public static string FORBIDDEN_HEADER {
