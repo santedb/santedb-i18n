@@ -177,6 +177,9 @@
   <data name="CONNECTION_STRING_NOT_FOUND" xml:space="preserve">
     <value>Connection string {0} not found</value>
   </data>
+  <data name="CRYPTO_OPERATION_FAILED" xml:space="preserve">
+    <value>Cryptographic operation failed</value>
+  </data>
   <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
     <value>Data structure is not appropriate for {0} due to {1}</value>
   </data>
