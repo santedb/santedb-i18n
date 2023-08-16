@@ -259,6 +259,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Value decryption failed.
+        /// </summary>
+        public static string DECRYPTION_FAILED {
+            get {
+                return ResourceManager.GetString("DECRYPTION_FAILED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This service relies on the presence of a configuration for {0}.
         /// </summary>
         public static string DEPENDENT_CONFIGURATION_MISSING {

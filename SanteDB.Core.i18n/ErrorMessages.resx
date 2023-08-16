@@ -183,6 +183,9 @@
   <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
     <value>Data structure is not appropriate for {0} due to {1}</value>
   </data>
+  <data name="DECRYPTION_FAILED" xml:space="preserve">
+    <value>Value decryption failed</value>
+  </data>
   <data name="DEPENDENT_CONFIGURATION_MISSING" xml:space="preserve">
     <value>This service relies on the presence of a configuration for {0}</value>
   </data>
