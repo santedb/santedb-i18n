@@ -79,6 +79,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Encrypting {0}....
+        /// </summary>
+        public static string ENCRYPTING {
+            get {
+                return ResourceManager.GetString("ENCRYPTING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fetching data from upstream server....
         /// </summary>
         public static string FETCH_FROM_UPSTREAM {

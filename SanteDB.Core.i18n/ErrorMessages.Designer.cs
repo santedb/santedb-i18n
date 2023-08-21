@@ -115,6 +115,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Assertion failed. Expected {0} but was {1}.
+        /// </summary>
+        public static string ASSERTION_MISMATCH {
+            get {
+                return ResourceManager.GetString("ASSERTION_MISMATCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
         /// </summary>
         public static string BUNDLE_PERSISTENCE_ERROR {
@@ -232,11 +241,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cryptographic operation failed.
+        /// </summary>
+        public static string CRYPTO_OPERATION_FAILED {
+            get {
+                return ResourceManager.GetString("CRYPTO_OPERATION_FAILED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
         /// </summary>
         public static string DATA_STRUCTURE_NOT_APPROPRIATE {
             get {
                 return ResourceManager.GetString("DATA_STRUCTURE_NOT_APPROPRIATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value decryption failed.
+        /// </summary>
+        public static string DECRYPTION_FAILED {
+            get {
+                return ResourceManager.GetString("DECRYPTION_FAILED", resourceCulture);
             }
         }
         
@@ -327,6 +354,33 @@ namespace SanteDB.Core.i18n {
         public static string FILE_ENCRYPTED_INVALID_PASSPHRASE {
             get {
                 return ResourceManager.GetString("FILE_ENCRYPTED_INVALID_PASSPHRASE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only exact equal filters are supported on encrypted fields.
+        /// </summary>
+        public static string FILTER_ENCRYPTED_FIELD {
+            get {
+                return ResourceManager.GetString("FILTER_ENCRYPTED_FIELD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Filtering on encrypted fields when RANDOM method is configured is not supported.
+        /// </summary>
+        public static string FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
+        /// </summary>
+        public static string FORBIDDEN_HEADER {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_HEADER", resourceCulture);
             }
         }
         
@@ -565,6 +619,33 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This operation requires a filter (global queries are not permitted).
+        /// </summary>
+        public static string OPERATION_REQUIRES_QUERY_PARAMETER {
+            get {
+                return ResourceManager.GetString("OPERATION_REQUIRES_QUERY_PARAMETER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destination peer and this node are not connected.
+        /// </summary>
+        public static string PEER_NOT_CONNECTED {
+            get {
+                return ResourceManager.GetString("PEER_NOT_CONNECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Destination peer is unknown.
+        /// </summary>
+        public static string PEER_UNKNOWN {
+            get {
+                return ResourceManager.GetString("PEER_UNKNOWN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {
@@ -610,6 +691,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Header {0} is required for this HTTP method.
+        /// </summary>
+        public static string REQUIRED_HEADER {
+            get {
+                return ResourceManager.GetString("REQUIRED_HEADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Rest client configuration for {0} not found.
         /// </summary>
         public static string REST_CLIENT_NOT_FOUND {
@@ -642,6 +732,15 @@ namespace SanteDB.Core.i18n {
         public static string SERVICE_NOT_FOUND {
             get {
                 return ResourceManager.GetString("SERVICE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digital signature failed validation.
+        /// </summary>
+        public static string SIGNATURE_VALIDATION_ERROR {
+            get {
+                return ResourceManager.GetString("SIGNATURE_VALIDATION_ERROR", resourceCulture);
             }
         }
         
@@ -705,6 +804,15 @@ namespace SanteDB.Core.i18n {
         public static string TYPE_NOT_FOUND {
             get {
                 return ResourceManager.GetString("TYPE_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to determine appropriate export policy.
+        /// </summary>
+        public static string UNABLE_TO_DETERMINE_EXPORT_POLICY {
+            get {
+                return ResourceManager.GetString("UNABLE_TO_DETERMINE_EXPORT_POLICY", resourceCulture);
             }
         }
         

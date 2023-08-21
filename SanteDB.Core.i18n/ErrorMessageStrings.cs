@@ -16,7 +16,7 @@
  * the License.
  *
  * User: fyfej
- * Date: 2023-3-10
+ * Date: 2023-5-19
  */
 namespace SanteDB.Core.i18n
 {
@@ -199,9 +199,9 @@ namespace SanteDB.Core.i18n
         public const string SEC_POL_NOT_SUPPORTED = "error.security.policy.notSupported";
 
         /// <summary>
-        /// Error un-assigning role {role} from {user}
+        /// Error assigning roles {role} to/from {user}
         /// </summary>
-        public const string ROL_UNASSOC = "error.security.user.roleUnAssign";
+        public const string ROL_ASSOC = "error.security.user.roleAssign";
 
         /// <summary>
         /// Error querying for roles
@@ -607,7 +607,6 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string FOREIGN_DATA_UNSUPPORTED_FORMAT = "error.foreign.manager.map.format";
 
-
         /// <summary>
         /// String like: General error in datamart manager
         /// </summary>
@@ -667,5 +666,30 @@ namespace SanteDB.Core.i18n
         /// String like: Error storing match configuration {id}
         /// </summary>
         public const string MATCH_CONFIG_ERR = "error.match.config.store";
+
+        /// <summary>
+        /// String like: This operation requires an active connection to the central server
+        /// </summary>
+        public const string CONNECTION_REQUIRED = "error.connection.required";
+
+        /// <summary>
+        /// String like: General error querying signing certificates
+        /// </summary>
+        public const string SIG_CERT_GENERAL = "error.signing.cert.gen";
+
+        /// <summary>
+        /// String like: Error assigning signing certificate {subject} to {identity}
+        /// </summary>
+        public const string SIG_CERT_CREATE_GEN = "error.signing.cert.create";
+
+        /// <summary>
+        /// String like: Error removing signing certificate {subject} from {identity}
+        /// </summary>
+        public const string SIG_CERT_REMOVE_GEN = "error.signing.cert.remove";
+
+        /// <summary>
+        /// String like: Signing certificate is already assigned to another device
+        /// </summary>
+        public const string SIG_CERT_ALREADY_ASSIGNED = "error.signing.cert.duplicate";
     }
 }
