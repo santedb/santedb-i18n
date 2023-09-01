@@ -241,11 +241,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cryptographic operation failed.
+        /// </summary>
+        public static string CRYPTO_OPERATION_FAILED {
+            get {
+                return ResourceManager.GetString("CRYPTO_OPERATION_FAILED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
         /// </summary>
         public static string DATA_STRUCTURE_NOT_APPROPRIATE {
             get {
                 return ResourceManager.GetString("DATA_STRUCTURE_NOT_APPROPRIATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value decryption failed.
+        /// </summary>
+        public static string DECRYPTION_FAILED {
+            get {
+                return ResourceManager.GetString("DECRYPTION_FAILED", resourceCulture);
             }
         }
         
