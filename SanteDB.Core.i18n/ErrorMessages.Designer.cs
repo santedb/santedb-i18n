@@ -628,6 +628,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The current .NET platform is not supported. Framework 4.7.1+ or .NET 6.0+ is required..
+        /// </summary>
+        public static string PLATFORM_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("PLATFORM_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {

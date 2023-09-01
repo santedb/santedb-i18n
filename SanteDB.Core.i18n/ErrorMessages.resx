@@ -306,6 +306,9 @@
   <data name="PEER_UNKNOWN" xml:space="preserve">
     <value>Destination peer is unknown</value>
   </data>
+  <data name="PLATFORM_NOT_SUPPORTED" xml:space="preserve">
+    <value>The current .NET platform is not supported. Framework 4.7.1+ or .NET 6.0+ is required.</value>
+  </data>
   <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
     <value>Provided principal is not valid in this context</value>
   </data>
