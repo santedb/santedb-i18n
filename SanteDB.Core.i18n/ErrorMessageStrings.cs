@@ -229,6 +229,11 @@ namespace SanteDB.Core.i18n
         public const string NOT_FOUND = "error.data.notFound";
 
         /// <summary>
+        /// Timeout ocurred during {operation}
+        /// </summary>
+        public const string TIMEOUT = "error.general.timeout";
+
+        /// <summary>
         /// Attempt was made to update an object without an identifier
         /// </summary>
         public const string NON_IDENTITY_UPDATE = "error.data.nonIdentityUpdate";
