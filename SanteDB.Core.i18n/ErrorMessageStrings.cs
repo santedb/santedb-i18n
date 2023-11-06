@@ -696,5 +696,10 @@ namespace SanteDB.Core.i18n
         /// String like: Signing certificate is already assigned to another device
         /// </summary>
         public const string SIG_CERT_ALREADY_ASSIGNED = "error.signing.cert.duplicate";
+
+        /// <summary>
+        /// String like: Claims from an upstream identity cannot be modified.
+        /// </summary>
+        public const string UPSTREAM_CLAIMS_READONLY = "error.upstream.claims.readonly";
     }
 }
