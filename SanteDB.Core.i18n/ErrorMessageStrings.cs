@@ -701,5 +701,10 @@ namespace SanteDB.Core.i18n
         /// String like: Claims from an upstream identity cannot be modified.
         /// </summary>
         public const string UPSTREAM_CLAIMS_READONLY = "error.upstream.claims.readonly";
+
+        /// <summary>
+        /// String like: General error persisting CDSS library
+        /// </summary>
+        public const string CDSS_LIBRARY_MANAGE_ERROR = "error.cdss.manage.error";
     }
 }

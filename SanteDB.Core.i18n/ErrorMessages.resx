@@ -225,6 +225,9 @@
   <data name="FORBIDDEN_HEADER" xml:space="preserve">
     <value>Header {0} is not permitted for this HTTP method</value>
   </data>
+  <data name="FORBIDDEN_ON_OBJECT_IN_STATE" xml:space="preserve">
+    <value>The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates "Don't Use")</value>
+  </data>
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
   </data>

@@ -385,6 +385,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates &quot;Don&apos;t Use&quot;).
+        /// </summary>
+        public static string FORBIDDEN_ON_OBJECT_IN_STATE {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_ON_OBJECT_IN_STATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error querying data from underlying data source.
         /// </summary>
         public static string GENERAL_QUERY_ERROR {
