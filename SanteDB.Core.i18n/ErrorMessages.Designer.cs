@@ -862,6 +862,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Warning - The configuration was not committed. The setting will be in effect only until SanteDB is restarted.
+        /// </summary>
+        public static string WARN_CONFIGURATION_NOT_UPDATED {
+            get {
+                return ResourceManager.GetString("WARN_CONFIGURATION_NOT_UPDATED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Calling {0} would result in an invalid state for this object.
         /// </summary>
         public static string WOULD_RESULT_INVALID_STATE {
