@@ -223,6 +223,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cloning is only permitted for readonly connections.
+        /// </summary>
+        public static string CLONE_READONLY_ALLOWED {
+            get {
+                return ResourceManager.GetString("CLONE_READONLY_ALLOWED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error parsing response message.
         /// </summary>
         public static string COMMUNICATION_RESPONSE_FAILURE {
@@ -876,6 +885,15 @@ namespace SanteDB.Core.i18n {
         public static string WOULD_RESULT_INVALID_STATE {
             get {
                 return ResourceManager.GetString("WOULD_RESULT_INVALID_STATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write lock is unavailable.
+        /// </summary>
+        public static string WRITE_LOCK_UNAVAILABLE {
+            get {
+                return ResourceManager.GetString("WRITE_LOCK_UNAVAILABLE", resourceCulture);
             }
         }
     }

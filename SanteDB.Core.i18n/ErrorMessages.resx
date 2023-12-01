@@ -171,6 +171,9 @@
   <data name="CERTIFICATE_REQ_NOT_VALID" xml:space="preserve">
     <value>The certificate signing request is not valid</value>
   </data>
+  <data name="CLONE_READONLY_ALLOWED" xml:space="preserve">
+    <value>Cloning is only permitted for readonly connections</value>
+  </data>
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>
@@ -389,5 +392,8 @@
   </data>
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>
+  </data>
+  <data name="WRITE_LOCK_UNAVAILABLE" xml:space="preserve">
+    <value>Write lock is unavailable</value>
   </data>
 </root>
