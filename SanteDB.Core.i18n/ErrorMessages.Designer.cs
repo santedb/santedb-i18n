@@ -223,6 +223,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cloning is only permitted for readonly connections.
+        /// </summary>
+        public static string CLONE_READONLY_ALLOWED {
+            get {
+                return ResourceManager.GetString("CLONE_READONLY_ALLOWED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error parsing response message.
         /// </summary>
         public static string COMMUNICATION_RESPONSE_FAILURE {
@@ -381,6 +390,15 @@ namespace SanteDB.Core.i18n {
         public static string FORBIDDEN_HEADER {
             get {
                 return ResourceManager.GetString("FORBIDDEN_HEADER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates &quot;Don&apos;t Use&quot;).
+        /// </summary>
+        public static string FORBIDDEN_ON_OBJECT_IN_STATE {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_ON_OBJECT_IN_STATE", resourceCulture);
             }
         }
         
@@ -646,6 +664,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The current .NET platform is not supported. Framework 4.7.1+ or .NET 6.0+ is required..
+        /// </summary>
+        public static string PLATFORM_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("PLATFORM_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {
@@ -844,11 +871,29 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Warning - The configuration was not committed. The setting will be in effect only until SanteDB is restarted.
+        /// </summary>
+        public static string WARN_CONFIGURATION_NOT_UPDATED {
+            get {
+                return ResourceManager.GetString("WARN_CONFIGURATION_NOT_UPDATED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Calling {0} would result in an invalid state for this object.
         /// </summary>
         public static string WOULD_RESULT_INVALID_STATE {
             get {
                 return ResourceManager.GetString("WOULD_RESULT_INVALID_STATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write lock is unavailable.
+        /// </summary>
+        public static string WRITE_LOCK_UNAVAILABLE {
+            get {
+                return ResourceManager.GetString("WRITE_LOCK_UNAVAILABLE", resourceCulture);
             }
         }
     }

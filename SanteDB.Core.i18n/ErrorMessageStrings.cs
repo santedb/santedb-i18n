@@ -229,6 +229,11 @@ namespace SanteDB.Core.i18n
         public const string NOT_FOUND = "error.data.notFound";
 
         /// <summary>
+        /// Timeout ocurred during {operation}
+        /// </summary>
+        public const string TIMEOUT = "error.general.timeout";
+
+        /// <summary>
         /// Attempt was made to update an object without an identifier
         /// </summary>
         public const string NON_IDENTITY_UPDATE = "error.data.nonIdentityUpdate";
@@ -691,5 +696,15 @@ namespace SanteDB.Core.i18n
         /// String like: Signing certificate is already assigned to another device
         /// </summary>
         public const string SIG_CERT_ALREADY_ASSIGNED = "error.signing.cert.duplicate";
+
+        /// <summary>
+        /// String like: Claims from an upstream identity cannot be modified.
+        /// </summary>
+        public const string UPSTREAM_CLAIMS_READONLY = "error.upstream.claims.readonly";
+
+        /// <summary>
+        /// String like: General error persisting CDSS library
+        /// </summary>
+        public const string CDSS_LIBRARY_MANAGE_ERROR = "error.cdss.manage.error";
     }
 }

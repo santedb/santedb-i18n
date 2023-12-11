@@ -171,6 +171,9 @@
   <data name="CERTIFICATE_REQ_NOT_VALID" xml:space="preserve">
     <value>The certificate signing request is not valid</value>
   </data>
+  <data name="CLONE_READONLY_ALLOWED" xml:space="preserve">
+    <value>Cloning is only permitted for readonly connections</value>
+  </data>
   <data name="COMMUNICATION_RESPONSE_FAILURE" xml:space="preserve">
     <value>Error parsing response message</value>
   </data>
@@ -224,6 +227,9 @@
   </data>
   <data name="FORBIDDEN_HEADER" xml:space="preserve">
     <value>Header {0} is not permitted for this HTTP method</value>
+  </data>
+  <data name="FORBIDDEN_ON_OBJECT_IN_STATE" xml:space="preserve">
+    <value>The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates "Don't Use")</value>
   </data>
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
@@ -312,6 +318,9 @@
   <data name="PEER_UNKNOWN" xml:space="preserve">
     <value>Destination peer is unknown</value>
   </data>
+  <data name="PLATFORM_NOT_SUPPORTED" xml:space="preserve">
+    <value>The current .NET platform is not supported. Framework 4.7.1+ or .NET 6.0+ is required.</value>
+  </data>
   <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
     <value>Provided principal is not valid in this context</value>
   </data>
@@ -378,7 +387,13 @@
   <data name="VARIABLE_NOT_FOUND" xml:space="preserve">
     <value>Variable {0} is not declared</value>
   </data>
+  <data name="WARN_CONFIGURATION_NOT_UPDATED" xml:space="preserve">
+    <value>Warning - The configuration was not committed. The setting will be in effect only until SanteDB is restarted</value>
+  </data>
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>
+  </data>
+  <data name="WRITE_LOCK_UNAVAILABLE" xml:space="preserve">
+    <value>Write lock is unavailable</value>
   </data>
 </root>
