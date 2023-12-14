@@ -160,6 +160,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error starting up context.
+        /// </summary>
+        public static string CANNOT_STARTUP_CONTEXT {
+            get {
+                return ResourceManager.GetString("CANNOT_STARTUP_CONTEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot read data from this stream/source (write-only).
         /// </summary>
         public static string CANT_READ_WRITE_ONLY_STREAM {

@@ -150,6 +150,9 @@
   <data name="CANNOT_SET_VALUE_AT_PATH" xml:space="preserve">
     <value>Cannot set value at path {0} (type: {1})</value>
   </data>
+  <data name="CANNOT_STARTUP_CONTEXT" xml:space="preserve">
+    <value>Error starting up context</value>
+  </data>
   <data name="CANT_READ_WRITE_ONLY_STREAM" xml:space="preserve">
     <value>Cannot read data from this stream/source (write-only)</value>
   </data>
