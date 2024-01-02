@@ -92,5 +92,10 @@ namespace SanteDB.Core.i18n
         /// String like: Pulling {resource} from upstream ({count} objects)
         /// </summary>
         public const string SYNC_PULL_STATE = "ui.sync.pull.state";
+
+        /// <summary>
+        /// String Like: Running {jobName}
+        /// </summary>
+        public const string RUN_JOB = "ui.job.run";
     }
 }
