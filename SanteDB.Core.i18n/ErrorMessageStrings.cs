@@ -706,5 +706,16 @@ namespace SanteDB.Core.i18n
         /// String like: General error persisting CDSS library
         /// </summary>
         public const string CDSS_LIBRARY_MANAGE_ERROR = "error.cdss.manage.error";
+
+        /// <summary>
+        /// String like: General error reading data quality configuration
+        /// </summary>
+        public const string DATAQUALITY_CONFIG_READ_ERROR = "error.dq.config.read";
+
+        /// <summary>
+        /// String like: General error writing data quality configuration
+        /// </summary>
+        public const string DATAQUALITY_CONFIG_WRITE_ERROR = "error.dq.config.write";
+
     }
 }
