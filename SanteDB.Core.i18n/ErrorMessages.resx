@@ -192,6 +192,9 @@
   <data name="DECRYPTION_FAILED" xml:space="preserve">
     <value>Value decryption failed</value>
   </data>
+  <data name="DELETE_ERROR" xml:space="preserve">
+    <value>Error deleting resource {0}</value>
+  </data>
   <data name="DEPENDENT_CONFIGURATION_MISSING" xml:space="preserve">
     <value>This service relies on the presence of a configuration for {0}</value>
   </data>
@@ -395,6 +398,9 @@
   </data>
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>
+  </data>
+  <data name="WRITE_ERROR" xml:space="preserve">
+    <value>Error writing resource {0}</value>
   </data>
   <data name="WRITE_LOCK_UNAVAILABLE" xml:space="preserve">
     <value>Write lock is unavailable</value>

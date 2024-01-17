@@ -286,6 +286,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error deleting resource {0}.
+        /// </summary>
+        public static string DELETE_ERROR {
+            get {
+                return ResourceManager.GetString("DELETE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This service relies on the presence of a configuration for {0}.
         /// </summary>
         public static string DEPENDENT_CONFIGURATION_MISSING {
@@ -894,6 +903,15 @@ namespace SanteDB.Core.i18n {
         public static string WOULD_RESULT_INVALID_STATE {
             get {
                 return ResourceManager.GetString("WOULD_RESULT_INVALID_STATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error writing resource {0}.
+        /// </summary>
+        public static string WRITE_ERROR {
+            get {
+                return ResourceManager.GetString("WRITE_ERROR", resourceCulture);
             }
         }
         
