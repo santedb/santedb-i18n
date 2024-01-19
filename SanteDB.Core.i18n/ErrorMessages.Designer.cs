@@ -691,6 +691,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Action cannot be performed because configured security policy ({0}) prevents it..
+        /// </summary>
+        public static string POLICY_PREVENTS_ACTION {
+            get {
+                return ResourceManager.GetString("POLICY_PREVENTS_ACTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {
