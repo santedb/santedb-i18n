@@ -97,5 +97,16 @@ namespace SanteDB.Core.i18n
         /// String Like: Running {jobName}
         /// </summary>
         public const string RUN_JOB = "ui.job.run";
+
+        /// <summary>
+        /// String Like: The application is pulling new data from the server - some functions may report errors during this time
+        /// </summary>
+        public const string SYNC_PULL_START_NOTIFY = "ui.sync.onStart.begin";
+
+        /// <summary>
+        /// String Like: The application has completed its initial pull of information from the server. 
+        /// </summary>
+        public const string SYNC_PULL_START_COMPLETE = "ui.sync.onStart.complete";
+
     }
 }

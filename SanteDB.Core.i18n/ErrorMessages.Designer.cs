@@ -718,6 +718,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Read lock is unavailable (hint: your application may be synchronizing large amounts of data).
+        /// </summary>
+        public static string READ_LOCK_UNAVAILABLE {
+            get {
+                return ResourceManager.GetString("READ_LOCK_UNAVAILABLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reference to resource {0} could not be resolved.
         /// </summary>
         public static string REFERENCE_NOT_FOUND {
@@ -916,7 +925,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Write lock is unavailable.
+        ///   Looks up a localized string similar to Write lock is unavailable (hint: your application may be synchronizing large amounts of data).
         /// </summary>
         public static string WRITE_LOCK_UNAVAILABLE {
             get {

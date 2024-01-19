@@ -336,6 +336,9 @@
   <data name="READ_ERROR" xml:space="preserve">
     <value>Error reading resource {0}</value>
   </data>
+  <data name="READ_LOCK_UNAVAILABLE" xml:space="preserve">
+    <value>Read lock is unavailable (hint: your application may be synchronizing large amounts of data)</value>
+  </data>
   <data name="REFERENCE_NOT_FOUND" xml:space="preserve">
     <value>Reference to resource {0} could not be resolved</value>
   </data>
@@ -403,6 +406,6 @@
     <value>Error writing resource {0}</value>
   </data>
   <data name="WRITE_LOCK_UNAVAILABLE" xml:space="preserve">
-    <value>Write lock is unavailable</value>
+    <value>Write lock is unavailable (hint: your application may be synchronizing large amounts of data)</value>
   </data>
 </root>

@@ -717,5 +717,10 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string DATAQUALITY_CONFIG_WRITE_ERROR = "error.dq.config.write";
 
+        /// <summary>
+        /// String like: There was a problem pulling data from the remote server - {error}
+        /// </summary>
+        public const string SYNC_PULL_PROBLEM = "error.sync.pull.problem";
+
     }
 }
