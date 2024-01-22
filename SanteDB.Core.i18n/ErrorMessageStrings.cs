@@ -499,6 +499,11 @@ namespace SanteDB.Core.i18n
         public const string UPSTREAM_WRITE_ERR = "error.upstream.write";
 
         /// <summary>
+        /// String like: Error applying patch on server. Patch was {patch}
+        /// </summary>
+        public const string UPSTREAM_PATCH_ERR = "error.upstream.patch";
+
+        /// <summary>
         /// String like: General error interacting with upstream
         /// </summary>
         public const string UPSTREAM_GEN_ERR = "error.upstream.gen";
