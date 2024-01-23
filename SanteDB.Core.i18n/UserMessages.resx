@@ -150,6 +150,9 @@
   <data name="PROCESSING" xml:space="preserve">
     <value>Processing data</value>
   </data>
+  <data name="RESTART_REQUESTED_CONFIRM" xml:space="preserve">
+    <value>The application configuration has been changed. Do you want to restart the application?</value>
+  </data>
   <data name="STARTING_CONTEXT" xml:space="preserve">
     <value>Starting SanteDB</value>
   </data>

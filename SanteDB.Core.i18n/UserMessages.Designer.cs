@@ -160,6 +160,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The application configuration has been changed. Do you want to restart the application?.
+        /// </summary>
+        public static string RESTART_REQUESTED_CONFIRM {
+            get {
+                return ResourceManager.GetString("RESTART_REQUESTED_CONFIRM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Starting {0}....
         /// </summary>
         public static string START_DAEMON {
