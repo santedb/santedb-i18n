@@ -54,6 +54,16 @@ namespace SanteDB.Core.i18n
         public const string UPDATE_CHECK = "ui.app.update.checking";
 
         /// <summary>
+        /// String like: System backup is complete
+        /// </summary>
+        public const string BACKUP_COMPLETE = "ui.app.backup.complete";
+
+        /// <summary>
+        /// String like: Could not backup system files
+        /// </summary>
+        public const string BACKUP_ERROR = "ui.app.backup.error";
+
+        /// <summary>
         /// String like: Creating backup of system information
         /// </summary>
         public const string BACKUP_CREATE_PROGRESS = "ui.app.backup.create";
