@@ -118,5 +118,9 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string SYNC_PULL_START_COMPLETE = "ui.sync.onStart.complete";
 
+        /// <summary>
+        /// String Like: There is data which was downloaded that could not be processed, would you like to retry them?
+        /// </summary>
+        public const string RESUBMIT_DEADLETTER_QUEUE = "ui.start.deadLetter.resubmit";
     }
 }
