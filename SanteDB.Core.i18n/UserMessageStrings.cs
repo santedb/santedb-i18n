@@ -122,5 +122,21 @@ namespace SanteDB.Core.i18n
         /// String Like: There is data which was downloaded that could not be processed, would you like to retry them?
         /// </summary>
         public const string RESUBMIT_DEADLETTER_QUEUE = "ui.start.deadLetter.resubmit";
+
+        /// <summary>
+        /// String like: Open your preferred authenticator app and scan this QR code
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_HELP = "org.santedb.tfa.authenticator.help";
+
+        /// <summary>
+        /// String like: Authenticator Application
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR = "org.santedb.tfa.authenticator";
+
+        /// <summary>
+        /// String like: Open your authenticator app and enter the current code 
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_SCAN_INSTRUCTION = "org.santedb.tfa.authenticator.scan";
+
     }
 }
