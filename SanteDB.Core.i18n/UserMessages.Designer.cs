@@ -70,15 +70,6 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To restore this backup, you need to provide the backup passphrase used to create the backup..
-        /// </summary>
-        public static string AUTO_RESTORE_BACKUP_SECRET {
-            get {
-                return ResourceManager.GetString("AUTO_RESTORE_BACKUP_SECRET", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Complete.
         /// </summary>
         public static string COMPLETE {
