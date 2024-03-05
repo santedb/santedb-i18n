@@ -70,6 +70,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This backup is encrypted. Please enter the backup passphrase.
+        /// </summary>
+        public static string AUTO_RESTORE_BACKUP_SECRET {
+            get {
+                return ResourceManager.GetString("AUTO_RESTORE_BACKUP_SECRET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Complete.
         /// </summary>
         public static string COMPLETE {

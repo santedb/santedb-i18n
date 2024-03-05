@@ -120,6 +120,9 @@
   <data name="AUTO_RESTORE_BACKUP_CONFIGURATION_PROMPT" xml:space="preserve">
     <value>There is a backup from a previous installation of SanteDB on this device. Would you like to restore it?</value>
   </data>
+  <data name="AUTO_RESTORE_BACKUP_SECRET" xml:space="preserve">
+    <value>This backup is encrypted. Please enter the backup passphrase</value>
+  </data>
   <data name="COMPLETE" xml:space="preserve">
     <value>Complete</value>
   </data>
