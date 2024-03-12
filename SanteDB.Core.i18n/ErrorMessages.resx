@@ -240,6 +240,12 @@
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
   </data>
+  <data name="HDSI_GUARD_INVALID" xml:space="preserve">
+    <value>Guard Expression is not valid: {0}</value>
+  </data>
+  <data name="HDSI_PATH_INVALID" xml:space="preserve">
+    <value>No property is found at the HDSI path</value>
+  </data>
   <data name="INVALID_CLASS_CODE" xml:space="preserve">
     <value>Classification code is not valid on this type</value>
   </data>
@@ -302,6 +308,9 @@
   </data>
   <data name="NOT_SUPPORTED_IMPLEMENTATION" xml:space="preserve">
     <value>The provided object must implement {0} to support this function</value>
+  </data>
+  <data name="NO_CLASSIFIER_PROPERTY" xml:space="preserve">
+    <value>Classifier property is not present on {0}</value>
   </data>
   <data name="NO_DATA_KEY_DEFINED" xml:space="preserve">
     <value>Object {0} cannot be resolved because it does not define a key</value>
