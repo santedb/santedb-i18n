@@ -403,6 +403,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Configuration forbids the use of data field {0}.
+        /// </summary>
+        public static string FORBIDDEN_FIELD {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_FIELD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
         /// </summary>
         public static string FORBIDDEN_HEADER {

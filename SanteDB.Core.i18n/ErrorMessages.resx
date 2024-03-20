@@ -231,6 +231,9 @@
   <data name="FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED" xml:space="preserve">
     <value>Filtering on encrypted fields when RANDOM method is configured is not supported</value>
   </data>
+  <data name="FORBIDDEN_FIELD" xml:space="preserve">
+    <value>Configuration forbids the use of data field {0}</value>
+  </data>
   <data name="FORBIDDEN_HEADER" xml:space="preserve">
     <value>Header {0} is not permitted for this HTTP method</value>
   </data>
