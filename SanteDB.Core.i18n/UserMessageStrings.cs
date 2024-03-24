@@ -74,6 +74,11 @@ namespace SanteDB.Core.i18n
         public const string BACKUP_RESTORE_PROGRESS = "ui.app.backup.restore";
 
         /// <summary>
+        /// String like: Backup has started. System performance may be degraded while this process continues.
+        /// </summary>
+        public const string BACKUP_STARTED = "ui.app.backup.start";
+
+        /// <summary>
         /// String like: The certificate {cert} is not trusted. Do you want to trust it?
         /// </summary>
         public const string CONFIRM_CERTIFICATE_TRUST = "ui.app.certificate.trust";
