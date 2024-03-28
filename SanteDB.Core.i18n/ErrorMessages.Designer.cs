@@ -475,6 +475,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The key property {0} does not match the value provided in the model&apos;s key property {1}.
+        /// </summary>
+        public static string KEY_PROPERTY_DISAGREEMENT {
+            get {
+                return ResourceManager.GetString("KEY_PROPERTY_DISAGREEMENT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This instance is configured for online use only - no local methods are supported ({0}).
         /// </summary>
         public static string LOCAL_SERVICE_NOT_SUPPORTED {
