@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (C) 2021 - 2023, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
+ * Copyright (C) 2021 - 2024, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
  * Copyright (C) 2019 - 2021, Fyfe Software Inc. and the SanteSuite Contributors
  * Portions Copyright (C) 2015-2018 Mohawk College of Applied Arts and Technology
  *
@@ -16,7 +16,7 @@
  * the License.
  *
  * User: fyfej
- * Date: 2023-5-19
+ * Date: 2023-6-21
  */
 using System;
 
@@ -74,6 +74,11 @@ namespace SanteDB.Core.i18n
         public const string BACKUP_RESTORE_PROGRESS = "ui.app.backup.restore";
 
         /// <summary>
+        /// String like: Backup has started. System performance may be degraded while this process continues.
+        /// </summary>
+        public const string BACKUP_STARTED = "ui.app.backup.start";
+
+        /// <summary>
         /// String like: The certificate {cert} is not trusted. Do you want to trust it?
         /// </summary>
         public const string CONFIRM_CERTIFICATE_TRUST = "ui.app.certificate.trust";
@@ -122,5 +127,21 @@ namespace SanteDB.Core.i18n
         /// String Like: There is data which was downloaded that could not be processed, would you like to retry them?
         /// </summary>
         public const string RESUBMIT_DEADLETTER_QUEUE = "ui.start.deadLetter.resubmit";
+
+        /// <summary>
+        /// String like: Open your preferred authenticator app and scan this QR code
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_HELP = "org.santedb.tfa.authenticator.help";
+
+        /// <summary>
+        /// String like: Authenticator Application
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR = "org.santedb.tfa.authenticator";
+
+        /// <summary>
+        /// String like: Open your authenticator app and enter the current code 
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_SCAN_INSTRUCTION = "org.santedb.tfa.authenticator.scan";
+
     }
 }

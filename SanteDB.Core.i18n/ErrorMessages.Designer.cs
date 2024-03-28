@@ -403,6 +403,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Configuration forbids the use of data field {0}.
+        /// </summary>
+        public static string FORBIDDEN_FIELD {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_FIELD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
         /// </summary>
         public static string FORBIDDEN_HEADER {
@@ -426,6 +435,24 @@ namespace SanteDB.Core.i18n {
         public static string GENERAL_QUERY_ERROR {
             get {
                 return ResourceManager.GetString("GENERAL_QUERY_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guard Expression is not valid: {0}.
+        /// </summary>
+        public static string HDSI_GUARD_INVALID {
+            get {
+                return ResourceManager.GetString("HDSI_GUARD_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No property is found at the HDSI path.
+        /// </summary>
+        public static string HDSI_PATH_INVALID {
+            get {
+                return ResourceManager.GetString("HDSI_PATH_INVALID", resourceCulture);
             }
         }
         
@@ -597,6 +624,15 @@ namespace SanteDB.Core.i18n {
         public static string MULTIPLE_CALLS_NOT_ALLOWED {
             get {
                 return ResourceManager.GetString("MULTIPLE_CALLS_NOT_ALLOWED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Classifier property is not present on {0}.
+        /// </summary>
+        public static string NO_CLASSIFIER_PROPERTY {
+            get {
+                return ResourceManager.GetString("NO_CLASSIFIER_PROPERTY", resourceCulture);
             }
         }
         
