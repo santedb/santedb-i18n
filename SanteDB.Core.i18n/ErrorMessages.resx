@@ -333,6 +333,9 @@
   <data name="OPERATION_REQUIRES_QUERY_PARAMETER" xml:space="preserve">
     <value>This operation requires a filter (global queries are not permitted)</value>
   </data>
+  <data name="PASSWORD_EXPIRED" xml:space="preserve">
+    <value>User password is expired and must be changed</value>
+  </data>
   <data name="PEER_NOT_CONNECTED" xml:space="preserve">
     <value>Destination peer and this node are not connected</value>
   </data>

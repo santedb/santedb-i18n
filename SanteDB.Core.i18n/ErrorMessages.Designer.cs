@@ -709,6 +709,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User password is expired and must be changed.
+        /// </summary>
+        public static string PASSWORD_EXPIRED {
+            get {
+                return ResourceManager.GetString("PASSWORD_EXPIRED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Destination peer and this node are not connected.
         /// </summary>
         public static string PEER_NOT_CONNECTED {
