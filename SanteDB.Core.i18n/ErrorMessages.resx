@@ -324,6 +324,9 @@
   <data name="NO_RESET_POSSIBLE" xml:space="preserve">
     <value>Security reset is not available on this object</value>
   </data>
+  <data name="NO_RESULTS" xml:space="preserve">
+    <value>The query did not produce any results.</value>
+  </data>
   <data name="OBJECT_NOT_FOUND" xml:space="preserve">
     <value>Object {0} not found</value>
   </data>

@@ -655,6 +655,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The query did not produce any results..
+        /// </summary>
+        public static string NO_RESULTS {
+            get {
+                return ResourceManager.GetString("NO_RESULTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This class has not been initialized.
         /// </summary>
         public static string NOT_INITIALIZED {
