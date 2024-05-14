@@ -430,6 +430,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error sending notification to remote service.
+        /// </summary>
+        public static string GENERAL_NOTIFICATION_ERROR {
+            get {
+                return ResourceManager.GetString("GENERAL_NOTIFICATION_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error querying data from underlying data source.
         /// </summary>
         public static string GENERAL_QUERY_ERROR {
@@ -579,6 +588,15 @@ namespace SanteDB.Core.i18n {
         public static string MAP_NOT_FOUND {
             get {
                 return ResourceManager.GetString("MAP_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notification message was rejected by receiver.
+        /// </summary>
+        public static string MESSAGE_REJECTED {
+            get {
+                return ResourceManager.GetString("MESSAGE_REJECTED", resourceCulture);
             }
         }
         

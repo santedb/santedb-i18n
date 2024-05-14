@@ -240,6 +240,9 @@
   <data name="FORBIDDEN_ON_OBJECT_IN_STATE" xml:space="preserve">
     <value>The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates "Don't Use")</value>
   </data>
+  <data name="GENERAL_NOTIFICATION_ERROR" xml:space="preserve">
+    <value>General error sending notification to remote service</value>
+  </data>
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
   </data>
@@ -290,6 +293,9 @@
   </data>
   <data name="MAP_NOT_FOUND" xml:space="preserve">
     <value>Cannot find a configured map between {0} and {1}</value>
+  </data>
+  <data name="MESSAGE_REJECTED" xml:space="preserve">
+    <value>Notification message was rejected by receiver</value>
   </data>
   <data name="METHOD_NOT_FOUND" xml:space="preserve">
     <value>Required method {0} not found</value>
