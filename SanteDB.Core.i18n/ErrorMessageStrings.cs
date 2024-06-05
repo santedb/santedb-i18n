@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (C) 2021 - 2023, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
+ * Copyright (C) 2021 - 2024, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
  * Copyright (C) 2019 - 2021, Fyfe Software Inc. and the SanteSuite Contributors
  * Portions Copyright (C) 2015-2018 Mohawk College of Applied Arts and Technology
  *
@@ -16,7 +16,7 @@
  * the License.
  *
  * User: fyfej
- * Date: 2023-5-19
+ * Date: 2023-6-21
  */
 namespace SanteDB.Core.i18n
 {
@@ -499,6 +499,11 @@ namespace SanteDB.Core.i18n
         public const string UPSTREAM_WRITE_ERR = "error.upstream.write";
 
         /// <summary>
+        /// String like: Error applying patch on server. Patch was {patch}
+        /// </summary>
+        public const string UPSTREAM_PATCH_ERR = "error.upstream.patch";
+
+        /// <summary>
         /// String like: General error interacting with upstream
         /// </summary>
         public const string UPSTREAM_GEN_ERR = "error.upstream.gen";
@@ -706,5 +711,21 @@ namespace SanteDB.Core.i18n
         /// String like: General error persisting CDSS library
         /// </summary>
         public const string CDSS_LIBRARY_MANAGE_ERROR = "error.cdss.manage.error";
+
+        /// <summary>
+        /// String like: General error reading data quality configuration
+        /// </summary>
+        public const string DATAQUALITY_CONFIG_READ_ERROR = "error.dq.config.read";
+
+        /// <summary>
+        /// String like: General error writing data quality configuration
+        /// </summary>
+        public const string DATAQUALITY_CONFIG_WRITE_ERROR = "error.dq.config.write";
+
+        /// <summary>
+        /// String like: There was a problem pulling data from the remote server - {error}
+        /// </summary>
+        public const string SYNC_PULL_PROBLEM = "error.sync.pull.problem";
+
     }
 }

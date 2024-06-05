@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright (C) 2021 - 2023, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
+ * Copyright (C) 2021 - 2024, SanteSuite Inc. and the SanteSuite Contributors (See NOTICE.md for full copyright notices)
  * Copyright (C) 2019 - 2021, Fyfe Software Inc. and the SanteSuite Contributors
  * Portions Copyright (C) 2015-2018 Mohawk College of Applied Arts and Technology
  *
@@ -16,7 +16,7 @@
  * the License.
  *
  * User: fyfej
- * Date: 2023-5-19
+ * Date: 2023-6-21
  */
 using System;
 
@@ -54,6 +54,16 @@ namespace SanteDB.Core.i18n
         public const string UPDATE_CHECK = "ui.app.update.checking";
 
         /// <summary>
+        /// String like: System backup is complete
+        /// </summary>
+        public const string BACKUP_COMPLETE = "ui.app.backup.complete";
+
+        /// <summary>
+        /// String like: Could not backup system files
+        /// </summary>
+        public const string BACKUP_ERROR = "ui.app.backup.error";
+
+        /// <summary>
         /// String like: Creating backup of system information
         /// </summary>
         public const string BACKUP_CREATE_PROGRESS = "ui.app.backup.create";
@@ -62,6 +72,11 @@ namespace SanteDB.Core.i18n
         /// String like: Restoring backup of system information
         /// </summary>
         public const string BACKUP_RESTORE_PROGRESS = "ui.app.backup.restore";
+
+        /// <summary>
+        /// String like: Backup has started. System performance may be degraded while this process continues.
+        /// </summary>
+        public const string BACKUP_STARTED = "ui.app.backup.start";
 
         /// <summary>
         /// String like: The certificate {cert} is not trusted. Do you want to trust it?
@@ -92,5 +107,41 @@ namespace SanteDB.Core.i18n
         /// String like: Pulling {resource} from upstream ({count} objects)
         /// </summary>
         public const string SYNC_PULL_STATE = "ui.sync.pull.state";
+
+        /// <summary>
+        /// String Like: Running {jobName}
+        /// </summary>
+        public const string RUN_JOB = "ui.job.run";
+
+        /// <summary>
+        /// String Like: The application is pulling new data from the server - some functions may report errors during this time
+        /// </summary>
+        public const string SYNC_PULL_START_NOTIFY = "ui.sync.onStart.begin";
+
+        /// <summary>
+        /// String Like: The application has completed its initial pull of information from the server. 
+        /// </summary>
+        public const string SYNC_PULL_START_COMPLETE = "ui.sync.onStart.complete";
+
+        /// <summary>
+        /// String Like: There is data which was downloaded that could not be processed, would you like to retry them?
+        /// </summary>
+        public const string RESUBMIT_DEADLETTER_QUEUE = "ui.start.deadLetter.resubmit";
+
+        /// <summary>
+        /// String like: Open your preferred authenticator app and scan this QR code
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_HELP = "org.santedb.tfa.authenticator.help";
+
+        /// <summary>
+        /// String like: Authenticator Application
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR = "org.santedb.tfa.authenticator";
+
+        /// <summary>
+        /// String like: Open your authenticator app and enter the current code 
+        /// </summary>
+        public const string MFA_MECHANISM_AUTHENTICATOR_SCAN_INSTRUCTION = "org.santedb.tfa.authenticator.scan";
+
     }
 }

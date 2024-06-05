@@ -160,6 +160,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error starting up context.
+        /// </summary>
+        public static string CANNOT_STARTUP_CONTEXT {
+            get {
+                return ResourceManager.GetString("CANNOT_STARTUP_CONTEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot read data from this stream/source (write-only).
         /// </summary>
         public static string CANT_READ_WRITE_ONLY_STREAM {
@@ -277,6 +286,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error deleting resource {0}.
+        /// </summary>
+        public static string DELETE_ERROR {
+            get {
+                return ResourceManager.GetString("DELETE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This service relies on the presence of a configuration for {0}.
         /// </summary>
         public static string DEPENDENT_CONFIGURATION_MISSING {
@@ -385,6 +403,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Configuration forbids the use of data field {0}.
+        /// </summary>
+        public static string FORBIDDEN_FIELD {
+            get {
+                return ResourceManager.GetString("FORBIDDEN_FIELD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Header {0} is not permitted for this HTTP method.
         /// </summary>
         public static string FORBIDDEN_HEADER {
@@ -403,11 +430,38 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General error sending notification to remote service.
+        /// </summary>
+        public static string GENERAL_NOTIFICATION_ERROR {
+            get {
+                return ResourceManager.GetString("GENERAL_NOTIFICATION_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to General error querying data from underlying data source.
         /// </summary>
         public static string GENERAL_QUERY_ERROR {
             get {
                 return ResourceManager.GetString("GENERAL_QUERY_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guard Expression is not valid: {0}.
+        /// </summary>
+        public static string HDSI_GUARD_INVALID {
+            get {
+                return ResourceManager.GetString("HDSI_GUARD_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No property is found at the HDSI path.
+        /// </summary>
+        public static string HDSI_PATH_INVALID {
+            get {
+                return ResourceManager.GetString("HDSI_PATH_INVALID", resourceCulture);
             }
         }
         
@@ -453,6 +507,15 @@ namespace SanteDB.Core.i18n {
         public static string JS_BUSINESS_RULE_ERROR {
             get {
                 return ResourceManager.GetString("JS_BUSINESS_RULE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The key property {0} does not match the value provided in the model&apos;s key property {1}.
+        /// </summary>
+        public static string KEY_PROPERTY_DISAGREEMENT {
+            get {
+                return ResourceManager.GetString("KEY_PROPERTY_DISAGREEMENT", resourceCulture);
             }
         }
         
@@ -529,6 +592,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Notification message was rejected by receiver.
+        /// </summary>
+        public static string MESSAGE_REJECTED {
+            get {
+                return ResourceManager.GetString("MESSAGE_REJECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Required method {0} not found.
         /// </summary>
         public static string METHOD_NOT_FOUND {
@@ -574,6 +646,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Classifier property is not present on {0}.
+        /// </summary>
+        public static string NO_CLASSIFIER_PROPERTY {
+            get {
+                return ResourceManager.GetString("NO_CLASSIFIER_PROPERTY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Object {0} cannot be resolved because it does not define a key.
         /// </summary>
         public static string NO_DATA_KEY_DEFINED {
@@ -588,6 +669,15 @@ namespace SanteDB.Core.i18n {
         public static string NO_RESET_POSSIBLE {
             get {
                 return ResourceManager.GetString("NO_RESET_POSSIBLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The query did not produce any results..
+        /// </summary>
+        public static string NO_RESULTS {
+            get {
+                return ResourceManager.GetString("NO_RESULTS", resourceCulture);
             }
         }
         
@@ -646,6 +736,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User password is expired and must be changed.
+        /// </summary>
+        public static string PASSWORD_EXPIRED {
+            get {
+                return ResourceManager.GetString("PASSWORD_EXPIRED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Destination peer and this node are not connected.
         /// </summary>
         public static string PEER_NOT_CONNECTED {
@@ -673,6 +772,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Action cannot be performed because configured security policy ({0}) prevents it..
+        /// </summary>
+        public static string POLICY_PREVENTS_ACTION {
+            get {
+                return ResourceManager.GetString("POLICY_PREVENTS_ACTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Provided principal is not valid in this context.
         /// </summary>
         public static string PRINCIPAL_NOT_APPROPRIATE {
@@ -696,6 +804,15 @@ namespace SanteDB.Core.i18n {
         public static string READ_ERROR {
             get {
                 return ResourceManager.GetString("READ_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read lock is unavailable (hint: your application may be synchronizing large amounts of data).
+        /// </summary>
+        public static string READ_LOCK_UNAVAILABLE {
+            get {
+                return ResourceManager.GetString("READ_LOCK_UNAVAILABLE", resourceCulture);
             }
         }
         
@@ -889,7 +1006,16 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Write lock is unavailable.
+        ///   Looks up a localized string similar to Error writing resource {0}.
+        /// </summary>
+        public static string WRITE_ERROR {
+            get {
+                return ResourceManager.GetString("WRITE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write lock is unavailable (hint: your application may be synchronizing large amounts of data).
         /// </summary>
         public static string WRITE_LOCK_UNAVAILABLE {
             get {

@@ -150,6 +150,9 @@
   <data name="CANNOT_SET_VALUE_AT_PATH" xml:space="preserve">
     <value>Cannot set value at path {0} (type: {1})</value>
   </data>
+  <data name="CANNOT_STARTUP_CONTEXT" xml:space="preserve">
+    <value>Error starting up context</value>
+  </data>
   <data name="CANT_READ_WRITE_ONLY_STREAM" xml:space="preserve">
     <value>Cannot read data from this stream/source (write-only)</value>
   </data>
@@ -189,6 +192,9 @@
   <data name="DECRYPTION_FAILED" xml:space="preserve">
     <value>Value decryption failed</value>
   </data>
+  <data name="DELETE_ERROR" xml:space="preserve">
+    <value>Error deleting resource {0}</value>
+  </data>
   <data name="DEPENDENT_CONFIGURATION_MISSING" xml:space="preserve">
     <value>This service relies on the presence of a configuration for {0}</value>
   </data>
@@ -225,14 +231,26 @@
   <data name="FILTER_RANDOM_ENCRYPTION_NOT_SUPPORTED" xml:space="preserve">
     <value>Filtering on encrypted fields when RANDOM method is configured is not supported</value>
   </data>
+  <data name="FORBIDDEN_FIELD" xml:space="preserve">
+    <value>Configuration forbids the use of data field {0}</value>
+  </data>
   <data name="FORBIDDEN_HEADER" xml:space="preserve">
     <value>Header {0} is not permitted for this HTTP method</value>
   </data>
   <data name="FORBIDDEN_ON_OBJECT_IN_STATE" xml:space="preserve">
     <value>The operation is forbidden based on the state of the object to which it is being applied (for example: Object indicates "Don't Use")</value>
   </data>
+  <data name="GENERAL_NOTIFICATION_ERROR" xml:space="preserve">
+    <value>General error sending notification to remote service</value>
+  </data>
   <data name="GENERAL_QUERY_ERROR" xml:space="preserve">
     <value>General error querying data from underlying data source</value>
+  </data>
+  <data name="HDSI_GUARD_INVALID" xml:space="preserve">
+    <value>Guard Expression is not valid: {0}</value>
+  </data>
+  <data name="HDSI_PATH_INVALID" xml:space="preserve">
+    <value>No property is found at the HDSI path</value>
   </data>
   <data name="INVALID_CLASS_CODE" xml:space="preserve">
     <value>Classification code is not valid on this type</value>
@@ -248,6 +266,9 @@
   </data>
   <data name="JS_BUSINESS_RULE_ERROR" xml:space="preserve">
     <value>Error executing JavaScript rule/trigger {0}</value>
+  </data>
+  <data name="KEY_PROPERTY_DISAGREEMENT" xml:space="preserve">
+    <value>The key property {0} does not match the value provided in the model's key property {1}</value>
   </data>
   <data name="LOCAL_SERVICE_NOT_SUPPORTED" xml:space="preserve">
     <value>This instance is configured for online use only - no local methods are supported ({0})</value>
@@ -273,6 +294,9 @@
   <data name="MAP_NOT_FOUND" xml:space="preserve">
     <value>Cannot find a configured map between {0} and {1}</value>
   </data>
+  <data name="MESSAGE_REJECTED" xml:space="preserve">
+    <value>Notification message was rejected by receiver</value>
+  </data>
   <data name="METHOD_NOT_FOUND" xml:space="preserve">
     <value>Required method {0} not found</value>
   </data>
@@ -297,11 +321,17 @@
   <data name="NOT_SUPPORTED_IMPLEMENTATION" xml:space="preserve">
     <value>The provided object must implement {0} to support this function</value>
   </data>
+  <data name="NO_CLASSIFIER_PROPERTY" xml:space="preserve">
+    <value>Classifier property is not present on {0}</value>
+  </data>
   <data name="NO_DATA_KEY_DEFINED" xml:space="preserve">
     <value>Object {0} cannot be resolved because it does not define a key</value>
   </data>
   <data name="NO_RESET_POSSIBLE" xml:space="preserve">
     <value>Security reset is not available on this object</value>
+  </data>
+  <data name="NO_RESULTS" xml:space="preserve">
+    <value>The query did not produce any results.</value>
   </data>
   <data name="OBJECT_NOT_FOUND" xml:space="preserve">
     <value>Object {0} not found</value>
@@ -312,6 +342,9 @@
   <data name="OPERATION_REQUIRES_QUERY_PARAMETER" xml:space="preserve">
     <value>This operation requires a filter (global queries are not permitted)</value>
   </data>
+  <data name="PASSWORD_EXPIRED" xml:space="preserve">
+    <value>User password is expired and must be changed</value>
+  </data>
   <data name="PEER_NOT_CONNECTED" xml:space="preserve">
     <value>Destination peer and this node are not connected</value>
   </data>
@@ -321,6 +354,9 @@
   <data name="PLATFORM_NOT_SUPPORTED" xml:space="preserve">
     <value>The current .NET platform is not supported. Framework 4.7.1+ or .NET 6.0+ is required.</value>
   </data>
+  <data name="POLICY_PREVENTS_ACTION" xml:space="preserve">
+    <value>Action cannot be performed because configured security policy ({0}) prevents it.</value>
+  </data>
   <data name="PRINCIPAL_NOT_APPROPRIATE" xml:space="preserve">
     <value>Provided principal is not valid in this context</value>
   </data>
@@ -329,6 +365,9 @@
   </data>
   <data name="READ_ERROR" xml:space="preserve">
     <value>Error reading resource {0}</value>
+  </data>
+  <data name="READ_LOCK_UNAVAILABLE" xml:space="preserve">
+    <value>Read lock is unavailable (hint: your application may be synchronizing large amounts of data)</value>
   </data>
   <data name="REFERENCE_NOT_FOUND" xml:space="preserve">
     <value>Reference to resource {0} could not be resolved</value>
@@ -393,7 +432,10 @@
   <data name="WOULD_RESULT_INVALID_STATE" xml:space="preserve">
     <value>Calling {0} would result in an invalid state for this object</value>
   </data>
+  <data name="WRITE_ERROR" xml:space="preserve">
+    <value>Error writing resource {0}</value>
+  </data>
   <data name="WRITE_LOCK_UNAVAILABLE" xml:space="preserve">
-    <value>Write lock is unavailable</value>
+    <value>Write lock is unavailable (hint: your application may be synchronizing large amounts of data)</value>
   </data>
 </root>

@@ -61,6 +61,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to There is a backup from a previous installation of SanteDB on this device. Would you like to restore it?.
+        /// </summary>
+        public static string AUTO_RESTORE_BACKUP_CONFIGURATION_PROMPT {
+            get {
+                return ResourceManager.GetString("AUTO_RESTORE_BACKUP_CONFIGURATION_PROMPT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This backup is encrypted. Please enter the backup passphrase.
+        /// </summary>
+        public static string AUTO_RESTORE_BACKUP_SECRET {
+            get {
+                return ResourceManager.GetString("AUTO_RESTORE_BACKUP_SECRET", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Complete.
         /// </summary>
         public static string COMPLETE {
@@ -156,6 +174,15 @@ namespace SanteDB.Core.i18n {
         public static string PROCESSING {
             get {
                 return ResourceManager.GetString("PROCESSING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The application configuration has been changed. Do you want to restart the application?.
+        /// </summary>
+        public static string RESTART_REQUESTED_CONFIRM {
+            get {
+                return ResourceManager.GetString("RESTART_REQUESTED_CONFIRM", resourceCulture);
             }
         }
         
