@@ -196,7 +196,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Authentication certificate could not be found.
+        ///   Looks up a localized string similar to Certificate is not registered with this system - could not be found.
         /// </summary>
         public static string CERTIFICATE_NOT_FOUND {
             get {

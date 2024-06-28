@@ -163,7 +163,7 @@
     <value>Certificate installation failed</value>
   </data>
   <data name="CERTIFICATE_NOT_FOUND" xml:space="preserve">
-    <value>Authentication certificate could not be found</value>
+    <value>Certificate is not registered with this system - could not be found</value>
   </data>
   <data name="CERTIFICATE_NOT_VALID" xml:space="preserve">
     <value>Certificate is not valid for use in this context</value>
