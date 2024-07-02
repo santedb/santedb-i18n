@@ -727,5 +727,19 @@ namespace SanteDB.Core.i18n
         /// </summary>
         public const string SYNC_PULL_PROBLEM = "error.sync.pull.problem";
 
+        /// <summary>
+        /// String like: To establish a session on this device, a facility must be selected
+        /// </summary>
+        public const string SESSION_REQUIRE_FACILITY = "error.session.facility.required";
+
+        /// <summary>
+        /// String like: The user's assigned facilities {assigned} do not match the configured facility {allowed}
+        /// </summary>
+        public const string SESSION_ASSIGNED_FACILITY_MISMATCH = "error.session.facility.mismatch";
+
+        /// <summary>
+        /// String like: This service requires you to be assigned to a registered facility, however it appears you are not. Please contact your administrator to have them assign them to an active facility
+        /// </summary>
+        public const string SESSION_ASSIGNED_FACILITY_MISSING = "error.session.facility.notAssigned";
     }
 }
