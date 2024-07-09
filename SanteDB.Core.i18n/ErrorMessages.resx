@@ -136,7 +136,7 @@
     <value>Value {0} was not expected (allowed values: {1})</value>
   </data>
   <data name="ASSERTION_MISMATCH" xml:space="preserve">
-    <value>Assertion failed. Expected {0} but was {1}</value>
+    <value>Assertion failed. The provided value {1} does not match the expected/permitted value(s) {0} </value>
   </data>
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>

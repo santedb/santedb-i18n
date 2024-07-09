@@ -115,7 +115,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Assertion failed. Expected {0} but was {1}.
+        ///   Looks up a localized string similar to Assertion failed. The provided value {1} does not match the expected/permitted value(s) {0} .
         /// </summary>
         public static string ASSERTION_MISMATCH {
             get {
