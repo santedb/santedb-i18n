@@ -264,6 +264,9 @@
   <data name="INVALID_FORMAT" xml:space="preserve">
     <value>The data {0} was not in the expected format {1}</value>
   </data>
+  <data name="INVALID_HDSI_EXPRESSION" xml:space="preserve">
+    <value>HDSI expression is invalid: {0}</value>
+  </data>
   <data name="JS_BUSINESS_RULE_ERROR" xml:space="preserve">
     <value>Error executing JavaScript rule/trigger {0}</value>
   </data>

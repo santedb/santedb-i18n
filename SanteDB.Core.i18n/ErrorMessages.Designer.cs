@@ -502,6 +502,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to HDSI expression is invalid: {0}.
+        /// </summary>
+        public static string INVALID_HDSI_EXPRESSION {
+            get {
+                return ResourceManager.GetString("INVALID_HDSI_EXPRESSION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error executing JavaScript rule/trigger {0}.
         /// </summary>
         public static string JS_BUSINESS_RULE_ERROR {
