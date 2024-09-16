@@ -187,6 +187,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Care pathway {0} is not registered or active.
+        /// </summary>
+        public static string CARE_PATHWAY_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("CARE_PATHWAY_NOT_FOUND", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Certificate installation failed.
         /// </summary>
         public static string CERTIFICATE_INSTALL_FAILED {

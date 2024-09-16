@@ -159,6 +159,9 @@
   <data name="CANT_WRITE_READ_ONLY_STREAM" xml:space="preserve">
     <value>Cannot write data to this stream/source (read-only)</value>
   </data>
+  <data name="CARE_PATHWAY_NOT_FOUND" xml:space="preserve">
+    <value>Care pathway {0} is not registered or active</value>
+  </data>
   <data name="CERTIFICATE_INSTALL_FAILED" xml:space="preserve">
     <value>Certificate installation failed</value>
   </data>
