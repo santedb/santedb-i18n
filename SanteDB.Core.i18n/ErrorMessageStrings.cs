@@ -616,6 +616,10 @@ namespace SanteDB.Core.i18n
         public const string FOREIGN_DATA_UNSUPPORTED_FORMAT = "error.foreign.manager.map.format";
 
         /// <summary>
+        /// String like: Could not process foreign data field {field} at {row} due to {ex}
+        /// </summary>
+        public const string FOREIGN_DATA_FLD_ERR = "error.foreign.manager.map.fld";
+        /// <summary>
         /// String like: General error in datamart manager
         /// </summary>
         public const string DATAMART_MANAGE_ERROR = "error.datamart.manager.gen";
