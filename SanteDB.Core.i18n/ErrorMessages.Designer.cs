@@ -700,6 +700,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The current user is neither a global manager nor a manager of the target.
+        /// </summary>
+        public static string NOT_A_MANAGER_ROLE {
+            get {
+                return ResourceManager.GetString("NOT_A_MANAGER_ROLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This class has not been initialized.
         /// </summary>
         public static string NOT_INITIALIZED {

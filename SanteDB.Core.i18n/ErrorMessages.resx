@@ -318,6 +318,9 @@
   <data name="MULTIPLE_CALLS_NOT_ALLOWED" xml:space="preserve">
     <value>Multiple calls to {0} are not supported</value>
   </data>
+  <data name="NOT_A_MANAGER_ROLE" xml:space="preserve">
+    <value>The current user is neither a global manager nor a manager of the target</value>
+  </data>
   <data name="NOT_INITIALIZED" xml:space="preserve">
     <value>This class has not been initialized</value>
   </data>
