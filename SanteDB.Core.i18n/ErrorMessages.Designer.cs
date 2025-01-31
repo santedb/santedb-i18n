@@ -124,6 +124,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bundle with unique id {0} has already been processed by this server.
+        /// </summary>
+        public static string BUNDLE_ALREADY_PROCESSED {
+            get {
+                return ResourceManager.GetString("BUNDLE_ALREADY_PROCESSED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A newer version of this data has already been processed by this server.
+        /// </summary>
+        public static string BUNDLE_CORRELATION_SEQUENCE_ERROR {
+            get {
+                return ResourceManager.GetString("BUNDLE_CORRELATION_SEQUENCE_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
         /// </summary>
         public static string BUNDLE_PERSISTENCE_ERROR {

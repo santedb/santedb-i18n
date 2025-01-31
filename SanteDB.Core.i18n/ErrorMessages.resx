@@ -138,6 +138,12 @@
   <data name="ASSERTION_MISMATCH" xml:space="preserve">
     <value>Assertion failed. The provided value {1} does not match the expected/permitted value(s) {0} </value>
   </data>
+  <data name="BUNDLE_ALREADY_PROCESSED" xml:space="preserve">
+    <value>Bundle with unique id {0} has already been processed by this server</value>
+  </data>
+  <data name="BUNDLE_CORRELATION_SEQUENCE_ERROR" xml:space="preserve">
+    <value>A newer version of this data has already been processed by this server</value>
+  </data>
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>
   </data>
