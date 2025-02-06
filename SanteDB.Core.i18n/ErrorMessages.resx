@@ -138,6 +138,12 @@
   <data name="ASSERTION_MISMATCH" xml:space="preserve">
     <value>Assertion failed. The provided value {1} does not match the expected/permitted value(s) {0} </value>
   </data>
+  <data name="BUNDLE_ALREADY_PROCESSED" xml:space="preserve">
+    <value>Bundle with unique id {0} has already been processed by this server</value>
+  </data>
+  <data name="BUNDLE_CORRELATION_SEQUENCE_ERROR" xml:space="preserve">
+    <value>A newer version of this data has already been processed by this server</value>
+  </data>
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
     <value>Error inserting transaction bundle (#{0}) - {1}</value>
   </data>
@@ -317,6 +323,9 @@
   </data>
   <data name="MULTIPLE_CALLS_NOT_ALLOWED" xml:space="preserve">
     <value>Multiple calls to {0} are not supported</value>
+  </data>
+  <data name="NOT_A_MANAGER_ROLE" xml:space="preserve">
+    <value>The current user is neither a global manager nor a manager of the target</value>
   </data>
   <data name="NOT_INITIALIZED" xml:space="preserve">
     <value>This class has not been initialized</value>
