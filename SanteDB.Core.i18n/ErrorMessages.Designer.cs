@@ -259,6 +259,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Certificate {0} is expired, or not yet valid.
+        /// </summary>
+        public static string CERTIFICATE_TIME_CONSTRAINT {
+            get {
+                return ResourceManager.GetString("CERTIFICATE_TIME_CONSTRAINT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cloning is only permitted for readonly connections.
         /// </summary>
         public static string CLONE_READONLY_ALLOWED {
