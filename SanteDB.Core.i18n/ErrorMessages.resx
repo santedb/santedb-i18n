@@ -198,6 +198,9 @@
   <data name="CRYPTO_OPERATION_FAILED" xml:space="preserve">
     <value>Cryptographic operation failed</value>
   </data>
+  <data name="DATA_CIRCULAR_REFERENCE" xml:space="preserve">
+    <value>Cannot organize bundle, data has circular dependencies</value>
+  </data>
   <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
     <value>Data structure is not appropriate for {0} due to {1}</value>
   </data>
