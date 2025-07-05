@@ -835,6 +835,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to There was an error obtaining permission to perform a platform operation.
+        /// </summary>
+        public static string PLATFORM_SECURITY_ERROR {
+            get {
+                return ResourceManager.GetString("PLATFORM_SECURITY_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Action cannot be performed because configured security policy ({0}) prevents it..
         /// </summary>
         public static string POLICY_PREVENTS_ACTION {
