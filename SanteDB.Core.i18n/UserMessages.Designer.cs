@@ -115,6 +115,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Flushing cache to disk.
+        /// </summary>
+        public static string FLUSHING_CACHE {
+            get {
+                return ResourceManager.GetString("FLUSHING_CACHE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} records processed ({1:#.#} rec/s).
         /// </summary>
         public static string IMPORTING {

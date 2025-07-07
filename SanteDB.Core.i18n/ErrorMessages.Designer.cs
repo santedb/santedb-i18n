@@ -304,6 +304,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot organize bundle, data has circular dependencies.
+        /// </summary>
+        public static string DATA_CIRCULAR_REFERENCE {
+            get {
+                return ResourceManager.GetString("DATA_CIRCULAR_REFERENCE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
         /// </summary>
         public static string DATA_STRUCTURE_NOT_APPROPRIATE {
@@ -822,6 +831,15 @@ namespace SanteDB.Core.i18n {
         public static string PLATFORM_NOT_SUPPORTED {
             get {
                 return ResourceManager.GetString("PLATFORM_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There was an error obtaining permission to perform a platform operation.
+        /// </summary>
+        public static string PLATFORM_SECURITY_ERROR {
+            get {
+                return ResourceManager.GetString("PLATFORM_SECURITY_ERROR", resourceCulture);
             }
         }
         
