@@ -88,6 +88,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The realm you are joining claims to be {1} however you requested to join {0}. Would you like to override the realm settings and force use of {0}?.
+        /// </summary>
+        public static string CONFIRM_REALM_URL_OVERRIDE {
+            get {
+                return ResourceManager.GetString("CONFIRM_REALM_URL_OVERRIDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Downloading {0}.
         /// </summary>
         public static string DOWNLOADING {
