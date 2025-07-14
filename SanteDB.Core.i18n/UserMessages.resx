@@ -183,4 +183,7 @@
   <data name="UPDATE_INSTALL_CONFIRM" xml:space="preserve">
     <value>Updates are available for {0}. Do you wish to install them?</value>
   </data>
+  <data name="WELCOME_SANTEDB" xml:space="preserve">
+    <value>Welcome to SanteDB</value>
+  </data>
 </root>

@@ -257,5 +257,14 @@ namespace SanteDB.Core.i18n {
                 return ResourceManager.GetString("UPDATE_INSTALL_CONFIRM", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to SanteDB.
+        /// </summary>
+        public static string WELCOME_SANTEDB {
+            get {
+                return ResourceManager.GetString("WELCOME_SANTEDB", resourceCulture);
+            }
+        }
     }
 }
