@@ -88,6 +88,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The realm you are joining claims to be {1} however you requested to join {0}. Would you like to override the realm settings and force use of {0}?.
+        /// </summary>
+        public static string CONFIRM_REALM_URL_OVERRIDE {
+            get {
+                return ResourceManager.GetString("CONFIRM_REALM_URL_OVERRIDE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Downloading {0}.
         /// </summary>
         public static string DOWNLOADING {
@@ -246,6 +255,15 @@ namespace SanteDB.Core.i18n {
         public static string UPDATE_INSTALL_CONFIRM {
             get {
                 return ResourceManager.GetString("UPDATE_INSTALL_CONFIRM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to SanteDB.
+        /// </summary>
+        public static string WELCOME_SANTEDB {
+            get {
+                return ResourceManager.GetString("WELCOME_SANTEDB", resourceCulture);
             }
         }
     }

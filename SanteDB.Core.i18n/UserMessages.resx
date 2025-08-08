@@ -126,6 +126,9 @@
   <data name="COMPLETE" xml:space="preserve">
     <value>Complete</value>
   </data>
+  <data name="CONFIRM_REALM_URL_OVERRIDE" xml:space="preserve">
+    <value>The realm you are joining claims to be {1} however you requested to join {0}. Would you like to override the realm settings and force use of {0}?</value>
+  </data>
   <data name="DOWNLOADING" xml:space="preserve">
     <value>Downloading {0}</value>
   </data>
@@ -179,5 +182,8 @@
   </data>
   <data name="UPDATE_INSTALL_CONFIRM" xml:space="preserve">
     <value>Updates are available for {0}. Do you wish to install them?</value>
+  </data>
+  <data name="WELCOME_SANTEDB" xml:space="preserve">
+    <value>Welcome to SanteDB</value>
   </data>
 </root>
