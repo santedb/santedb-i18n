@@ -187,6 +187,24 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you have a backup that you&apos;d like to restore this application from?.
+        /// </summary>
+        public static string ISOLATED_STORAGE_BACKUP_RESTORE {
+            get {
+                return ResourceManager.GetString("ISOLATED_STORAGE_BACKUP_RESTORE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select SDBK File To Restore.
+        /// </summary>
+        public static string ISOLATED_STORAGE_SELECT_BACKUP_FILE {
+            get {
+                return ResourceManager.GetString("ISOLATED_STORAGE_SELECT_BACKUP_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Processing data.
         /// </summary>
         public static string PROCESSING {

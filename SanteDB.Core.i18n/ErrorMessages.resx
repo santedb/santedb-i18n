@@ -138,6 +138,9 @@
   <data name="ASSERTION_MISMATCH" xml:space="preserve">
     <value>Assertion failed. The provided value {1} does not match the expected/permitted value(s) {0} </value>
   </data>
+  <data name="BACKUP_DESCRIPTOR_ERROR" xml:space="preserve">
+    <value>Error fetching backup descriptor</value>
+  </data>
   <data name="BUNDLE_ALREADY_PROCESSED" xml:space="preserve">
     <value>Bundle with unique id {0} has already been processed by this server</value>
   </data>
