@@ -124,6 +124,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error fetching backup descriptor.
+        /// </summary>
+        public static string BACKUP_DESCRIPTOR_ERROR {
+            get {
+                return ResourceManager.GetString("BACKUP_DESCRIPTOR_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bundle with unique id {0} has already been processed by this server.
         /// </summary>
         public static string BUNDLE_ALREADY_PROCESSED {

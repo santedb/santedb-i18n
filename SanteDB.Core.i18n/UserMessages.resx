@@ -126,6 +126,9 @@
   <data name="COMPLETE" xml:space="preserve">
     <value>Complete</value>
   </data>
+  <data name="ISOLATED_STORAGE_BACKUP_RESTORE" xml:space="preserve">
+    <value>Do you have a backup that you'd like to restore this application from?</value>
+  </data>
   <data name="CONFIRM_REALM_URL_OVERRIDE" xml:space="preserve">
     <value>The realm you are joining claims to be {1} however you requested to join {0}. Would you like to override the realm settings and force use of {0}?</value>
   </data>
@@ -185,5 +188,8 @@
   </data>
   <data name="WELCOME_SANTEDB" xml:space="preserve">
     <value>Welcome to SanteDB</value>
+  </data>
+  <data name="ISOLATED_STORAGE_SELECT_BACKUP_FILE" xml:space="preserve">
+    <value>Select SDBK File To Restore</value>
   </data>
 </root>
