@@ -412,6 +412,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot determine how to include {0}.
+        /// </summary>
+        public static string FHIR_INCLUDE_PATH_UNSUPPORTED {
+            get {
+                return ResourceManager.GetString("FHIR_INCLUDE_PATH_UNSUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Field {0} not found in the requested type.
         /// </summary>
         public static string FIELD_NOT_FOUND {

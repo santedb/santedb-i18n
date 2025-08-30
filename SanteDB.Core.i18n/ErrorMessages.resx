@@ -234,6 +234,9 @@
   <data name="ERROR_PROVIDING_FAULT" xml:space="preserve">
     <value>Error providing fault message</value>
   </data>
+  <data name="FHIR_INCLUDE_PATH_UNSUPPORTED" xml:space="preserve">
+    <value>Cannot determine how to include {0}</value>
+  </data>
   <data name="FIELD_NOT_FOUND" xml:space="preserve">
     <value>Field {0} not found in the requested type</value>
   </data>
