@@ -205,6 +205,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select the location of your backup.
+        /// </summary>
+        public static string ISOLATED_STORAGE_WRITE_BACKUP_FILE {
+            get {
+                return ResourceManager.GetString("ISOLATED_STORAGE_WRITE_BACKUP_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Processing data.
         /// </summary>
         public static string PROCESSING {
@@ -273,6 +282,15 @@ namespace SanteDB.Core.i18n {
         public static string UPDATE_INSTALL_CONFIRM {
             get {
                 return ResourceManager.GetString("UPDATE_INSTALL_CONFIRM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You cannot access this function from within SanteDB - use a system utility (file browser, settings manager, etc.) instead..
+        /// </summary>
+        public static string USE_SYSTEM_FUNCTION_TO_PERFORM_ACTION {
+            get {
+                return ResourceManager.GetString("USE_SYSTEM_FUNCTION_TO_PERFORM_ACTION", resourceCulture);
             }
         }
         

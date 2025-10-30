@@ -192,4 +192,10 @@
   <data name="ISOLATED_STORAGE_SELECT_BACKUP_FILE" xml:space="preserve">
     <value>Select SDBK File To Restore</value>
   </data>
+  <data name="ISOLATED_STORAGE_WRITE_BACKUP_FILE" xml:space="preserve">
+    <value>Select the location of your backup</value>
+  </data>
+  <data name="USE_SYSTEM_FUNCTION_TO_PERFORM_ACTION" xml:space="preserve">
+    <value>You cannot access this function from within SanteDB - use a system utility (file browser, settings manager, etc.) instead.</value>
+  </data>
 </root>

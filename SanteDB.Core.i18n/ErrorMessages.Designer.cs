@@ -97,7 +97,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Required argument was null.
+        ///   Looks up a localized string similar to Required argument was supplied or is unavailable.
         /// </summary>
         public static string ARGUMENT_NULL {
             get {

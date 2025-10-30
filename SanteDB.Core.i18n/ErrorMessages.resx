@@ -130,7 +130,7 @@
     <value>Expected argument of type {0} but got {1}</value>
   </data>
   <data name="ARGUMENT_NULL" xml:space="preserve">
-    <value>Required argument was null</value>
+    <value>Required argument was supplied or is unavailable</value>
   </data>
   <data name="ARGUMENT_OUT_OF_RANGE" xml:space="preserve">
     <value>Value {0} was not expected (allowed values: {1})</value>
