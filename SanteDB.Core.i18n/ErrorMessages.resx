@@ -156,6 +156,9 @@
   <data name="CANNOT_INITIALIZE_APPLICATION" xml:space="preserve">
     <value>Cannot initialize the service host context - fatal startup error.</value>
   </data>
+  <data name="CANNOT_SAVE_MASKED_ITEM" xml:space="preserve">
+    <value>Saving masked items in the data store is not permitted. Please remove any masked items before saving</value>
+  </data>
   <data name="CANNOT_SET_VALUE_AT_PATH" xml:space="preserve">
     <value>Cannot set value at path {0} (type: {1})</value>
   </data>
