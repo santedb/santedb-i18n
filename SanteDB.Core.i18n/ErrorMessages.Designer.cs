@@ -178,6 +178,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Saving masked items in the data store is not permitted. Please remove any masked items before saving.
+        /// </summary>
+        public static string CANNOT_SAVE_MASKED_ITEM {
+            get {
+                return ResourceManager.GetString("CANNOT_SAVE_MASKED_ITEM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot set value at path {0} (type: {1}).
         /// </summary>
         public static string CANNOT_SET_VALUE_AT_PATH {
