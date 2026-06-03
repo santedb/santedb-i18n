@@ -5,14 +5,14 @@
     <VersionNumber>3.0-debug</VersionNumber>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net10.0;net48;netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>SanteDB.Core.i18n</PackageId>
     <Title>SanteDB.Core.i18n</Title>
     <Version>$(VersionNumber)</Version>
-    <Description>SanteDB iCDR and dCDR Localization</Description>
+    <Description>SanteDB Clinical Data Repository (CDR) Localization</Description>
     <Authors>SanteSuite Contributors</Authors>
     <PackageTags>SanteDB</PackageTags>
     <RepositoryUrl>https://github.com/santedb/santedb-i18n</RepositoryUrl>
@@ -21,7 +21,6 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <IncludeSymbols>true</IncludeSymbols>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Product>SanteDB</Product>
     <Copyright>Copyright (C) 2015-2026 SanteSuite Contributors (See: NOTICES)</Copyright>
     <Company>SanteSuite Contributors</Company>
