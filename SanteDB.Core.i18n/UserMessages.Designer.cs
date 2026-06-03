@@ -295,6 +295,17 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to # Welcome to SanteDB!
+        ///
+        ///Welcome to SanteDB - if you require any assistance please take a look at our extensive [Online Support](https://help.santesuite.org)..
+        /// </summary>
+        public static string WELCOME_MESSAGE {
+            get {
+                return ResourceManager.GetString("WELCOME_MESSAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welcome to SanteDB.
         /// </summary>
         public static string WELCOME_SANTEDB {

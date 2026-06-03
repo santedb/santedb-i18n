@@ -331,6 +331,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot process bundle with circular data references - {0}.
+        /// </summary>
+        public static string DATA_CIRCULAR_REFERNCE_DETAIL {
+            get {
+                return ResourceManager.GetString("DATA_CIRCULAR_REFERNCE_DETAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data structure is not appropriate for {0} due to {1}.
         /// </summary>
         public static string DATA_STRUCTURE_NOT_APPROPRIATE {

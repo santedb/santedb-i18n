@@ -207,6 +207,9 @@
   <data name="DATA_CIRCULAR_REFERENCE" xml:space="preserve">
     <value>Cannot organize bundle, data has circular dependencies</value>
   </data>
+  <data name="DATA_CIRCULAR_REFERNCE_DETAIL" xml:space="preserve">
+    <value>Cannot process bundle with circular data references - {0}</value>
+  </data>
   <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
     <value>Data structure is not appropriate for {0} due to {1}</value>
   </data>

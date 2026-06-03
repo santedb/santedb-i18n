@@ -102,6 +102,16 @@ namespace SanteDB.Core.i18n
         public const string SYNC_PULL = "ui.sync.pull";
 
         /// <summary>
+        /// String like: Pull from upstream completed successfully.
+        /// </summary>
+        public const string SYNC_PULL_COMPLETE = "ui.sync.pull.complete";
+
+        /// <summary>
+        /// String like: Pull from upstream encountered an error. {e}
+        /// </summary>
+        public const string SYNC_PULL_ERROR = "ui.sync.pull.error";
+
+        /// <summary>
         /// String like: Pulling {resource} from upstream ({count} objects)
         /// </summary>
         public const string SYNC_PULL_STATE = "ui.sync.pull.state";
