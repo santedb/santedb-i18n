@@ -298,7 +298,7 @@
     <value>Error executing JavaScript rule/trigger {0}</value>
   </data>
   <data name="KEY_PROPERTY_DISAGREEMENT" xml:space="preserve">
-    <value>The key property {0} does not match the value provided in the model's key property {1}</value>
+    <value>The key property '{0}' (value:'{1}') does not match the value provided in the model's key property '{2}' (value: '{3}') on {4}</value>
   </data>
   <data name="LOCAL_SERVICE_NOT_SUPPORTED" xml:space="preserve">
     <value>This instance is configured for online use only - no local methods are supported ({0})</value>
