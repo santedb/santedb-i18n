@@ -307,6 +307,11 @@ namespace SanteDB.Core.i18n
         public const string AUTH_USR_GENERAL = "error.security.user.auth.general";
 
         /// <summary>
+        /// There was an error sending the MFA code. Contact your administrator for support.
+        /// </summary>
+        public const string AUTH_USR_TFA_ERROR = "error.security.user.auth.tfaError";
+
+        /// <summary>
         /// Device account locked until {time}
         /// </summary>
         public const string AUTH_DEV_LOCKED = "error.security.device.auth.locked";
