@@ -601,7 +601,7 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The key property {0} does not match the value provided in the model&apos;s key property {1}.
+        ///   Looks up a localized string similar to The key property &apos;{0}&apos; (value:&apos;{1}&apos;) does not match the value provided in the model&apos;s key property &apos;{2}&apos; (value: &apos;{3}&apos;) on {4}.
         /// </summary>
         public static string KEY_PROPERTY_DISAGREEMENT {
             get {
