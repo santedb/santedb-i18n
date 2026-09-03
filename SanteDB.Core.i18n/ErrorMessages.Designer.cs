@@ -430,6 +430,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Feature is not supported - &apos;{0}&apos;.
+        /// </summary>
+        public static string FEATURE_NOT_SUPPORTED {
+            get {
+                return ResourceManager.GetString("FEATURE_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot determine how to include {0}.
         /// </summary>
         public static string FHIR_INCLUDE_PATH_UNSUPPORTED {
