@@ -556,6 +556,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Object &apos;{0}&apos; already exists - cannot insert.
+        /// </summary>
+        public static string INSERT_ALREADY_EXISTING_OBJECT {
+            get {
+                return ResourceManager.GetString("INSERT_ALREADY_EXISTING_OBJECT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Classification code is not valid on this type.
         /// </summary>
         public static string INVALID_CLASS_CODE {
