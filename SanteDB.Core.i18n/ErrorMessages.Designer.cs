@@ -1060,6 +1060,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Only SYSTEM processes can use SYSTEM reliability.
+        /// </summary>
+        public static string SYSTEM_RELIABILITY_SYSTEM_ONLY {
+            get {
+                return ResourceManager.GetString("SYSTEM_RELIABILITY_SYSTEM_ONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Reference term {0}#{1} not found.
         /// </summary>
         public static string TERM_NOT_FOUND {
