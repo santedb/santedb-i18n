@@ -282,6 +282,9 @@
   <data name="HDSI_PATH_INVALID" xml:space="preserve">
     <value>No property is found at the HDSI path</value>
   </data>
+  <data name="INSERT_ALREADY_EXISTING_OBJECT" xml:space="preserve">
+    <value>Object '{0}' already exists - cannot insert</value>
+  </data>
   <data name="INVALID_CLASS_CODE" xml:space="preserve">
     <value>Classification code is not valid on this type</value>
   </data>
@@ -446,6 +449,9 @@
   </data>
   <data name="SUBSCRIPTION_RESOURCE_NOSTORE" xml:space="preserve">
     <value>Subscription requires persistence service for {0} but none is registered</value>
+  </data>
+  <data name="SYSTEM_RELIABILITY_SYSTEM_ONLY" xml:space="preserve">
+    <value>Only SYSTEM processes can use SYSTEM reliability</value>
   </data>
   <data name="TERM_NOT_FOUND" xml:space="preserve">
     <value>Reference term {0}#{1} not found</value>
