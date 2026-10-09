@@ -213,6 +213,9 @@
   <data name="DATA_STRUCTURE_NOT_APPROPRIATE" xml:space="preserve">
     <value>Data structure is not appropriate for {0} due to {1}</value>
   </data>
+  <data name="DEADLOCK" xml:space="preserve">
+    <value>Deadlock detected - aborted</value>
+  </data>
   <data name="DECRYPTION_FAILED" xml:space="preserve">
     <value>Value decryption failed</value>
   </data>
