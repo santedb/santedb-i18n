@@ -349,6 +349,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Deadlock detected - aborted.
+        /// </summary>
+        public static string DEADLOCK {
+            get {
+                return ResourceManager.GetString("DEADLOCK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Value decryption failed.
         /// </summary>
         public static string DECRYPTION_FAILED {
