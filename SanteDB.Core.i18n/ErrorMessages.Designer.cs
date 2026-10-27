@@ -934,6 +934,15 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{1}&apos; on type &apos;{0}&apos; cannot be changed.
+        /// </summary>
+        public static string PROPERTY_READONLY {
+            get {
+                return ResourceManager.GetString("PROPERTY_READONLY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error reading resource {0}.
         /// </summary>
         public static string READ_ERROR {

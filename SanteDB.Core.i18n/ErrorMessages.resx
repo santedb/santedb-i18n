@@ -408,6 +408,9 @@
   <data name="PRIVACY_VIOLATION_DETECTED" xml:space="preserve">
     <value>Privacy control violation has been detected</value>
   </data>
+  <data name="PROPERTY_READONLY" xml:space="preserve">
+    <value>Property '{1}' on type '{0}' cannot be changed</value>
+  </data>
   <data name="READ_ERROR" xml:space="preserve">
     <value>Error reading resource {0}</value>
   </data>
