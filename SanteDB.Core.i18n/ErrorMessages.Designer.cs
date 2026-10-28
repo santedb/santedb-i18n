@@ -151,7 +151,8 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
+        ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}. 
+        ///Bundle Contents: {2}.
         /// </summary>
         public static string BUNDLE_PERSISTENCE_ERROR {
             get {
