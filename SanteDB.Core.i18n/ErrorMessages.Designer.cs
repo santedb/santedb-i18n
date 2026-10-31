@@ -151,7 +151,8 @@ namespace SanteDB.Core.i18n {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}.
+        ///   Looks up a localized string similar to Error inserting transaction bundle (#{0}) - {1}. 
+        ///Bundle Contents: {2}.
         /// </summary>
         public static string BUNDLE_PERSISTENCE_ERROR {
             get {
@@ -930,6 +931,15 @@ namespace SanteDB.Core.i18n {
         public static string PRIVACY_VIOLATION_DETECTED {
             get {
                 return ResourceManager.GetString("PRIVACY_VIOLATION_DETECTED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property &apos;{1}&apos; on type &apos;{0}&apos; cannot be changed.
+        /// </summary>
+        public static string PROPERTY_READONLY {
+            get {
+                return ResourceManager.GetString("PROPERTY_READONLY", resourceCulture);
             }
         }
         

@@ -148,7 +148,8 @@
     <value>A newer version of this data has already been processed by this server</value>
   </data>
   <data name="BUNDLE_PERSISTENCE_ERROR" xml:space="preserve">
-    <value>Error inserting transaction bundle (#{0}) - {1}</value>
+    <value>Error inserting transaction bundle (#{0}) - {1}. 
+Bundle Contents: {2}</value>
   </data>
   <data name="CANNOT_BIND_CERTIFICATES" xml:space="preserve">
     <value>Cannot bind initial endpoint to HTTPS ensure a certificate is bound or that this process can bind a self-signed certificate</value>
@@ -407,6 +408,9 @@
   </data>
   <data name="PRIVACY_VIOLATION_DETECTED" xml:space="preserve">
     <value>Privacy control violation has been detected</value>
+  </data>
+  <data name="PROPERTY_READONLY" xml:space="preserve">
+    <value>Property '{1}' on type '{0}' cannot be changed</value>
   </data>
   <data name="READ_ERROR" xml:space="preserve">
     <value>Error reading resource {0}</value>
